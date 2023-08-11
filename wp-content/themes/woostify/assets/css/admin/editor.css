@@ -1,0 +1,6 @@
+.editor-styles-wrapper .wp-block[data-align=full]{
+    max-width: none;
+}
+.editor-styles-wrapper .wp-block.alignfull{
+    max-width: none;
+}

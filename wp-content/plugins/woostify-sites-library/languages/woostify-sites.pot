@@ -1,0 +1,783 @@
+# Copyright (C) 2021 Woostify-Sites
+# This file is distributed under the same license as the Woostify-Sites package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woostify-Sites\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Haintheme\n"
+"Last-Translator: Woostify\n"
+"Report-Msgid-Bugs-To: https://woostify.com/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: class-woostify-sites.php:506
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: class-woostify-sites.php:530, class-woostify-sites.php:1281, woostify-sites.php:85
+msgid "Activate"
+msgstr ""
+
+#: class-woostify-sites.php:531
+msgid "Activating..."
+msgstr ""
+
+#: class-woostify-sites.php:532, class-woostify-sites.php:1282
+msgid "Deactivate"
+msgstr ""
+
+#: class-woostify-sites.php:533
+msgid "Deactivating..."
+msgstr ""
+
+#: class-woostify-sites.php:668
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: class-woostify-sites.php:673
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: class-woostify-sites.php:789
+msgid "Welcome"
+msgstr ""
+
+#: class-woostify-sites.php:797
+msgid "License"
+msgstr ""
+
+#: class-woostify-sites.php:813
+msgid "Plugins"
+msgstr ""
+
+#: class-woostify-sites.php:822
+msgid "Modules"
+msgstr ""
+
+#: class-woostify-sites.php:830
+msgid "Instal"
+msgstr ""
+
+#: class-woostify-sites.php:836
+msgid "Ready"
+msgstr ""
+
+#: class-woostify-sites.php:943
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: class-woostify-sites.php:1038
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: class-woostify-sites.php:1110
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: class-woostify-sites.php:1201
+msgid "Required"
+msgstr ""
+
+#: class-woostify-sites.php:1202
+msgid "req"
+msgstr ""
+
+#: class-woostify-sites.php:1240
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#. translators: Woostify Pro Version
+#: class-woostify-sites.php:1270
+msgid "Woostify Pro %s"
+msgstr ""
+
+#: class-woostify-sites.php:1280
+msgid "Bulk Actions"
+msgstr ""
+
+#: class-woostify-sites.php:1286
+msgid "Apply"
+msgstr ""
+
+#: class-woostify-sites.php:1320
+msgid "Settings"
+msgstr ""
+
+#: class-woostify-sites.php:1351, class-woostify-sites.php:1486, class-woostify-sites.php:1568
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: class-woostify-sites.php:1433
+msgid "Select which demo data you want to import:"
+msgstr ""
+
+#: class-woostify-sites.php:1453, class-woostify-sites.php:2942
+msgid "Preview"
+msgstr ""
+
+#: class-woostify-sites.php:1459, class-woostify-sites.php:1455, class-woostify-sites.php:2931, class-woostify-sites.php:2927
+msgid "Select"
+msgstr ""
+
+#: class-woostify-sites.php:1457, class-woostify-sites.php:2929
+msgid "Pricing"
+msgstr ""
+
+#: class-woostify-sites.php:1522
+msgid "Make sure you reset the site to default installation values before importing demo data."
+msgstr ""
+
+#. translators: suggested plugin link
+#: class-woostify-sites.php:1527
+msgid "You can use the <a href=\"%s\">WP Reset</a> plugin to reset and run through demos."
+msgstr ""
+
+#: class-woostify-sites.php:1649
+msgid "The final step has been displayed"
+msgstr ""
+
+#: class-woostify-sites.php:1726
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: class-woostify-sites.php:1744
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: class-woostify-sites.php:1766
+msgid "Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: class-woostify-sites.php:1775
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: class-woostify-sites.php:1788
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#. translators: Expiration date
+#: class-woostify-sites.php:1847
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: class-woostify-sites.php:1853
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: class-woostify-sites.php:1857
+msgid "This appears to be an invalid license key. Please try again or contact support."
+msgstr ""
+
+#: class-woostify-sites.php:1862
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. translators: EDD Item Name
+#: class-woostify-sites.php:1867
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: class-woostify-sites.php:1871
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: class-woostify-sites.php:1875, class-woostify-sites.php:1834
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: class-woostify-sites.php:1966
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: class-woostify-sites.php:1997
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: class-woostify-sites.php:2034
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: class-woostify-sites.php:2032
+msgid "The child theme screenshot was copied to the child theme, with the following result"
+msgstr ""
+
+#: class-woostify-sites.php:2063
+msgid "Activating"
+msgstr ""
+
+#: class-woostify-sites.php:2079
+msgid "Updating"
+msgstr ""
+
+#: class-woostify-sites.php:2095, class-woostify-sites.php:2111, class-woostify-sites.php:2329, class-woostify-sites.php:2342, class-woostify-sites.php:2355, class-woostify-sites.php:2368, class-woostify-sites.php:2381, class-woostify-sites.php:2394, class-woostify-sites.php:2437
+msgid "Installing"
+msgstr ""
+
+#: class-woostify-sites.php:2115
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: class-woostify-sites.php:2124, class-woostify-sites.php:2330, class-woostify-sites.php:2343, class-woostify-sites.php:2356, class-woostify-sites.php:2369, class-woostify-sites.php:2382, class-woostify-sites.php:2395
+msgid "Success"
+msgstr ""
+
+#: class-woostify-sites.php:2103
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: class-woostify-sites.php:2148
+msgid "The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: class-woostify-sites.php:2153
+msgid "Invalid content!"
+msgstr ""
+
+#: class-woostify-sites.php:2164
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: class-woostify-sites.php:2206
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: class-woostify-sites.php:2217
+msgid "Error"
+msgstr ""
+
+#: class-woostify-sites.php:2230
+msgid "The content importer AJAX call for retrieving total content import items failed to start, because of incorrect data."
+msgstr ""
+
+#: class-woostify-sites.php:2235
+msgid "Invalid data!"
+msgstr ""
+
+#: class-woostify-sites.php:2326
+msgid "Content"
+msgstr ""
+
+#: class-woostify-sites.php:2327
+msgid "Demo content data."
+msgstr ""
+
+#: class-woostify-sites.php:2328, class-woostify-sites.php:2341, class-woostify-sites.php:2354, class-woostify-sites.php:2367, class-woostify-sites.php:2380, class-woostify-sites.php:2393
+msgid "Pending"
+msgstr ""
+
+#: class-woostify-sites.php:2339
+msgid "Widgets"
+msgstr ""
+
+#: class-woostify-sites.php:2340
+msgid "Sample widgets data."
+msgstr ""
+
+#: class-woostify-sites.php:2352
+msgid "Revolution Slider"
+msgstr ""
+
+#: class-woostify-sites.php:2353
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: class-woostify-sites.php:2365
+msgid "Options"
+msgstr ""
+
+#: class-woostify-sites.php:2366
+msgid "Sample theme options data."
+msgstr ""
+
+#: class-woostify-sites.php:2378
+msgid "Redux Options"
+msgstr ""
+
+#: class-woostify-sites.php:2379
+msgid "Redux framework options."
+msgstr ""
+
+#: class-woostify-sites.php:2391
+msgid "After import setup"
+msgstr ""
+
+#: class-woostify-sites.php:2392
+msgid "After import setup."
+msgstr ""
+
+#: class-woostify-sites.php:2421
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: class-woostify-sites.php:2488
+msgid "The home page was set"
+msgstr ""
+
+#: class-woostify-sites.php:2498
+msgid "The blog page was set"
+msgstr ""
+
+#: class-woostify-sites.php:2530
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: class-woostify-sites.php:2575
+msgid "This predefined demo import does not have the name parameter: import_file_name"
+msgstr ""
+
+#: class-woostify-sites.php:2789
+msgid "You must enable all Pro Modules before importing this demo then disable one of them later"
+msgstr ""
+
+#: class-woostify-sites.php:3024
+msgid "Woostify Logo"
+msgstr ""
+
+#: class-woostify-sites.php:3037, class-woostify-sites.php:3040, includes/class-woostify-sites-elementor.php:233
+msgid "All"
+msgstr ""
+
+#: class-woostify-sites.php:3043, demos/demos.php:3206
+msgid "Free"
+msgstr ""
+
+#: class-woostify-sites.php:3046, class-woostify-sites.php:3083, demos/demos.php:3207
+msgid "Pro"
+msgstr ""
+
+#: demos/demos.php:3182
+msgid "Banner"
+msgstr ""
+
+#: demos/demos.php:3183
+msgid "Categories"
+msgstr ""
+
+#: demos/demos.php:3184
+msgid "Call To Action"
+msgstr ""
+
+#: demos/demos.php:3185
+msgid "Product"
+msgstr ""
+
+#: demos/demos.php:3186
+msgid "Service"
+msgstr ""
+
+#: demos/demos.php:3187
+msgid "Instagram"
+msgstr ""
+
+#: demos/demos.php:3188
+msgid "Subscribe"
+msgstr ""
+
+#: demos/demos.php:3189
+msgid "Slide"
+msgstr ""
+
+#: demos/demos.php:3190
+msgid "Testimonial"
+msgstr ""
+
+#: demos/demos.php:3191
+msgid "Blog"
+msgstr ""
+
+#: demos/demos.php:3192
+msgid "Brand"
+msgstr ""
+
+#: demos/demos.php:3193
+msgid "Top bar"
+msgstr ""
+
+#: demos/demos.php:3194
+msgid "Countdown"
+msgstr ""
+
+#: demos/demos.php:3195
+msgid "Video"
+msgstr ""
+
+#: demos/demos.php:3196
+msgid "Contact"
+msgstr ""
+
+#: demos/demos.php:3197
+msgid "Team"
+msgstr ""
+
+#: demos/demos.php:3198
+msgid "Counter"
+msgstr ""
+
+#: demos/demos.php:3199
+msgid "Archive"
+msgstr ""
+
+#: demos/demos.php:3224, includes/class-woostify-sites-elementor.php:662
+msgid "Shop"
+msgstr ""
+
+#: demos/demos.php:3225
+msgid "Shop Single"
+msgstr ""
+
+#: demos/demos.php:3226
+msgid "Cart"
+msgstr ""
+
+#: demos/demos.php:3227
+msgid "Check Out"
+msgstr ""
+
+#: demos/demos.php:3228
+msgid "My Account"
+msgstr ""
+
+#: demos/demos.php:3229
+msgid "Thank You"
+msgstr ""
+
+#: includes/admin/class-admin.php:108
+msgid "Preview \"%s\" Site"
+msgstr ""
+
+#: includes/class-woostify-sites-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: includes/class-woostify-sites-customizer-importer.php:57
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: includes/class-woostify-sites-customizer-importer.php:70
+msgid "Error: The customizer import file does not have any content in it. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: includes/class-woostify-sites-customizer-importer.php:80
+msgid "Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: includes/class-woostify-sites-customizer-importer.php:86
+msgid "Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: includes/class-woostify-sites-downloader.php:56
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: includes/class-woostify-sites-downloader.php:78
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: includes/class-woostify-sites-downloader.php:96
+msgid "An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:277, includes/class-woostify-sites-elementor.php:724
+msgid "Library"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:300, includes/class-woostify-sites-elementor.php:402, includes/class-woostify-sites-elementor.php:626, includes/class-woostify-sites-elementor.php:747
+msgid "Close"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:313, includes/class-woostify-sites-elementor.php:759
+msgid "My Favorites"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:393, includes/class-woostify-sites-elementor.php:604
+msgid "Back to Library"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:415
+msgid "Import Template"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:410
+msgid "Go Pro"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:484
+msgid "You are not allowed to perform this action"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:488
+msgid "Invalid API URL"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:501
+msgid "Invalid Post Meta"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:508
+msgid "Invalid Post ID or Elementor Meta"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:579
+msgid "No template found"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:660
+msgid "Header"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:661
+msgid "Footer"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:663
+msgid "Blocks"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:664
+msgid "Pages"
+msgstr ""
+
+#: includes/class-woostify-sites-elementor.php:828
+msgid "No template found!"
+msgstr ""
+
+#: includes/class-woostify-sites-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:105
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: includes/class-woostify-sites-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr ""
+
+#: includes/ctf7/class-import-export.php:194
+msgid "Export"
+msgstr ""
+
+#: includes/ctf7/class-import-export.php:206
+msgid "Price of %s products has been changed."
+msgstr ""
+
+#: woostify-sites.php:23
+msgid "Woostify Sites"
+msgstr ""
+
+#: woostify-sites.php:70
+msgid "Woostify Sites Library"
+msgstr ""
+
+#. translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: woostify-sites.php:73
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: woostify-sites.php:74
+msgid "Return to the dashboard"
+msgstr ""
+
+#: woostify-sites.php:75
+msgid "Disable this wizard"
+msgstr ""
+
+#: woostify-sites.php:77
+msgid "Skip"
+msgstr ""
+
+#: woostify-sites.php:78
+msgid "Next"
+msgstr ""
+
+#: woostify-sites.php:79
+msgid "Start"
+msgstr ""
+
+#: woostify-sites.php:80
+msgid "Cancel"
+msgstr ""
+
+#: woostify-sites.php:81, woostify-sites.php:82, woostify-sites.php:83
+msgid "Install"
+msgstr ""
+
+#: woostify-sites.php:84
+msgid "Start Import"
+msgstr ""
+
+#: woostify-sites.php:86
+msgid "Later"
+msgstr ""
+
+#. translators: Theme Name
+#: woostify-sites.php:89
+msgid "Activate %s"
+msgstr ""
+
+#. translators: Theme Name
+#: woostify-sites.php:91
+msgid "%s is Activated"
+msgstr ""
+
+#. translators: Theme Name
+#: woostify-sites.php:93
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: woostify-sites.php:94
+msgid "License key"
+msgstr ""
+
+#: woostify-sites.php:95
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: woostify-sites.php:96
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: woostify-sites.php:97
+msgid "Need help?"
+msgstr ""
+
+#. translators: Theme Name
+#: woostify-sites.php:100
+msgid "Welcome to %s"
+msgstr ""
+
+#: woostify-sites.php:101
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: woostify-sites.php:102
+msgid "This wizard will set up your theme, install plugins, and import content. It is optional & should take only a few minutes."
+msgstr ""
+
+#: woostify-sites.php:103
+msgid "You may have already run this theme setup wizard. If you would like to proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: woostify-sites.php:105
+msgid "Install Child Theme"
+msgstr ""
+
+#: woostify-sites.php:106
+msgid "You're good to go!"
+msgstr ""
+
+#: woostify-sites.php:107
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: woostify-sites.php:108
+msgid "Your child theme has already been installed and is now activated, if it wasn't already."
+msgstr ""
+
+#: woostify-sites.php:109
+msgid "Learn about child themes"
+msgstr ""
+
+#: woostify-sites.php:110
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: woostify-sites.php:111
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: woostify-sites.php:113
+msgid "Install Plugins"
+msgstr ""
+
+#: woostify-sites.php:114
+msgid "You're up to speed!"
+msgstr ""
+
+#: woostify-sites.php:115
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: woostify-sites.php:116
+msgid "The required WordPress plugins are all installed and up to date. Press \"Next\" to continue the setup wizard."
+msgstr ""
+
+#: woostify-sites.php:117, woostify-sites.php:121
+msgid "Advanced"
+msgstr ""
+
+#: woostify-sites.php:119
+msgid "Import Starter Site"
+msgstr ""
+
+#: woostify-sites.php:120
+msgid "Let's import content to your website, to help you get familiar with the theme."
+msgstr ""
+
+#: woostify-sites.php:123
+msgid "All done. Have fun!"
+msgstr ""
+
+#. translators: Theme Author
+#: woostify-sites.php:126
+msgid "Your theme has been all set up. Enjoy your new theme by Woostify."
+msgstr ""
+
+#: woostify-sites.php:127
+msgid "Extras"
+msgstr ""
+
+#: woostify-sites.php:128
+msgid "View your website"
+msgstr ""
+
+#: woostify-sites.php:129
+msgid "Explore Woostify"
+msgstr ""
+
+#: woostify-sites.php:130
+msgid "Get Theme Support"
+msgstr ""
+
+#: woostify-sites.php:131
+msgid "Start Customizing"
+msgstr ""

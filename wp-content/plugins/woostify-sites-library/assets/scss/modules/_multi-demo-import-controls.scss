@@ -1,0 +1,206 @@
+.merlin {
+
+	&__select-control-wrapper {
+		position: relative;
+		max-width: 200px;
+		margin: 9px auto -4px;
+
+		.icon {
+			opacity: .5;
+			fill: $gray;
+			width: 15px;
+			position: relative;
+			top: 6px;
+			height: 15px;
+
+			&:hover {
+				opacity: 1;
+				fill: $blue;
+			}
+		}
+	}
+
+	&__select-control-help {
+		height: 26px;
+		position: absolute;
+		right: 7px;
+		top: 0px;
+	}
+
+	&__select-control {
+		appearance: none;
+		background: #f9f9f9;
+		border-radius: 3px;
+		border: 1px solid #ccc;
+		box-shadow: 0 1px 0 #eee;
+		color: #555d66;
+		cursor: pointer;
+		display: block;
+		font-size: 13px;
+		font-weight: normal;
+		height: 27px;
+		line-height: 1;
+		margin: 0;
+		padding-left: 8px;
+		padding: 0;
+		width: 100%;
+
+		&:hover {
+			border-color: #999;
+		}
+
+		&:focus {
+			border-color: #5b9dd9;
+		}
+
+		select::-ms-expand {
+			display: none;
+		}
+	}
+
+	&__demo-import-preview {
+		width: calc( 100% - 20px );
+		margin: 20px 0;
+		background-color: #f1f1f1;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	&__demo-import-preview-image {
+		width: 100%;
+	}
+}
+
+.merlin__drawer--open {
+
+	.is-multi-import {
+		transition: padding 300ms cubic-bezier(0.75, 0, 0.25, 1) 100ms;
+		padding-bottom: 30px;
+	}
+}
+
+.is-multi-import {
+	transition: padding 600ms cubic-bezier(0.75, 0, 0.25, 1);
+
+	.merlin__content__footer {
+		margin-top: 7px;
+	}
+}
+
+/* Custom multiple demos styles */
+
+.merlin__demo {
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 1px -1px rgba(0,0,0,0.1);
+	width: 100%;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+	.merlin__demos {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 20px -15px 0;
+	}
+
+	.merlin__demo {
+		margin-left: 15px;
+		margin-right: 15px;
+		width: calc(50% - 30px);
+	}
+}
+
+@media (min-width: 1200px) {
+	.merlin__demo {
+		width: calc(33.3333% - 30px);
+	}
+}
+
+.merlin__demo-image {
+	overflow: hidden;
+	position: relative;
+	line-height: 0;
+	max-height: 350px;
+}
+
+.merlin__demo-image img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.merlin__demo-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+	background: rgba(255,255,255,0.65);
+}
+
+.merlin__demo-title {
+	margin: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.merlin__demo-cta * + * {
+	margin-left: 5px;
+}
+
+.merlin__body--content {
+	display: block;
+	margin: 0 auto;
+}
+
+.merlin__demo-button {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	color: #555;
+	border-color: #ccc;
+	background: #f7f7f7;
+	box-shadow: 0 1px 0 #ccc;
+	vertical-align: top;
+}
+
+.merlin__demo-button:hover {
+	background: #fafafa;
+	border-color: #999;
+	color: #23282d;
+}
+
+.merlin__demo-button:focus {
+	box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30,140,190,.8);
+}
+
+.merlin__demo-button--primary {
+	background: #0085ba;
+	border-color: #0073aa #006799 #006799;
+	box-shadow: 0 1px 0 #006799;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+
+.merlin__demo-button--primary:hover {
+	background: #008ec2;
+	border-color: #006799;
+	color: #fff;
+}
+
+.merlin__demo-button--primary:active {
+	color: #fff;
+}

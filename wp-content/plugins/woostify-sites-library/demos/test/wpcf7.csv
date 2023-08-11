@@ -1,0 +1,134 @@
+﻿0,155,1,"2020-06-09 17:13:47","2020-06-09 17:13:47","<div class=""form-booking"">
+<div class=""form-group"">
+<label class=""label"">Full Name<span class=""required"">*</label>
+[text* text-0 class:input-name]
+</div>
+<div class=""form-group"">
+<label class=""label"">Email address<span class=""required"">*</label>
+[email* email-631 class:input-email]
+</div>
+<div class=""form-group"">
+<label class=""label"">Pick up date<span class=""required"">*</label>
+[text* text-327  class:tour-date-picker]
+
+</div>
+<div class=""form-group"">
+<label class=""label"">Number of people<span class=""required"">*</label>
+[number* number-110 min:1 class:input-people]
+</div>
+[submit class:btn-booking ""book now""]
+</div>
+1
+Travelcations ""[your-subject]""
+Travelcations <wordpress@orintrip.boostifythemes.com>
+mr.duongancol@gmail.com
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Travelcations (https://travelcation.boostifythemes.com)
+Reply-To: [your-email]
+
+
+
+
+Travelcations ""[your-subject]""
+Travelcations <wordpress@orintrip.boostifythemes.com>
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Travelcations (https://travelcation.boostifythemes.com)
+Reply-To: mr.duongancol@gmail.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.",Booking,,publish,closed,closed,,booking,,,"2020-07-08 14:36:55","2020-07-08 14:36:55",,0,0,wpcf7_contact_form,
+1,10,1,"2020-05-21 07:49:14","2020-05-21 07:49:14","<div class=""form-contact"">
+<div class=""form-group"">
+[text* text-38 class:input-name placeholder ""your name""]
+</div>
+<div class=""form-group"">
+[email* email-298 class:input-email placeholder akismet:author_email ""your@email.com""]
+</div>
+<div class=""form-group"">
+[textarea* textarea-203 class:input-message placeholder ""message""]
+</div>
+[submit class:btn-submit-contact ""Submit Form""]
+</div>
+1
+Orintrip ""[your-subject]""
+Orintrip <wordpress@orintrip.boostifythemes.com>
+mr.duongancol@gmail.com
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Orintrip (https://travelcation.boostifythemes.com)
+Reply-To: [your-email]
+
+
+
+
+Orintrip ""[your-subject]""
+Orintrip <wordpress@orintrip.boostifythemes.com>
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Orintrip (https://travelcation.boostifythemes.com)
+Reply-To: mr.duongancol@gmail.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.",Contact,,publish,closed,closed,,contact-form-1,,,"2020-06-09 17:13:19","2020-06-09 17:13:19",,0,0,wpcf7_contact_form,

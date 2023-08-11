@@ -1,0 +1,170 @@
+a:4:{s:8:"template";s:8:"woostify";s:4:"mods";a:7:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:7:"primary";i:39;}s:18:"custom_css_post_id";i:710;s:18:"menu_font_category";s:5:"serif";s:25:"menu_font_family_variants";s:42:"regular,italic,700,700italic,900,900italic";s:11:"custom_logo";i:1084;s:16:"sidebars_widgets";a:2:{s:4:"time";i:1562728408;s:4:"data";a:4:{s:19:"wp_inactive_widgets";a:0:{}s:7:"sidebar";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:12:"sidebar-shop";a:5:{i:0;s:28:"woocommerce_product_search-2";i:1;s:26:"woocommerce_price_filter-3";i:2;s:25:"woocommerce_layered_nav-2";i:3;s:32:"woocommerce_product_categories-2";i:4;s:31:"woocommerce_product_tag_cloud-2";}s:6:"footer";a:0:{}}}}s:7:"options";a:396:{s:22:"woocommerce_demo_store";s:2:"no";s:29:"woocommerce_demo_store_notice";s:75:"This is a demo store for testing purposes — no orders shall be fulfilled.";s:29:"woocommerce_shop_page_display";s:0:"";s:36:"woocommerce_category_archive_display";s:0:"";s:35:"woocommerce_default_catalog_orderby";s:10:"menu_order";s:30:"woocommerce_single_image_width";s:3:"500";s:33:"woocommerce_thumbnail_image_width";s:3:"300";s:30:"woocommerce_thumbnail_cropping";s:6:"custom";s:43:"woocommerce_thumbnail_cropping_custom_width";s:1:"3";s:44:"woocommerce_thumbnail_cropping_custom_height";s:1:"4";s:34:"woocommerce_checkout_company_field";s:8:"optional";s:36:"woocommerce_checkout_address_2_field";s:8:"optional";s:32:"woocommerce_checkout_phone_field";s:8:"required";s:46:"woocommerce_checkout_highlight_required_fields";s:3:"yes";s:55:"woocommerce_checkout_terms_and_conditions_checkbox_text";s:44:"I have read and agree to the website [terms]";s:40:"woocommerce_checkout_privacy_policy_text";s:161:"Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our [privacy_policy].";s:26:"wp_page_for_privacy_policy";s:1:"3";s:25:"woocommerce_terms_page_id";s:0:"";s:9:"site_icon";s:4:"1641";s:32:"woostify_setting[error_404_text]";s:92:"Opps! The page you are looking for is missing for some reasons. Please come back to homepage";s:33:"woostify_setting[error_404_image]";s:0:"";s:39:"woostify_setting[blog_single_structure]";a:3:{i:0;s:5:"image";i:1;s:10:"title-meta";i:2;s:9:"post-meta";}s:39:"woostify_setting[blog_single_post_meta]";a:4:{i:0;s:4:"date";i:1;s:6:"author";i:2;s:8:"category";i:3;s:8:"comments";}s:40:"woostify_setting[blog_single_author_box]";b:0;s:42:"woostify_setting[blog_single_related_post]";b:1;s:34:"woostify_setting[blog_list_layout]";s:6:"zigzag";s:40:"woostify_setting[blog_list_limit_exerpt]";i:100;s:37:"woostify_setting[blog_list_structure]";a:3:{i:0;s:5:"image";i:1;s:10:"title-meta";i:2;s:9:"post-meta";}s:37:"woostify_setting[blog_list_post_meta]";a:3:{i:0;s:4:"date";i:1;s:6:"author";i:2;s:8:"comments";}s:34:"woostify_setting[blog_title_color]";s:7:"#2b2b2b";s:38:"woostify_setting[blog_title_font_size]";i:24;s:45:"woostify_setting[blog_title_tablet_font_size]";i:20;s:45:"woostify_setting[blog_title_mobile_font_size]";i:18;s:37:"woostify_setting[blog_metadata_color]";s:7:"#2b2b2b";s:41:"woostify_setting[blog_metadata_font_size]";i:14;s:48:"woostify_setting[blog_metadata_tablet_font_size]";i:14;s:48:"woostify_setting[blog_metadata_mobile_font_size]";i:14;s:40:"woostify_setting[blog_description_color]";s:7:"#8f8f8f";s:44:"woostify_setting[blog_description_font_size]";i:14;s:51:"woostify_setting[blog_description_tablet_font_size]";i:14;s:51:"woostify_setting[blog_description_mobile_font_size]";i:14;s:35:"woostify_setting[button_text_color]";s:7:"#ffffff";s:41:"woostify_setting[button_hover_text_color]";s:7:"#ffffff";s:41:"woostify_setting[button_background_color]";s:7:"#65acc4";s:47:"woostify_setting[button_hover_background_color]";s:7:"#65acc4";s:39:"woostify_setting[buttons_border_radius]";i:0;s:29:"woostify_setting[theme_color]";s:7:"#65acc4";s:28:"woostify_setting[text_color]";s:7:"#5b5b5b";s:30:"woostify_setting[accent_color]";s:7:"#262626";s:34:"woostify_setting[link_hover_color]";s:7:"#1346af";s:31:"woostify_setting[extra_color_1]";s:4:"#fd0";s:31:"woostify_setting[extra_color_2]";s:4:"#fd0";s:32:"woostify_setting[footer_display]";b:1;s:30:"woostify_setting[footer_space]";i:100;s:31:"woostify_setting[footer_column]";i:0;s:41:"woostify_setting[footer_background_color]";s:7:"#eeeeec";s:38:"woostify_setting[footer_heading_color]";s:7:"#2b2b2b";s:35:"woostify_setting[footer_link_color]";s:7:"#8f8f8f";s:35:"woostify_setting[footer_text_color]";s:7:"#8f8f8f";s:36:"woostify_setting[footer_custom_text]";s:84:"&copy; 2019 Hippine All rights reserved. Designed &amp; developed by woostify&trade;";s:36:"woostify_setting[header_transparent]";b:1;s:52:"woostify_setting[header_transparent_disable_archive]";b:1;s:50:"woostify_setting[header_transparent_disable_index]";b:1;s:49:"woostify_setting[header_transparent_disable_page]";b:1;s:49:"woostify_setting[header_transparent_disable_post]";b:1;s:49:"woostify_setting[header_transparent_disable_shop]";b:1;s:52:"woostify_setting[header_transparent_disable_product]";b:1;s:46:"woostify_setting[header_transparent_enable_on]";s:11:"all-devices";s:41:"woostify_setting[header_transparent_logo]";s:0:"";s:47:"woostify_setting[header_transparent_menu_color]";s:0:"";s:47:"woostify_setting[header_transparent_icon_color]";s:0:"";s:53:"woostify_setting[header_transparent_count_background]";s:0:"";s:49:"woostify_setting[header_transparent_border_width]";i:0;s:49:"woostify_setting[header_transparent_border_color]";s:7:"#ffffff";s:31:"woostify_setting[header_layout]";s:8:"layout-3";s:41:"woostify_setting[header_background_color]";s:19:"rgba(255,255,255,0)";s:35:"woostify_setting[header_icon_color]";s:0:"";s:41:"woostify_setting[header_icon_hover_color]";s:0:"";s:36:"woostify_setting[header_count_color]";s:0:"";s:47:"woostify_setting[header_count_background_color]";s:0:"";s:37:"woostify_setting[header_primary_menu]";b:1;s:40:"woostify_setting[header_menu_breakpoint]";i:992;s:36:"woostify_setting[header_search_icon]";b:1;s:44:"woostify_setting[header_search_only_product]";b:1;s:38:"woostify_setting[header_wishlist_icon]";b:0;s:37:"woostify_setting[header_account_icon]";b:1;s:48:"woostify_setting[header_shop_enable_login_popup]";b:0;s:39:"woostify_setting[header_shop_cart_icon]";b:1;s:40:"woostify_setting[header_shop_cart_price]";b:0;s:56:"woostify_setting[header_shop_hide_zero_value_cart_count]";b:0;s:59:"woostify_setting[header_shop_hide_zero_value_cart_subtotal]";b:0;s:32:"woostify_setting[topbar_display]";b:1;s:35:"woostify_setting[topbar_text_color]";s:7:"#2f2f2f";s:41:"woostify_setting[topbar_background_color]";s:7:"#c7e5ef";s:30:"woostify_setting[topbar_space]";i:8;s:29:"woostify_setting[topbar_left]";s:40:"Get free shiping on all orders over $100";s:31:"woostify_setting[topbar_center]";s:0:"";s:30:"woostify_setting[topbar_right]";s:41:"Currency: US Dollar  |  Language: English";s:47:"woostify_setting[mobile_menu_hide_search_field]";b:0;s:40:"woostify_setting[mobile_menu_hide_login]";b:0;s:55:"woostify_setting[header_show_categories_menu_on_mobile]";b:0;s:52:"woostify_setting[mobile_menu_primary_menu_tab_title]";s:4:"Menu";s:55:"woostify_setting[mobile_menu_categories_menu_tab_title]";s:10:"Categories";s:44:"woostify_setting[mobile_menu_icon_bar_color]";s:0:"";s:40:"woostify_setting[mobile_menu_background]";s:4:"#fff";s:40:"woostify_setting[mobile_menu_text_color]";s:4:"#000";s:46:"woostify_setting[mobile_menu_text_hover_color]";s:4:"#000";s:39:"woostify_setting[mobile_menu_tab_color]";s:0:"";s:46:"woostify_setting[mobile_menu_tab_active_color]";s:0:"";s:44:"woostify_setting[mobile_menu_tab_background]";s:0:"";s:51:"woostify_setting[mobile_menu_tab_active_background]";s:7:"#f7f7f7";s:41:"woostify_setting[mobile_menu_tab_padding]";s:11:"16 10 16 10";s:52:"woostify_setting[mobile_menu_nav_tab_spacing_bottom]";i:20;s:37:"woostify_setting[page_header_display]";b:1;s:35:"woostify_setting[page_header_title]";b:0;s:40:"woostify_setting[page_header_breadcrumb]";b:1;s:40:"woostify_setting[page_header_text_align]";s:7:"justify";s:41:"woostify_setting[page_header_title_color]";s:7:"#2f2f2f";s:51:"woostify_setting[page_header_breadcrumb_text_color]";s:7:"#65acc4";s:46:"woostify_setting[page_header_background_color]";s:7:"#f2f2f2";s:46:"woostify_setting[page_header_background_image]";s:0:"";s:51:"woostify_setting[page_header_background_image_size]";s:4:"auto";s:53:"woostify_setting[page_header_background_image_repeat]";s:6:"repeat";s:55:"woostify_setting[page_header_background_image_position]";s:13:"center-center";s:57:"woostify_setting[page_header_background_image_attachment]";s:6:"scroll";s:41:"woostify_setting[page_header_padding_top]";i:10;s:44:"woostify_setting[page_header_padding_bottom]";i:10;s:43:"woostify_setting[page_header_margin_bottom]";i:50;s:37:"woostify_setting[enabled_dynamic_css]";b:0;s:40:"woostify_setting[reset_dynamic_css_file]";s:0:"";s:43:"woostify_setting[load_google_fonts_locally]";b:0;s:51:"woostify_setting[load_google_fonts_locally_preload]";b:0;s:49:"woostify_setting[load_google_fonts_locally_clear]";s:0:"";s:55:"woostify_setting[performance_disable_woo_blocks_styles]";b:0;s:31:"woostify_setting[scroll_to_top]";b:1;s:34:"woostify_setting[scroll_to_top_on]";s:7:"default";s:40:"woostify_setting[scroll_to_top_position]";s:5:"right";s:42:"woostify_setting[scroll_to_top_background]";s:0:"";s:37:"woostify_setting[scroll_to_top_color]";s:0:"";s:41:"woostify_setting[scroll_to_top_icon_size]";i:17;s:45:"woostify_setting[scroll_to_top_border_radius]";i:0;s:45:"woostify_setting[scroll_to_top_offset_bottom]";i:20;s:34:"woostify_setting[cart_page_layout]";s:8:"layout-2";s:49:"woostify_setting[cart_page_sticky_proceed_button]";b:1;s:38:"woostify_setting[checkout_page_layout]";s:8:"layout-1";s:43:"woostify_setting[checkout_distraction_free]";b:0;s:52:"woostify_setting[checkout_sticky_place_order_button]";b:1;s:44:"woostify_setting[mini_cart_background_color]";s:4:"#fff";s:41:"woostify_setting[mini_cart_empty_message]";s:24:"No products in the cart.";s:47:"woostify_setting[mini_cart_empty_enable_button]";b:1;s:46:"woostify_setting[mini_cart_top_content_select]";s:0:"";s:51:"woostify_setting[mini_cart_top_content_custom_html]";s:0:"";s:65:"woostify_setting[mini_cart_before_checkout_button_content_select]";s:0:"";s:70:"woostify_setting[mini_cart_before_checkout_button_content_custom_html]";s:0:"";s:64:"woostify_setting[mini_cart_after_checkout_button_content_select]";s:0:"";s:69:"woostify_setting[mini_cart_after_checkout_button_content_custom_html]";s:0:"";s:30:"woostify_setting[catalog_mode]";b:0;s:33:"woostify_setting[hide_variations]";b:0;s:34:"woostify_setting[products_per_row]";i:3;s:41:"woostify_setting[tablet_products_per_row]";i:2;s:41:"woostify_setting[mobile_products_per_row]";i:1;s:35:"woostify_setting[products_per_page]";i:12;s:44:"woostify_setting[shipping_threshold_enabled]";b:0;s:59:"woostify_setting[shipping_threshold_enable_confetti_effect]";b:1;s:56:"woostify_setting[shipping_threshold_enable_progress_bar]";b:0;s:56:"woostify_setting[shipping_threshold_progress_bar_amount]";i:100;s:61:"woostify_setting[shipping_threshold_progress_bar_initial_msg]";s:47:"Add [missing_amount] more to get Free Shipping!";s:61:"woostify_setting[shipping_threshold_progress_bar_success_msg]";s:25:"You've got free shipping!";s:50:"woostify_setting[shipping_threshold_message_color]";s:0:"";s:58:"woostify_setting[shipping_threshold_message_success_color]";s:0:"";s:55:"woostify_setting[shipping_threshold_progress_bar_color]";s:7:"#1346af";s:63:"woostify_setting[shipping_threshold_progress_bar_success_color]";s:7:"#67bb67";s:33:"woostify_setting[shop_page_title]";b:1;s:38:"woostify_setting[shop_page_breadcrumb]";b:1;s:40:"woostify_setting[shop_page_result_count]";b:1;s:42:"woostify_setting[shop_page_product_filter]";b:1;s:47:"woostify_setting[shop_page_product_title_color]";s:7:"#8f8f8f";s:51:"woostify_setting[shop_page_product_title_font_size]";i:14;s:58:"woostify_setting[shop_page_product_title_tablet_font_size]";i:14;s:58:"woostify_setting[shop_page_product_title_mobile_font_size]";i:14;s:47:"woostify_setting[shop_page_product_price_color]";s:7:"#2b2b2b";s:51:"woostify_setting[shop_page_product_price_font_size]";i:14;s:58:"woostify_setting[shop_page_product_price_tablet_font_size]";i:14;s:58:"woostify_setting[shop_page_product_price_mobile_font_size]";i:14;s:50:"woostify_setting[shop_page_infinite_scroll_enable]";b:0;s:48:"woostify_setting[shop_page_infinite_scroll_type]";s:6:"button";s:53:"woostify_setting[shop_page_product_card_border_style]";s:4:"none";s:53:"woostify_setting[shop_page_product_card_border_width]";i:1;s:53:"woostify_setting[shop_page_product_card_border_color]";s:7:"#cccccc";s:45:"woostify_setting[shop_page_product_alignment]";s:6:"center";s:41:"woostify_setting[shop_page_product_title]";b:1;s:44:"woostify_setting[shop_page_product_category]";b:0;s:42:"woostify_setting[shop_page_product_rating]";b:1;s:41:"woostify_setting[shop_page_product_price]";b:1;s:44:"woostify_setting[shop_page_product_quantity]";b:0;s:49:"woostify_setting[shop_page_product_content_equal]";b:0;s:54:"woostify_setting[shop_page_product_content_min_height]";i:160;s:47:"woostify_setting[shop_page_product_image_hover]";s:4:"swap";s:54:"woostify_setting[shop_page_product_image_border_style]";s:4:"none";s:54:"woostify_setting[shop_page_product_image_border_width]";i:1;s:54:"woostify_setting[shop_page_product_image_border_color]";s:7:"#cccccc";s:54:"woostify_setting[shop_page_product_image_equal_height]";b:0;s:48:"woostify_setting[shop_page_product_image_height]";i:300;s:45:"woostify_setting[shop_page_sale_tag_position]";s:4:"left";s:37:"woostify_setting[shop_page_sale_text]";s:5:"Sale!";s:38:"woostify_setting[shop_page_sale_color]";s:7:"#ffffff";s:41:"woostify_setting[shop_page_sale_bg_color]";s:7:"#1346af";s:46:"woostify_setting[shop_page_sale_border_radius]";i:0;s:40:"woostify_setting[shop_page_sale_percent]";b:1;s:39:"woostify_setting[shop_page_sale_square]";b:0;s:37:"woostify_setting[shop_page_sale_size]";i:40;s:49:"woostify_setting[shop_page_out_of_stock_position]";s:4:"left";s:45:"woostify_setting[shop_page_out_of_stock_text]";s:12:"Out Of Stock";s:46:"woostify_setting[shop_page_out_of_stock_color]";s:7:"#ffffff";s:49:"woostify_setting[shop_page_out_of_stock_bg_color]";s:7:"#818486";s:54:"woostify_setting[shop_page_out_of_stock_border_radius]";i:0;s:47:"woostify_setting[shop_page_out_of_stock_square]";b:0;s:45:"woostify_setting[shop_page_out_of_stock_size]";i:40;s:51:"woostify_setting[shop_page_wishlist_support_plugin]";s:2:"ti";s:45:"woostify_setting[shop_page_wishlist_position]";s:9:"top-right";s:55:"woostify_setting[shop_page_add_to_cart_button_position]";s:5:"image";s:47:"woostify_setting[shop_product_add_to_cart_icon]";b:1;s:50:"woostify_setting[shop_page_button_cart_background]";s:0:"";s:51:"woostify_setting[shop_page_button_background_hover]";s:0:"";s:45:"woostify_setting[shop_page_button_cart_color]";s:0:"";s:46:"woostify_setting[shop_page_button_color_hover]";s:0:"";s:48:"woostify_setting[shop_page_button_border_radius]";s:0:"";s:40:"woostify_setting[shop_single_breadcrumb]";b:1;s:48:"woostify_setting[shop_single_product_navigation]";b:1;s:46:"woostify_setting[shop_single_ajax_add_to_cart]";b:1;s:41:"woostify_setting[shop_single_stock_label]";b:1;s:41:"woostify_setting[shop_single_loading_bar]";b:1;s:49:"woostify_setting[shop_single_stock_product_limit]";i:0;s:48:"woostify_setting[shop_single_content_background]";s:7:"#f3f3f3";s:47:"woostify_setting[shop_single_trust_badge_image]";s:0:"";s:59:"woostify_setting[shop_single_product_gallery_layout_select]";s:5:"theme";s:44:"woostify_setting[shop_single_gallery_layout]";s:8:"vertical";s:40:"woostify_setting[shop_single_image_load]";b:1;s:40:"woostify_setting[shop_single_image_zoom]";b:1;s:44:"woostify_setting[shop_single_image_lightbox]";b:1;s:54:"woostify_setting[shop_single_product_sticky_top_space]";i:50;s:57:"woostify_setting[shop_single_product_sticky_bottom_space]";i:50;s:34:"woostify_setting[shop_single_skus]";b:1;s:40:"woostify_setting[shop_single_categories]";b:1;s:34:"woostify_setting[shop_single_tags]";b:1;s:54:"woostify_setting[shop_single_product_data_tabs_layout]";s:6:"normal";s:51:"woostify_setting[shop_single_product_data_tabs_pos]";s:40:"woocommerce_after_single_product_summary";s:52:"woostify_setting[shop_single_product_data_tabs_open]";b:1;s:53:"woostify_setting[shop_single_product_data_tabs_items]";s:201:"[{"type":"description","name":"Description","0":"woostify","content":""},{"type":"additional_information","name":"Additional information","content":""},{"type":"reviews","name":"Reviews","content":""}]";s:45:"woostify_setting[shop_single_related_product]";b:1;s:53:"woostify_setting[shop_single_product_related_columns]";i:4;s:51:"woostify_setting[shop_single_product_related_total]";i:4;s:61:"woostify_setting[shop_single_product_related_enable_carousel]";b:0;s:61:"woostify_setting[shop_single_product_related_carousel_arrows]";b:1;s:59:"woostify_setting[shop_single_product_related_carousel_dots]";b:1;s:53:"woostify_setting[shop_single_product_recently_viewed]";b:0;s:51:"woostify_setting[shop_single_recently_viewed_title]";s:24:"Recently Viewed Products";s:51:"woostify_setting[shop_single_recently_viewed_count]";i:4;s:52:"woostify_setting[shop_single_button_cart_background]";s:0:"";s:53:"woostify_setting[shop_single_button_background_hover]";s:0:"";s:47:"woostify_setting[shop_single_button_cart_color]";s:0:"";s:48:"woostify_setting[shop_single_button_color_hover]";s:0:"";s:50:"woostify_setting[shop_single_button_border_radius]";s:0:"";s:33:"woostify_setting[sidebar_default]";s:5:"right";s:30:"woostify_setting[sidebar_page]";s:7:"default";s:30:"woostify_setting[sidebar_blog]";s:4:"full";s:37:"woostify_setting[sidebar_blog_single]";s:4:"full";s:30:"woostify_setting[sidebar_shop]";s:4:"left";s:37:"woostify_setting[sidebar_shop_single]";s:4:"full";s:31:"woostify_setting[sidebar_width]";i:20;s:42:"woostify_setting[sticky_footer_bar_enable]";b:0;s:52:"woostify_setting[sticky_footer_bar_hide_when_scroll]";b:0;s:58:"woostify_setting[sticky_footer_bar_hide_on_product_single]";b:1;s:53:"woostify_setting[sticky_footer_bar_hide_on_cart_page]";b:1;s:57:"woostify_setting[sticky_footer_bar_hide_on_checkout_page]";b:1;s:45:"woostify_setting[sticky_footer_bar_enable_on]";s:6:"mobile";s:41:"woostify_setting[sticky_footer_bar_items]";s:459:"[{"type":"custom","icon":"home","name":"Shop","link":"#","shortcode":"","hidden":false},{"type":"wishlist","icon":"heart","name":"Wishlist","link":"#","hidden":false,"shortcode":""},{"type":"search","icon":"search","name":"Search","link":"#","hidden":false,"shortcode":""},{"type":"cart","icon":"shopping-cart-2","name":"Cart","link":"#","hidden":false,"shortcode":""},{"type":"shortcode","icon":"","name":"Shortcode","link":"#","hidden":true,"shortcode":""}]";s:46:"woostify_setting[sticky_footer_bar_background]";s:7:"#ffffff";s:46:"woostify_setting[sticky_footer_bar_icon_color]";s:7:"#111111";s:52:"woostify_setting[sticky_footer_bar_icon_hover_color]";s:7:"#111111";s:46:"woostify_setting[sticky_footer_bar_text_color]";s:7:"#111111";s:52:"woostify_setting[sticky_footer_bar_text_hover_color]";s:7:"#111111";s:50:"woostify_setting[sticky_footer_bar_icon_font_size]";i:20;s:57:"woostify_setting[tablet_sticky_footer_bar_icon_font_size]";i:20;s:57:"woostify_setting[mobile_sticky_footer_bar_icon_font_size]";i:18;s:48:"woostify_setting[sticky_footer_bar_icon_spacing]";i:5;s:55:"woostify_setting[tablet_sticky_footer_bar_icon_spacing]";i:5;s:55:"woostify_setting[mobile_sticky_footer_bar_icon_spacing]";i:5;s:50:"woostify_setting[sticky_footer_bar_text_font_size]";i:13;s:57:"woostify_setting[tablet_sticky_footer_bar_text_font_size]";i:13;s:57:"woostify_setting[mobile_sticky_footer_bar_text_font_size]";i:12;s:52:"woostify_setting[sticky_footer_bar_text_font_weight]";i:600;s:43:"woostify_setting[sticky_footer_bar_padding]";s:9:"10 0 10 0";s:50:"woostify_setting[tablet_sticky_footer_bar_padding]";s:9:"10 0 10 0";s:50:"woostify_setting[mobile_sticky_footer_bar_padding]";s:9:"10 0 10 0";s:34:"woostify_setting[body_font_family]";s:7:"Poppins";s:18:"body_font_category";s:10:"sans-serif";s:25:"body_font_family_variants";s:23:"300,regular,500,600,700";s:34:"woostify_setting[body_font_weight]";i:400;s:37:"woostify_setting[body_font_transform]";s:4:"none";s:32:"woostify_setting[body_font_size]";i:14;s:34:"woostify_setting[body_line_height]";i:28;s:37:"woostify_setting[heading_font_family]";s:16:"Playfair Display";s:21:"heading_font_category";s:5:"serif";s:28:"heading_font_family_variants";s:42:"regular,italic,700,700italic,900,900italic";s:37:"woostify_setting[heading_font_weight]";s:3:"400";s:40:"woostify_setting[heading_font_transform]";s:4:"none";s:37:"woostify_setting[heading_line_height]";s:3:"1.5";s:31:"woostify_setting[heading_color]";s:7:"#262626";s:38:"woostify_setting[heading_h1_font_size]";i:56;s:38:"woostify_setting[heading_h2_font_size]";i:40;s:38:"woostify_setting[heading_h3_font_size]";i:30;s:38:"woostify_setting[heading_h4_font_size]";i:28;s:38:"woostify_setting[heading_h5_font_size]";i:26;s:38:"woostify_setting[heading_h6_font_size]";i:18;s:34:"woostify_setting[menu_font_family]";s:16:"Playfair Display";s:34:"woostify_setting[menu_font_weight]";s:3:"400";s:37:"woostify_setting[menu_font_transform]";s:4:"none";s:39:"woostify_setting[parent_menu_font_size]";i:18;s:41:"woostify_setting[parent_menu_line_height]";i:50;s:36:"woostify_setting[primary_menu_color]";s:7:"#262626";s:36:"woostify_setting[sub_menu_font_size]";i:18;s:38:"woostify_setting[sub_menu_line_height]";i:24;s:40:"woostify_setting[primary_sub_menu_color]";s:7:"#262626";s:33:"woostify_setting[container_width]";s:4:"1200";s:35:"woostify_setting[default_container]";s:6:"normal";s:32:"woostify_setting[page_container]";s:7:"default";s:39:"woostify_setting[blog_single_container]";s:7:"default";s:35:"woostify_setting[archive_container]";s:7:"default";s:32:"woostify_setting[shop_container]";s:7:"default";s:39:"woostify_setting[shop_single_container]";s:7:"default";s:29:"woostify_setting[retina_logo]";s:0:"";s:29:"woostify_setting[logo_mobile]";s:0:"";s:28:"woostify_setting[logo_width]";s:0:"";s:35:"woostify_setting[tablet_logo_width]";s:0:"";s:35:"woostify_setting[mobile_logo_width]";s:0:"";s:44:"dokan_appearance[enable_theme_store_sidebar]";s:3:"off";s:39:"dokan_appearance[store_header_template]";s:2:"on";s:41:"dokan_appearance[hide_vendor_info][email]";s:0:"";s:41:"dokan_appearance[hide_vendor_info][phone]";s:0:"";s:43:"dokan_appearance[hide_vendor_info][address]";s:0:"";s:53:"dokan_appearance[store_products][hide_product_filter]";s:0:"";s:44:"dokan_appearance[product_sections][featured]";s:2:"on";s:50:"dokan_appearance[product_sections][featured_title]";s:17:"Featured Products";s:42:"dokan_appearance[product_sections][latest]";s:2:"on";s:48:"dokan_appearance[product_sections][latest_title]";s:15:"Latest Products";s:48:"dokan_appearance[product_sections][best_selling]";s:2:"on";s:54:"dokan_appearance[product_sections][best_selling_title]";s:21:"Best Selling Products";s:45:"dokan_appearance[product_sections][top_rated]";s:2:"on";s:51:"dokan_appearance[product_sections][top_rated_title]";s:18:"Top Rated Products";s:27:"dokan_appearance[store_map]";s:2:"on";s:32:"dokan_appearance[contact_seller]";s:2:"on";s:34:"dokan_appearance[store_open_close]";s:2:"on";s:36:"dokan_appearance[store_list_sort_by]";s:11:"most_recent";s:23:"nav_menus_created_posts";a:0:{}s:48:"woostify_pro_options[shop_single_buy_now_button]";b:1;s:51:"woostify_pro_options[shop_single_background_buynow]";s:0:"";s:50:"woostify_pro_options[shop_single_background_hover]";s:0:"";s:53:"woostify_pro_options[shop_single_color_button_buynow]";s:0:"";s:45:"woostify_pro_options[shop_single_color_hover]";s:0:"";s:54:"woostify_pro_options[shop_single_border_radius_buynow]";s:0:"";s:54:"woostify_pro_options[sticky_single_add_to_cart_button]";s:3:"top";s:42:"woostify_pro_options[sticky_atc_button_on]";s:4:"both";s:39:"woostify_pro_options[header_full_width]";b:0;s:41:"woostify_pro_options[header_left_content]";s:0:"";s:43:"woostify_pro_options[header_center_content]";s:0:"";s:54:"woostify_pro_options[header_content_bottom_background]";s:7:"#212121";s:42:"woostify_pro_options[header_right_content]";s:22:"[header_content_block]";s:51:"woostify_pro_options[header_sidebar_content_bottom]";s:0:"";s:52:"woostify_pro_options[header_8_search_bar_background]";s:7:"#fcb702";s:41:"woostify_pro_options[header_8_icon_color]";s:7:"#000000";s:47:"woostify_pro_options[header_8_icon_hover_color]";s:7:"#cccccc";s:42:"woostify_pro_options[header_8_button_text]";s:18:"Shop By Categories";s:48:"woostify_pro_options[header_8_button_background]";s:7:"#ffffff";s:54:"woostify_pro_options[header_8_button_hover_background]";s:7:"#333333";s:43:"woostify_pro_options[header_8_button_color]";s:7:"#333333";s:49:"woostify_pro_options[header_8_button_hover_color]";s:7:"#ffffff";s:44:"woostify_pro_options[header_8_right_content]";s:111:"[header_single_block icon="ti-headphone-alt" icon_color="" heading="(+245)-1802-2019" href="megashop@info.com"]";s:55:"woostify_pro_options[header_8_content_right_text_color]";s:7:"#333333";s:43:"woostify_pro_options[sticky_header_display]";b:0;s:51:"woostify_pro_options[sticky_header_disable_archive]";b:1;s:49:"woostify_pro_options[sticky_header_disable_index]";b:0;s:48:"woostify_pro_options[sticky_header_disable_page]";b:0;s:48:"woostify_pro_options[sticky_header_disable_post]";b:0;s:48:"woostify_pro_options[sticky_header_disable_shop]";b:0;s:52:"woostify_pro_options[sticky_header_background_color]";s:7:"#ffffff";s:45:"woostify_pro_options[sticky_header_enable_on]";s:11:"all-devices";s:48:"woostify_pro_options[sticky_header_border_width]";i:1;s:48:"woostify_pro_options[sticky_header_border_color]";s:7:"#eaeaea";s:51:"woostify_pro_options[shop_page_quick_view_position]";s:9:"top-right";s:50:"woostify_pro_options[shop_product_quick_view_icon]";b:1;s:56:"woostify_pro_options[shop_product_quick_view_background]";s:0:"";s:54:"woostify_pro_options[shop_product_quick_view_bg_hover]";s:0:"";s:51:"woostify_pro_options[shop_product_quick_view_color]";s:0:"";s:53:"woostify_pro_options[shop_product_quick_view_c_hover]";s:0:"";s:52:"woostify_pro_options[shop_product_quick_view_radius]";s:0:"";}s:6:"wp_css";s:3052:"/* Contact Form 7 Input CSS 
+---------------------------*/
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea {
+	width: 100%;
+	font-size: 14px;
+	padding: 10px 20px;
+}
+
+.wpcf7 label,
+.wpcf7 input[type="submit"] {
+	float: left;
+}
+
+/* Contact Form 7 Submit Button 
+-------------------------------*/
+
+.wpcf7 input[type="submit"] {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 900;
+		font-style: italic;
+		padding: 5px 20px;
+		margin-top: 10px;
+	background-color: #c7e5ef;
+}
+
+.wpcf7 input:hover[type="submit"] {
+    background: #a2a2a2;
+    transition: all 0.4s ease 0s;
+}
+
+/*
+ * Footer contact form
+*/
+.footer-contact {
+	position: relative;
+}
+.submit-contact-footer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 0 !important;
+	font-size: 0 !important;
+	background-repeat: no-repeat !important;
+	background-color: transparent !important;
+	background-position: center !important;
+	border: 0 !important;
+	padding: 8px 20px !important;
+	width: 60px !important;
+}
+.email-contact-footer {
+	background-color: #c7e5ef;
+}
+.list-menu-footer a {
+	color: #666666;
+}
+.list-menu-footer a:hover {
+	color: #65acc4;	
+}
+.topbar-right {
+	display: flex;
+}
+.topbar-right_wrapper span {
+	color: #4c4c4c;
+	font-size: 15px;
+	font-family: "Times New Roman", Sans-serif;
+}
+.topbar-right_wrapper select {
+	color: #000000;
+	font-size: 15px;
+	background-color: transparent;
+	border: none;
+	font-family: "Times New Roman", Sans-serif;
+}
+.topbar-right_wrapper:first-child {
+	margin-right: 20px;
+	
+}
+@media ( min-width: 992px ) {
+	.topbar-right_wrapper:first-child {
+	border-right: 1px solid #9fcad8;
+	padding-right: 15px;
+}
+}
+.email-contact-footer {
+	height: 50px !important;
+	padding: 0px 10px !important;
+}
+.submit-contact-footer {
+	height: 50px !important;
+}
+/*
+ * Contact form 
+*/
+.contact-form-subscribe .wpcf7-submit {
+	font-weight: 400 !important;
+	font-style: normal !important;
+	clear: both;
+}
+.input-form-contact {
+	margin-bottom: 10px;
+	
+	border-bottom: 1px solid #e6e6e6 !important;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	padding: 10px 0 !important;
+}
+.area-form-contact {
+	border-bottom: 1px solid #e6e6e6 !important;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	padding: 10px 0 !important;
+}
+.wpcf7-validation-errors {
+	clear: both;
+}
+/*
+ * Topbar 
+*/
+@media ( max-width: 767px ) {
+	.topbar-header-mobile .elementor-widget-container {
+		display: flex;
+		justify-content: center;
+	}
+}
+/*
+ * Search Form Sidebar 
+*/
+#woocommerce-product-search-field-2 {
+	border-radius: 0 !important;
+	background: transparent !important;
+	border: 1px solid #e6e6e6 !important;
+}
+
+/*
+ * tag cloud
+*/
+.tagcloud a {
+	border: none !important;
+	padding: 0 !important;
+}
+.tagcloud a:hover {
+	background: transparent !important;
+	color: #65acc4 !important;
+}
+.tagcloud a:after {
+	content: ",";
+	margin-left: 5px;
+}
+.tagcloud a:last-child:after {
+	content: "";
+}
+.widget-title {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@media ( max-width: 992px ) {
+	.blog .custom-logo-link {
+		display: flex;
+	}
+}
+
+
+";}

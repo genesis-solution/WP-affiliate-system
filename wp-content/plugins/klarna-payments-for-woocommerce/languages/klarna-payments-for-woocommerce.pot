@@ -1,0 +1,328 @@
+# Copyright (C) 2022 klarna-payments-for-woocommerce
+# This file is distributed under the same license as the klarna-payments-for-woocommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: klarna-payments-for-woocommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Krokedil <info@krokedil.se>\n"
+"Last-Translator: Krokedil <info@krokedil.se>\n"
+"POT-Creation-Date: 2022-10-27 08:26+0000\n"
+"Report-Msgid-Bugs-To: http://krokedil.se\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../klarna-payments-for-woocommerce.php:163
+msgid "Settings"
+msgstr ""
+
+#: ../klarna-payments-for-woocommerce.php:164
+msgid "Docs"
+msgstr ""
+
+#: ../klarna-payments-for-woocommerce.php:165
+msgid "Support"
+msgstr ""
+
+#. translators: URL to docs.
+#: ../klarna-payments-for-woocommerce.php:214
+msgid "It looks as if you don't have pretty permalinks enabled in WordPress. In order for Klarna Payments for Woocommerce to function properly, this setting needs to be enabled. <a href=\"%1$s\">Learn more</a>"
+msgstr ""
+
+#: ../klarna-payments-for-woocommerce.php:215
+msgid "https://wordpress.org/support/article/using-permalinks/"
+msgstr ""
+
+#: ../classes/class-kp-ajax.php:106
+msgid "Authorization rejected by Klarna."
+msgstr ""
+
+#: ../classes/class-kp-ajax.php:104
+msgid "Customer aborted purchase with Klarna."
+msgstr ""
+
+#: ../classes/class-kp-callbacks.php:85, ../classes/class-kp-callbacks.php:104
+msgid "Failed to complete the order during the authentication callback."
+msgstr ""
+
+#: ../classes/class-kp-callbacks.php:93
+msgid "The Klarna order was successfully completed by the authorization callback"
+msgstr ""
+
+#: ../classes/class-kp-callbacks.php:97
+msgid "The Klarna order is pending approval by Klarna"
+msgstr ""
+
+#: ../classes/class-kp-callbacks.php:101
+msgid "The Klarna order was rejected during the authorization by Klarna"
+msgstr ""
+
+#: ../classes/class-kp-email.php:36, ../classes/admin/class-kp-form-fields.php:417
+msgid "Klarna"
+msgstr ""
+
+#: ../classes/class-kp-email.php:37
+msgid "Klarna App"
+msgstr ""
+
+#: ../classes/class-kp-email.php:39
+msgid "Klarna order id:"
+msgstr ""
+
+#. translators: 1. Klarna customer service URL. 2. Klarnas app url.
+#: ../classes/class-kp-email.php:45
+msgid "Your payment is processed by our partner %1$s. You will shortly receive instructions on how to complete your payment. You can manage all your payments via Klarna.com or in the %2$s"
+msgstr ""
+
+#: ../classes/class-wc-gateway-klarna-payments.php:30, ../includes/admin/views/status-report.php:17
+msgid "Klarna Payments"
+msgstr ""
+
+#: ../classes/class-wc-gateway-klarna-payments.php:31
+msgid "Get the flexibility to pay over time with Klarna!"
+msgstr ""
+
+#: ../classes/class-wc-gateway-klarna-payments.php:88
+msgid "What is Klarna?"
+msgstr ""
+
+#: ../includes/kp-functions.php:130
+msgid "Klarna Payments API Error: "
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:164
+msgid "Production Klarna API username"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:166, ../classes/admin/class-kp-form-fields.php:196
+msgid "Use the API username you downloaded in the Klarna Merchant Portal. Don’t use your email address."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:179
+msgid "Production Klarna API password"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:181, ../classes/admin/class-kp-form-fields.php:211
+msgid "Use the API password you downloaded in the Klarna Merchant Portal. Don’t use your email address."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:194
+msgid "Test Klarna API username"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:209
+msgid "Test Klarna API password"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:250
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:251
+msgid "Enable Klarna Payments"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:257
+msgid "Title (not applicable to checkout)"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:259
+msgid "Payment method title. Changes what the payment method is called on the order recieved page aswell as the email that is sent to the customer."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:264
+msgid "Test mode"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:265
+msgid "Enable Test Mode"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:267
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:272
+msgid "Logging"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:273
+msgid "Log debug messages"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:275
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:280
+msgid "Hide What is Klarna? link"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:282
+msgid "If checked, What is Klarna? will not be shown."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:287
+msgid "Float What is Klarna? link"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:289
+msgid "If checked, What is Klarna? will be floated right."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:294
+msgid "Product URLs"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:296
+msgid "Send product and product image URLs to Klarna"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:301
+msgid "Add Klarna Urls to order email"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:303
+msgid "This will add Klarna urls to the order emails that are sent. You can read more about this here: "
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:308, ../classes/admin/class-kp-form-fields.php:310
+msgid "Customer type"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:311
+msgid "Select the customer for the store."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:313
+msgid "B2C"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:314
+msgid "B2B"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:384
+msgid "Show Express Button on cart page"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:386
+msgid "Enable"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:391
+msgid "Theme"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:392
+msgid "The color of the button."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:396, ../classes/admin/class-kp-form-fields.php:406, ../classes/admin/class-kp-form-fields.php:416
+msgid "Default"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:397
+msgid "Dark"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:398
+msgid "Light"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:402
+msgid "Shape"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:407
+msgid "Rectangular"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:408
+msgid "Pill"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:412
+msgid "Label"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:421
+msgid "Button width"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:424
+msgid "A value between 145 and 500 (measured in pixels). Leave blank for default width."
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:427
+msgid "Button height"
+msgstr ""
+
+#: ../classes/admin/class-kp-form-fields.php:430
+msgid "A value between 35 and 60 (measured in pixels). Leave blank for default height."
+msgstr ""
+
+#: ../classes/requests/helpers/class-kp-order-lines.php:231, ../classes/requests/helpers/class-kp-order-lines.php:232, ../classes/requests/helpers/class-kp-order-lines.php:489, ../classes/requests/helpers/class-kp-order-lines.php:490
+msgid "Sales Tax"
+msgstr ""
+
+#: ../classes/requests/helpers/class-kp-order-lines.php:307, ../classes/requests/helpers/class-kp-order-lines.php:332
+msgid "Gift card"
+msgstr ""
+
+#: ../classes/requests/helpers/class-kp-order-lines.php:353, ../classes/requests/helpers/class-kp-order-lines.php:1017
+msgid "gift_card"
+msgstr ""
+
+#: ../classes/requests/helpers/class-kp-order-lines.php:466, ../classes/requests/helpers/class-kp-order-lines.php:774, ../classes/requests/helpers/class-kp-order-lines.php:800, ../classes/requests/helpers/class-kp-order-lines.php:948
+msgid "Shipping"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:17
+msgid "Klarna Payments System Status."
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:61
+msgid "No error logs"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:26
+msgid "Time"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:28
+msgid "Request"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:29
+msgid "Response Code"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:30
+msgid "Response Message"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:31
+msgid "Correlation ID"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:95
+msgid "Klarna Payments Countries"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:95
+msgid "Klarna Payments Countries System Status."
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:101
+msgid "Production Countries"
+msgstr ""
+
+#: ../includes/admin/views/status-report.php:106
+msgid "Test Countries"
+msgstr ""

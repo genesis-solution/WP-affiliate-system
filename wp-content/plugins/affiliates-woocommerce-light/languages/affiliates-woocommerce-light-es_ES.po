@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-04 09:57+0100\n"
+"PO-Revision-Date: 2017-01-04 09:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: affiliates-woocommerce-light.php:160
+msgid "Access denied."
+msgstr "Acceso denegado."
+
+#: affiliates-woocommerce-light.php:143 affiliates-woocommerce-light.php:182
+msgid "Affiliates WooCommerce Integration Light"
+msgstr "Affiliates WooCommerce Integration Light"
+
+#: affiliates-woocommerce-light.php:210
+msgid "Allow the plugin to provide usage stats."
+msgstr "Permitir al plugin recopilar estadísticas de uso."
+
+#: affiliates-woocommerce-light.php:203
+msgid ""
+"Example: Set the referral rate to <strong>0.1</strong> if you want your "
+"affiliates to get a <strong>10%</strong> commission on each sale."
+msgstr ""
+"Ejemplo: Establezca la tasa de comisión a <strong>0.1</strong> si quiere que "
+"el afiliado consiga un <strong>10%</strong> de comisión por cada compra."
+
+#: affiliates-woocommerce-light.php:317
+#, php-format
+msgid "Order #%s"
+msgstr "Pedido #%s"
+
+#: affiliates-woocommerce-light.php:240
+msgid ""
+"Powered by <a href='http://www.itthinx.com/plugins/affiliates-woocommerce-"
+"light' target='_blank'>Affiliates WooCommerce Integration Light</a>."
+msgstr ""
+"Impulsado por <a href='http://www.itthinx.com/plugins/affiliates-woocommerce-"
+"light' target='_blank'>Affiliates WooCommerce Integration Light</a>."
+
+#: affiliates-woocommerce-light.php:193
+msgid "Referral Rate"
+msgstr "Tasa de Comisión"
+
+#: affiliates-woocommerce-light.php:195
+msgid "Referral rate"
+msgstr "Tasa de comisión"
+
+#: affiliates-woocommerce-light.php:217
+msgid "Save"
+msgstr "Guardar"
+
+#: affiliates-woocommerce-light.php:132
+msgid "Set the Commission Rate"
+msgstr "Establecer la tasa de comisión"
+
+#: affiliates-woocommerce-light.php:93
+msgid ""
+"The <strong>Affiliates WooCommerce Integration Light</strong> plugin "
+"requires the <a href=\"http://wordpress.org/plugins/affiliates/"
+"\">Affiliates</a> plugin."
+msgstr ""
+"El plugin <strong>Affiliates WooCommerce Integration Light</strong> requiere "
+"del plugin <a href=\"http://wordpress.org/plugins/affiliates/\">Affiliates</"
+"a>."
+
+#: affiliates-woocommerce-light.php:96
+msgid ""
+"The <strong>Affiliates WooCommerce Integration Light</strong> plugin "
+"requires the <a href=\"http://wordpress.org/plugins/woocommerce/"
+"\">WooCommerce</a> plugin to be activated."
+msgstr ""
+"El plugin <strong>Affiliates WooCommerce Integration Light</strong> requiere "
+"del plugin <a href=\"http://wordpress.org/plugins/woocommerce/"
+"\">WooCommerce</a> para ser activado."
+
+#: affiliates-woocommerce-light.php:200
+msgid ""
+"The referral rate determines the referral amount based on the net sale made."
+msgstr ""
+"La tasa de comisión determina la cantidad de la referencia basada en el "
+"valor neto de la venta."
+
+#: affiliates-woocommerce-light.php:212
+msgid ""
+"This will allow the plugin to help in computing how many installations are "
+"actually using it. No personal or site data is transmitted, this simply "
+"embeds an icon on the bottom of the Affiliates admin pages, so that the "
+"number of visits to these can be counted. This is useful to help prioritize "
+"development."
+msgstr ""
+"Esto ayudará al plugin a computar cuantas instalaciones actualmente lo están "
+"usando. Ni datos personales, ni datos del sitio serán recogidos, simplemente "
+"añade un icono en las páginas de administración de Affiliates, así se puede "
+"contar el número de visitas. Esto es útil para ayudar a priorizar el "
+"desarrollo."
+
+#: affiliates-woocommerce-light.php:206
+msgid "Usage stats"
+msgstr "Estadísticas de uso"
+
+#: affiliates-woocommerce-light.php:144
+msgid "WooCommerce Integration Light"
+msgstr "WooCommerce Integration Light"
+
+#: affiliates-woocommerce-light.php:187
+msgid ""
+"You can support the development of the Affiliates plugin and get additional "
+"features with <a href=\"http://www.itthinx.com/shop/affiliates-pro/\" target="
+"\"_blank\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/shop/"
+"affiliates-enterprise/\" target=\"_blank\">Affiliates Enterprise</a>."
+msgstr ""
+"Puedes soportar el desarrollo del plugin Affiliates y conseguir "
+"características adicionales con <a href=\"http://www.itthinx.com/shop/"
+"affiliates-pro/\" target=\"_blank\">Affiliates Pro</a> y <a href=\"http://"
+"www.itthinx.com/shop/affiliates-enterprise/\" target=\"_blank\">Affiliates "
+"Enterprise</a>."
+
+#: affiliates-woocommerce-light.php:99
+msgid ""
+"You do not need to use the <srtrong>Affiliates WooCommerce Integration "
+"Light</strong> plugin because you are already using the advanced Affiliates "
+"WooCommerce Integration plugin. Please deactivate the <strong>Affiliates "
+"WooCommerce Integration Light</strong> plugin now."
+msgstr ""
+"No necesitas usar el plugin <srtrong>Affiliates WooCommerce Integration "
+"Light</strong> porque ya tienes las características avanzadas usando "
+"Affiliates WooCommerce Integration plugin. Por favor desactiva el plugin "
+"<strong>Affiliates WooCommerce Integration Light</strong>."

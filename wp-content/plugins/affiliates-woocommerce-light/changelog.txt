@@ -1,0 +1,159 @@
+Changelog - Affiliates WooCommerce Light - www.itthinx.com
+
+= 2.1.0 =
+* WordPress 6.2 compatible.
+* WooCommerce 7.9 compatible.
+* Added a workaround for a potential issue related to WooCommerce checking order types while obtaining their edit URL during checkout.
+
+= 2.0.0 =
+* WordPress 6.2 compatible.
+* WooCommerce 7.8 compatible.
+* Requires at least WordPress 6.0.
+* Requires at least WooCommerce 7.4.
+* Requires at least PHP 7.2.
+* WooCommerce HPOS compatible.
+* Updated the method signature of the checkout action handler.
+* Improved how the referral post links are displayed for order referrals, using the new API provided as of Affiliates 4.19.0.
+* Order referral links provided require the manage_woocommerce capability.
+* Added an improved plugin check for plugin requirements.
+
+= 1.17.0 =
+* WordPress 6.1 compatible.
+* WooCommerce 7.4 compatible.
+
+= 1.16.0 =
+* WordPress 6.1 compatible.
+* WooCommerce 7.3 compatible.
+* Requires at least WordPress 5.8.
+* Requires at least WooCommerce 6.0.
+
+= 1.15.0 =
+* WordPress 6.0 compatible.
+* WooCommerce 6.7 compatible.
+* Added missing code docs.
+* Removed unused code bits.
+* Revised the admin section HTML.
+* Removed trailing whitespace in files.
+* Revised the readme.txt.
+
+= 1.14.0 =
+* WordPress 6.0 compatible.
+* WooCommerce 6.5 compatible.
+* Requires at least WooCommerce 5.9.
+
+= 1.13.0 =
+* WordPress 6.0 compatible.
+* WooCommerce 6.2 compatible.
+* Requires at least WordPress 5.6.
+* Requires at least WooCommerce 5.8.
+
+= 1.12.0 =
+* WordPress 5.8 compatible.
+* WooCommerce 5.8 compatible.
+* Requires at least WooCommerce 5.0.
+
+= 1.11.0 =
+* WordPress 5.7 compatible.
+* WooCommerce 5.2 compatible.
+* Updated http -> https references where appropriate.
+
+= 1.10.0 =
+* WordPress 5.7 compatible.
+* WooCommerce 5.1 compatible.
+
+= 1.9.0 =
+* WordPress 5.5 compatible.
+* WooCommerce 4.5 compatible.
+* Using site protocol for stats requests when enabled.
+
+= 1.8.0 =
+* WordPress 5.4 compatible.
+* WooCommerce 4.0 compatible.
+
+= 1.7.0 =
+* WordPress 5.3 compatible.
+* WooCommerce 3.8 compatible.
+
+= 1.6.0 =
+* Revised and tested for latest stable WordPress 5.1 compatibility.
+* Revised and tested for latest stable WooCommerce 3.6 compatibility.
+* Code documentation and validation fixes.
+* Minor security improvements adding extra escaping to translated strings.
+
+= 1.5.0 =
+* WordPress 5.x compatible.
+* WooCommerce 3.6 compatible.
+
+= 1.4.0 =
+* WordPress 5.0 compatible.
+* WooCommerce 3.5 compatible.
+
+= 1.3.3 =
+* WordPress 4.9 compatible.
+* WooCommerce 3.2.5 tested.
+* Changelog file added.
+* Added an ABSPATH check.
+
+= 1.3.2 =
+* Woocommerce 3.0.0 compatible.
+
+= 1.3.1 =
+* WordPress 4.7 compatible.
+* Corrected the language domain for a translatable string.
+* Added the Spanish translation.
+
+= 1.3.0 =
+* WordPress 4.5 compatible.
+* Replaced usage of constant with string literal for the plugin's language domain.
+
+= 1.2.0 =
+* Updated the commission calculation to take discounts excluding tax into account.
+
+= 1.1.0 =
+* Updated the referral calculation to use order methods.
+* Updated the plugin version info, tested for WordPress 4.2 and requires at least WordPress 4.0.
+* Fixed the path to WooCommerce on wordpress.org.
+* Updated the plugin info and added information on features and advanced versions.
+
+= 1.0.12 =
+* Added a setup hint button to set the commission rate.
+
+= 1.0.11 =
+* WordPress 4.1 compatibility checked.
+
+= 1.0.10 =
+* Added button class in admin section.
+* Tested for WordPress 4.0 and WooCommerce 2.2.0 compatibility.
+
+= 1.0.9 =
+* Settings page cleaned up, reduced note footprint.
+
+= 1.0.8 =
+* WordPress 3.9 compatibility checked.
+
+= 1.0.7 =
+* WordPress 3.8 compatibility checked.
+
+= 1.0.6 =
+* WP 3.6 compatibility tested
+
+= 1.0.5 =
+* Fixed links to orders with ugly permalink settings
+
+= 1.0.4 =
+* WP 3.5 compatibility tested
+
+= 1.0.3 =
+* WP 3.4.1 compatibility
+
+= 1.0.2 =
+* Fixed links to orders on _Visits & Referrals_ and _Affiliates & Referrals_ admin screens
+* Added usage stats option
+* Reduced footprint on affiliates admin pages
+
+= 1.0.1 =
+* Referral amount calculation adjusted to missing subtotal (WooCommerce > 1.3.2.1)
+
+= 1.0.0 =
+* Initial release.
+ 
