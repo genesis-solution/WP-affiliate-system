@@ -43,9 +43,9 @@ class Affiliates_Settings_Network {
 	public static function network_admin_settings() {
 			global $wp, $wpdb, $affiliates_options, $wp_roles;
 			if ( !current_user_can( AFFILIATES_ADMINISTER_OPTIONS ) ) {
-				wp_die( __( 'Access denied.', 'affiliates' ) );
+				wp_die( __( '拒絕訪問。', 'affiliates' ) );
 			}
-			echo '<h1>' . __( 'Affiliates', 'affiliates' ) . '</h1>';
+			echo '<h1>' . __( '行政人員', 'affiliates' ) . '</h1>';
 			if ( affiliates_is_sitewide_plugin() ) {
 				if ( isset( $_POST['submit'] ) ) {
 					if (

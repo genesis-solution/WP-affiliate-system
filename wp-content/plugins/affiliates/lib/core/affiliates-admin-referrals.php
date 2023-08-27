@@ -35,7 +35,7 @@ function affiliates_admin_referrals() {
 	$output = '';
 
 	if ( !current_user_can( AFFILIATES_ACCESS_AFFILIATES ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	// $_GET actions
@@ -74,7 +74,7 @@ function affiliates_admin_referrals() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_FILTER_NONCE] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_FILTER_NONCE], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -254,7 +254,7 @@ function affiliates_admin_referrals() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_NONCE_1] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_NONCE_1], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -263,7 +263,7 @@ function affiliates_admin_referrals() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_NONCE_2] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_NONCE_2], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -273,7 +273,7 @@ function affiliates_admin_referrals() {
 	$output .=
 		'<div>' .
 		'<h1>' .
-		__( 'Referrals', 'affiliates' ) .
+		__( '推薦人', 'affiliates' ) .
 		'</h1>' .
 		'</div>';
 
@@ -540,7 +540,7 @@ function affiliates_admin_referrals() {
 		<div class="page-options">
 			<form id="setrowcount" action="" method="post">
 				<div>
-					<label for="row_count">' . __('Results per page', 'affiliates' ) . '</label>' .
+					<label for="row_count">' . __( '每頁結果', 'affiliates' ) . '</label>' .
 					'<input name="row_count" type="text" size="2" value="' . esc_attr( $row_count ) .'" />
 					' . wp_nonce_field( 'admin', AFFILIATES_ADMIN_HITS_NONCE_1, true, false ) . '
 					<input class="button" type="submit" value="' . __( 'Apply', 'affiliates' ) . '"/>

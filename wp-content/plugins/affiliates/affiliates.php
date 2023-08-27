@@ -2,8 +2,6 @@
 /**
  * affiliates.php
  *
- * Copyright (c) 2010-2023 "kento" Karim Rahimpur www.itthinx.com
- *
  * This code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
  *
@@ -14,20 +12,20 @@
  *
  * This header and all notices must be kept intact.
  *
- * @author Karim Rahimpur
- * @package affiliates
+ * @author Alex Ivanovic
+ * @package Affiliates
  * @since affiliates 1.0.0
  *
- * Plugin Name: Affiliates
- * Plugin URI: https://www.itthinx.com/plugins/affiliates
+ * Plugin Name: my affiliate
+ * Plugin URI: http://localhost/plugins/affiliates
  * Description: The Affiliates plugin provides the right tools to maintain a partner referral program.
- * Version: 4.19.0
- * Author: itthinx
- * Author URI: https://www.itthinx.com
- * Donate-Link: https://www.itthinx.com/shop
+ * Version: 1.0.0
+ * Author: Jon
+ * Author URI: http://localhost
+ * Donate-Link: http://localhost/shop
  * Text Domain: affiliates
  * Domain Path: /lib/core/languages
- * License: GPLv3
+ * License: GPL2
  */
 
 if ( !defined( 'ABSPATH' ) ) {
@@ -35,8 +33,8 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 if ( !defined( 'AFFILIATES_CORE_VERSION' ) ) {
-	define( 'AFFILIATES_CORE_VERSION', '4.19.0' );
-	define( 'AFFILIATES_PLUGIN_NAME', 'affiliates' );
+	define( 'AFFILIATES_CORE_VERSION', '1.0.0' );
+	define( 'AFFILIATES_PLUGIN_NAME', 'my affiliate' );
 	define( 'AFFILIATES_FILE', __FILE__ );
 	define( 'AFFILIATES_PLUGIN_BASENAME', plugin_basename( AFFILIATES_FILE ) );
 	if ( !defined( 'AFFILIATES_CORE_DIR' ) ) {

@@ -94,7 +94,7 @@ class Affiliates_Dashboard_Overview extends Affiliates_Dashboard_Section {
 		wp_localize_script( 'affiliates-dashboard-overview-graph', 'affiliates_dashboard_overview_graph_l12n', array(
 			'hits' => __( 'Hits', 'affiliates' ),
 			'visits' => __( 'Visits', 'affiliates' ),
-			'referrals' => __( 'Referrals', 'affiliates' )
+			'referrals' => __( '推薦人', 'affiliates' )
 		) );
 
 		// Prepare graph data ...

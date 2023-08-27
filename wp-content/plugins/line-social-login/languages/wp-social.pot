@@ -1,0 +1,1551 @@
+# Copyright (C) 2023 Wpmet
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp Social 2.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-social\n"
+"POT-Creation-Date: 2023-03-14 08:19:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: app/login-settings.php:38
+msgid "Icon with providers label"
+msgstr ""
+
+#: app/login-settings.php:44
+msgid "Only social icon"
+msgstr ""
+
+#: app/login-settings.php:50
+msgid "Only providers label"
+msgstr ""
+
+#: app/login-settings.php:64
+msgid "Icon Overlay"
+msgstr ""
+
+#: app/login-settings.php:70
+msgid "Left Slide"
+msgstr ""
+
+#: app/login-settings.php:76
+msgid "Circle Blow"
+msgstr ""
+
+#: app/providers.php:274
+msgid ""
+"To allow your visitors to log in with their Facebook account, first you "
+"must create a Facebook App. The following guide will help you through the "
+"Facebook App creation process. After you have created your Facebook App, "
+"head over to \"Settings\" and configure the given \"App ID\" and \"App "
+"Secret\" according to your Facebook App."
+msgstr ""
+
+#: app/providers.php:276
+msgid "For local development environment you do not need to add the redirect URI."
+msgstr ""
+
+#: app/providers.php:280
+msgid ""
+"To allow your visitors to log in with their Google account, first you must "
+"create a Google Project. The following guide will help you through the "
+"Google project creation process. After you have created your Google "
+"project, head over to \"Settings\" and configure the given \"App ID\" and "
+"\"App Secret\" according to your Google App."
+msgstr ""
+
+#: app/providers.php:286
+msgid ""
+"To connect your Auth0 app to LinkedIn, you will need to generate a Client "
+"ID and Client Secret in a LinkedIn app, copy these keys into your Auth0 "
+"settings, and enable the connection"
+msgstr ""
+
+#: app/providers.php:292
+msgid ""
+"To allow your visitors to log in with their Twitter account, first you must "
+"create a Twitter App. The following guide will help you through the Twitter "
+"App creation process. After you have created your Twitter App, head over to "
+"\"Settings\" and configure the given \"Consumer Key\" and \"Consumer "
+"Secret\" according to your Twitter App."
+msgstr ""
+
+#: app/providers.php:298
+msgid ""
+"To allow your visitors to log in with their Dribbble account, first you "
+"must create a Dribbble App. The following guide will help you through the "
+"Dribbble App creation process. After you have created your Dribbble App, "
+"head over to \"Settings\" and configure the given \"App ID\" and \"App "
+"Secret\" according to your Dribbble App."
+msgstr ""
+
+#: app/providers.php:304
+msgid ""
+"To allow your visitors to log in with their GitHub account, first you must "
+"create a GitHub App. The following guide will help you through the GitHub "
+"App creation process. After you have created your GitHub App, head over to "
+"\"Settings\" and configure the given \"App ID\" and \"App Secret\" "
+"according to your GitHub App."
+msgstr ""
+
+#: app/providers.php:310
+msgid ""
+"To allow your visitors to log in with their WordPress account, first you "
+"must create a WordPress App. The following guide will help you through the "
+"WordPress App creation process. After you have created your WordPress App, "
+"head over to \"Settings\" and configure the given \"App ID\" and \"App "
+"Secret\" according to your WordPress App."
+msgstr ""
+
+#: app/providers.php:316
+msgid ""
+"To allow your visitors to log in with their Reddit account, first you must "
+"create a Reddit App. The following guide will help you through the Reddit "
+"App creation process. After you have created your Reddit App, head over to "
+"\"Settings\" and configure the given \"App ID\" and \"App Secret\" "
+"according to your Reddit App."
+msgstr ""
+
+#: app/providers.php:322
+msgid ""
+"To allow your visitors to log in with their Vkontakte account, first you "
+"must create a Vkontakte App. The following guide will help you through the "
+"Vkontakte App creation process. After you have created your Vkontakte App, "
+"head over to \"Settings\" and configure the given \"App ID\" and \"App "
+"Secret\" according to your Vkontakte App."
+msgstr ""
+
+#: app/providers.php:328
+msgid ""
+"To allow your visitors to log in with their LineApp account, first you must "
+"create a LineApp. The following guide will help you through the LineApp "
+"creation process. After you have created your LineApp, head over to "
+"\"Settings\" and configure the given \"App ID\" and \"App Secret\" "
+"according to your LineApp."
+msgstr ""
+
+#: app/providers.php:343 inc/counter.php:327
+msgid "Fans"
+msgstr ""
+
+#: app/providers.php:351 app/providers.php:365 app/providers.php:377
+#: app/providers.php:390 inc/counter.php:331 inc/counter.php:336
+#: inc/counter.php:340 inc/counter.php:344
+msgid "Followers"
+msgstr ""
+
+#: app/providers.php:356 app/providers.php:381 inc/counter.php:373
+#: inc/counter.php:417 inc/counter.php:443
+msgid "Access Token Key"
+msgstr ""
+
+#: app/providers.php:402 app/providers.php:417 inc/counter.php:348
+#: inc/counter.php:350
+msgid "Subscribers"
+msgstr ""
+
+#: app/providers.php:426 app/providers.php:431 inc/counter.php:351
+#: inc/counter.php:352
+msgid "Count"
+msgstr ""
+
+#: app/route.php:29
+msgid "Cache cleared successfully!"
+msgstr ""
+
+#: app/route.php:35
+msgid "No cache found."
+msgstr ""
+
+#: app/route.php:41
+msgid "Invalid data."
+msgstr ""
+
+#: helper/share-style-settings.php:24 template/admin/share/style-setting.php:44
+#: template/admin/share/style-setting.php:50
+msgid "Choose where to show share buttons."
+msgstr ""
+
+#: helper/share-style-settings.php:30
+msgid "Global Setting"
+msgstr ""
+
+#: helper/share-style-settings.php:38
+msgid "After Content"
+msgstr ""
+
+#: helper/share-style-settings.php:45
+msgid "Before Content"
+msgstr ""
+
+#: helper/share-style-settings.php:52
+msgid "Before & After Content"
+msgstr ""
+
+#: helper/share-style-settings.php:59
+msgid "Disable"
+msgstr ""
+
+#: helper/share-style-settings.php:87 helper/social-share-style.php:4
+msgid "WP Social Share Style Settings"
+msgstr ""
+
+#: inc/admin-settings.php:72
+msgid "Icon with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:78
+msgid "Icon with fill color and space"
+msgstr ""
+
+#: inc/admin-settings.php:84
+msgid "Icon with hover fill color and space"
+msgstr ""
+
+#: inc/admin-settings.php:98
+msgid "Icon with text"
+msgstr ""
+
+#: inc/admin-settings.php:104
+msgid "Icon with text & slightly rounded"
+msgstr ""
+
+#: inc/admin-settings.php:110
+msgid "Circled Icon with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:116
+msgid "Circled Icon with hover fill color"
+msgstr ""
+
+#: inc/admin-settings.php:122
+msgid "Icon with colored border"
+msgstr ""
+
+#: inc/admin-settings.php:128
+msgid "Icon with hover colored border"
+msgstr ""
+
+#: inc/admin-settings.php:134
+msgid "Icon with colored rounded border"
+msgstr ""
+
+#: inc/admin-settings.php:140
+msgid "Icon with hover colored rounded border"
+msgstr ""
+
+#: inc/admin-settings.php:146
+msgid "Icon with hover fill color border"
+msgstr ""
+
+#: inc/admin-settings.php:152
+msgid "Slightly rounded icon with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:158
+msgid "Icon with follower count"
+msgstr ""
+
+#: inc/admin-settings.php:164
+msgid "Rounded filled icon with text"
+msgstr ""
+
+#: inc/admin-settings.php:170
+msgid "Semi-rounded icon with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:176
+msgid "Semi-rounded icon and border color"
+msgstr ""
+
+#: inc/admin-settings.php:182
+msgid "Icon with text and follower count"
+msgstr ""
+
+#: inc/admin-settings.php:202
+msgid "Flat style with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:209
+msgid "Line style with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:216
+msgid "Line slightly rounded style with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:230
+msgid "Flat style with hover fill color"
+msgstr ""
+
+#: inc/admin-settings.php:236
+msgid "Metro style with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:242
+msgid "Flat style with hover icon color"
+msgstr ""
+
+#: inc/admin-settings.php:248
+msgid "Flat style with icon color"
+msgstr ""
+
+#: inc/admin-settings.php:254
+msgid "Flat style with icon fill color"
+msgstr ""
+
+#: inc/admin-settings.php:260
+msgid "Flat style with fill color & rounded icon"
+msgstr ""
+
+#: inc/admin-settings.php:266
+msgid "Vertical line style with icon color"
+msgstr ""
+
+#: inc/admin-settings.php:272
+msgid "Vertical line style with icon fill color"
+msgstr ""
+
+#: inc/admin-settings.php:278
+msgid "Vertical line style with fill color & rounded icon"
+msgstr ""
+
+#: inc/admin-settings.php:284
+msgid "Rounded icon style with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:290
+msgid "Rounded icon style with hover fill color"
+msgstr ""
+
+#: inc/admin-settings.php:296
+msgid "Slightly Rounded icon style with fill color"
+msgstr ""
+
+#: inc/admin-settings.php:302
+msgid "Slightly Rounded icon style with hover fill color"
+msgstr ""
+
+#: inc/admin-settings.php:308
+msgid "Metro style with hover fill color"
+msgstr ""
+
+#: inc/admin-settings.php:314
+msgid "Line style with hover fill color"
+msgstr ""
+
+#: inc/admin-settings.php:335
+msgid "WP Social Login Ultimate"
+msgstr ""
+
+#: inc/admin-settings.php:335 lib/onboard/views/onboard-steps/step-05.php:5
+#: wp-social.php:156
+msgid "WP Social"
+msgstr ""
+
+#: inc/admin-settings.php:336 inc/elementor/elements.php:47
+#: inc/login-widget.php:63
+msgid "Social Login"
+msgstr ""
+
+#: inc/admin-settings.php:337
+msgid "Social Share"
+msgstr ""
+
+#: inc/admin-settings.php:338
+msgid "Social Counter"
+msgstr ""
+
+#: inc/admin-settings.php:339 template/admin/counter/providers-counter.php:90
+#: template/admin/providers-setting.php:53
+#: template/admin/providers-setting.php:86
+#: template/admin/share/share-providers.php:68
+msgid "Settings"
+msgstr ""
+
+#: inc/counter-widget.php:29
+msgid ""
+"Wp Social Login System for Facebook, Twitter, Linkedin, Dribble, Pinterest, "
+"Post, Comments counter."
+msgstr ""
+
+#: inc/counter-widget.php:32
+msgid "WSLU Social Counter"
+msgstr ""
+
+#: inc/counter-widget.php:82
+msgid "Follow us"
+msgstr ""
+
+#: inc/counter-widget.php:90
+msgid "Counter Title :"
+msgstr ""
+
+#: inc/counter-widget.php:96
+msgid "Providers :"
+msgstr ""
+
+#: inc/counter-widget.php:112 inc/share-widget.php:97
+msgid "Style :"
+msgstr ""
+
+#: inc/counter-widget.php:143 inc/share-widget.php:131
+msgid "Hover effect :"
+msgstr ""
+
+#: inc/counter-widget.php:159 inc/share-widget.php:158
+msgid "Custom Class :"
+msgstr ""
+
+#: inc/counter.php:389
+msgid "Get access token "
+msgstr ""
+
+#: inc/elementor/widgets/share.php:22
+msgid "Share Button"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:63 inc/elementor/widgets/share.php:110
+#: template/admin/counter/tab-menu.php:25 template/admin/share/tab-menu.php:17
+#: template/admin/tab-menu.php:20
+msgid "Providers"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:69
+msgid "Select Providers"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:79
+msgid "Select Style"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:89
+msgid "Show Share Count"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:91 inc/share-widget.php:151
+#: template/admin/counter/counter-setting.php:45
+#: template/admin/share/share-setting.php:33
+#: template/admin/share/style-setting.php:73
+#: template/admin/share/style-setting.php:176
+msgid "Yes"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:92 inc/share-widget.php:150
+#: template/admin/counter/counter-setting.php:51
+#: template/admin/share/share-setting.php:39
+#: template/admin/share/style-setting.php:79
+#: template/admin/share/style-setting.php:182
+msgid "No"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:99
+msgid "Custom Class"
+msgstr ""
+
+#: inc/login-widget.php:23
+msgid "WSLU Social Login"
+msgstr ""
+
+#: inc/login-widget.php:25
+msgid ""
+"Wp Social Login System for Facebook, Twitter, Linkedin, Dribble, Pinterest, "
+"Wordpress, Instagram, GitHub, Vkontakte and Reddit login from WordPress "
+"site."
+msgstr ""
+
+#: inc/login-widget.php:70
+msgid "Title:"
+msgstr ""
+
+#: inc/login-widget.php:74
+msgid "Show the Social Box only :"
+msgstr ""
+
+#: inc/login-widget.php:76
+msgid "Will show only counter block without title."
+msgstr ""
+
+#: inc/login-widget.php:79
+msgid "Custom Class:"
+msgstr ""
+
+#: inc/share-widget.php:30
+msgid "WSLU Social Share"
+msgstr ""
+
+#: inc/share-widget.php:32
+msgid ""
+"Wp Social Share System for Facebook, Twitter, Linkedin, Pinterest & 13+ "
+"providers."
+msgstr ""
+
+#: inc/share-widget.php:75
+msgid "SOCIAL SHARE"
+msgstr ""
+
+#: inc/share-widget.php:81
+msgid "Share Title:"
+msgstr ""
+
+#: inc/share-widget.php:86
+msgid "Layout:"
+msgstr ""
+
+#: inc/share-widget.php:147
+msgid "Show total count :"
+msgstr ""
+
+#: lib/announcements/init.php:257 lib/stories/stories.php:255
+msgid "Wpmet Stories"
+msgstr ""
+
+#: lib/announcements/views/template.php:133 lib/stories/views/template.php:137
+msgid "Need Help?"
+msgstr ""
+
+#: lib/announcements/views/template.php:137 lib/stories/views/template.php:141
+msgid "Blog"
+msgstr ""
+
+#: lib/announcements/views/template.php:141 lib/stories/views/template.php:145
+msgid "Facebook Community"
+msgstr ""
+
+#: lib/onboard/classes/plugin-status.php:57
+msgid "Activated"
+msgstr ""
+
+#: lib/onboard/classes/plugin-status.php:60
+msgid "Activate Now"
+msgstr ""
+
+#: lib/onboard/classes/plugin-status.php:65
+msgid "Install Now"
+msgstr ""
+
+#: lib/onboard/onboard.php:191
+msgid "Show button to wp-login page"
+msgstr ""
+
+#: lib/onboard/onboard.php:195 template/admin/global-setting.php:332
+msgid "Email login credentials to a newly-registered user"
+msgstr ""
+
+#: lib/onboard/onboard.php:201 lib/onboard/onboard.php:211
+#: template/admin/counter/counter-setting.php:37
+#: template/admin/share/share-setting.php:25
+msgid "Use theme default font family"
+msgstr ""
+
+#: lib/onboard/onboard.php:205 template/admin/share/style-setting.php:65
+#: template/admin/share/style-setting.php:168
+msgid "Show total count"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:6
+msgid "Dashboard"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:7
+msgid "General info"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:12
+msgid "Widgets"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:13
+msgid "Enable disable widgets"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:17
+#: lib/onboard/views/onboard-steps/step-01.php:2
+msgid "Modules"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:18
+msgid "Enable disable modules"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:22
+msgid "User Settings"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:23
+msgid "Settings for fb, mailchimp etc"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:33
+msgid "Configuration"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:34
+msgid "Configuration info"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:38
+msgid "Sign Up"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:39
+msgid "Sign Up info"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:43
+msgid "Website Powerup"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:44
+msgid "Website Powerup info"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:48
+msgid "Tutorial"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:49
+msgid "Tutorial info"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:53
+msgid "Surprise"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:54
+msgid "Surprise info"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:58
+msgid "Finalizing"
+msgstr ""
+
+#: lib/onboard/views/layout-onboard.php:59
+msgid "Finalizing info"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-01.php:11
+#: lib/onboard/views/onboard-steps/step-02.php:34
+#: lib/onboard/views/onboard-steps/step-03.php:78
+#: lib/onboard/views/onboard-steps/step-04.php:32
+#: lib/onboard/views/onboard-steps/step-05.php:25
+msgid "Back"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-01.php:12
+#: lib/onboard/views/onboard-steps/step-02.php:35
+#: lib/onboard/views/onboard-steps/step-03.php:79
+#: lib/onboard/views/onboard-steps/step-04.php:33
+#: lib/onboard/views/onboard-steps/step-05.php:26
+msgid "Next Step"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-02.php:7
+msgid "Welcome to Wp Social"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-02.php:8
+msgid "The All-In-One Social Plugin for WordPress."
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-02.php:13
+msgid ""
+"SignUp now to Join a Big Community of Digital Enthusiasts, Marketers, and "
+"Developers"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-02.php:24
+msgid "Submit Your Best Email"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:4
+#: lib/pro-awareness/pro-awareness.php:261
+msgid "Take your website to the next level"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:5
+#: lib/pro-awareness/pro-awareness.php:262
+msgid "We have some plugins you can install to get most from Wordpress."
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:6
+msgid "These are absolute FREE to use."
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:19
+msgid "Get FREE 1500 AI words, SEO Keyword, and Competitor Analysis credits"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:19
+msgid "on your personal AI assistant for Content & SEO right inside WordPress!"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:29
+msgid "Completely customize your  WooCommerce WordPress"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:39
+msgid "All-in-One Addons for Elementor"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:49 wp-social.php:174
+msgid "Most flexible drag-and-drop form builder"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-03.php:59
+#: lib/onboard/views/onboard-steps/step-03.php:69 wp-social.php:182
+msgid "Integrate various styled review system in your website"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-04.php:4
+msgid ""
+"Learn How You Can Integrate All Social Media Features in Website without "
+"Coding"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-04.php:25
+msgid "Share non-sensitive diagnostic data and details about plugin usage."
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-04.php:28
+msgid ""
+"We gather non-sensitive diagnostic data as well as information about plugin "
+"use. Your site's URL, WordPress and PHP versions, plugins and themes, as "
+"well as your email address, will be used to give you a discount coupon. "
+"This information enables us to ensure that this plugin remains consistent "
+"with the most common plugins and themes at all times. We pledge not to give "
+"you any spam, for sure."
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-04.php:29
+msgid "What types of information do we gather?"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:2
+msgid ""
+"Exclusive <strong>40% Discount</strong> Only for <br/> Next <strong>2 "
+"Hours</strong> - Grab It Now"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:5
+msgid "PRO"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:8
+msgid "GDPR Compliant"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:9
+msgid "Smooth Integration"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:10
+msgid "Regular Updates of API"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:11
+msgid "Multiple Icon Layouts"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:12
+msgid "Social Counter Effects"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:13
+msgid "Zoom Integration"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:16
+msgid "10+ Social Media Platforms Supportable"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:17
+msgid "90+ Social Counter Layouts"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:18
+msgid "5+ Advanced Features"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-05.php:21
+msgid "Explore PRO"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-06.php:3
+msgid "Congratulations!"
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-06.php:4
+msgid ""
+"Let’s dive into developing your website with the world’s best social plugin "
+"for Wordpress."
+msgstr ""
+
+#: lib/onboard/views/onboard-steps/step-06.php:5
+#: template/admin/counter/counter-setting.php:67
+#: template/admin/counter/providers-counter.php:448
+#: template/admin/counter/style-setting.php:120
+#: template/admin/global-setting.php:348
+#: template/admin/providers-setting.php:244 template/admin/settings.php:72
+#: template/admin/share/share-providers.php:165
+#: template/admin/share/share-setting.php:52
+#: template/admin/share/share-setting.php:127
+#: template/admin/share/style-setting.php:393
+#: template/admin/style-setting.php:63
+msgid "Save Changes"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:8
+#: lib/onboard/views/settings-sections/dashboard.php:128
+msgid "Documentation Thumb"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:12
+msgid "Easy Documentation"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:13
+msgid "Docs"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:15
+#: lib/onboard/views/settings-sections/dashboard.php:121
+msgid ""
+"Get started by spending some time with the documentation to get familiar "
+"with ElementsKit Lite. Build awesome websites for you or your clients with "
+"ease."
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:17
+msgid "Get started"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:26 wp-social.php:119
+msgid "Video Tutorials"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:27
+msgid "Tutorials"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:29
+#: lib/onboard/views/settings-sections/dashboard.php:78
+msgid ""
+"Get started by spending some time with the documentation to get familiar "
+"with ElementsKit Lite."
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:36
+#: lib/onboard/views/settings-sections/dashboard.php:44
+#: lib/onboard/views/settings-sections/dashboard.php:52
+msgid "Totorial Thumb"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:38
+msgid "Parallax Effects"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:46
+msgid "Advanced Accordions"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:54
+msgid "Mega Menu Builder"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:67
+msgid "watch more videos"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:75
+msgid "General Knowledge Base"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:76
+msgid "FAQ"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:83
+msgid "1. How to create a shop page in ElementsKit Lite?"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:86
+#: lib/onboard/views/settings-sections/dashboard.php:94
+#: lib/onboard/views/settings-sections/dashboard.php:102
+msgid ""
+"You will get 20+ complete homepages and total 450+ blocks in our layout "
+"library and we’re continuously updating the numbers there."
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:91
+msgid "2. How to translate theme with WPML?"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:99
+msgid "3. How to add custom css in specific section shortcode?"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:110
+msgid "View all faq’s"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:118
+msgid "Top-notch Friendly Support"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:119
+msgid "Support"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:123
+msgid "Join support forum"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:136
+msgid "Feature a Request Thumb"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:140
+msgid "Maybe we’re missing something you can’t live without."
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:142
+msgid "Feature a request"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:152
+msgid "Satisfied?"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:152
+msgid "Don’t forget to rate our item."
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:154
+msgid "Rate it now"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/dashboard.php:159
+msgid "Rate Now Thumb"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/modules.php:9
+msgid ""
+"You can disable the modules you are not using on your site. That will "
+"disable all associated assets of those modules to improve your site loading "
+"speed."
+msgstr ""
+
+#: lib/onboard/views/settings-sections/modules.php:13
+msgid "Header Footer"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/modules.php:16
+msgid "Widget Builder"
+msgstr ""
+
+#: lib/onboard/views/settings-sections/widgets.php:9
+msgid ""
+"You can disable the elements you are not using on your site. That will "
+"disable all associated assets of those widgets to improve your site loading "
+"speed."
+msgstr ""
+
+#: lib/pro-awareness/pro-awareness.php:38
+msgid "Get Help"
+msgstr ""
+
+#: lib/pro-awareness/pro-awareness.php:166
+#: lib/pro-awareness/pro-awareness.php:181
+msgid "Default Title"
+msgstr ""
+
+#: lib/provider/counter/counter.php:23
+#: template/admin/counter/providers-counter.php:412
+msgid "No cache found"
+msgstr ""
+
+#: lib/rating/rating.php:334
+msgid "Ok, you deserved it"
+msgstr ""
+
+#: lib/rating/rating.php:340
+msgid "I already did"
+msgstr ""
+
+#: lib/rating/rating.php:347
+msgid "I need support"
+msgstr ""
+
+#: lib/rating/rating.php:354
+msgid "Never ask again"
+msgstr ""
+
+#: lib/rating/rating.php:361
+msgid "No, not good enough"
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:10
+#: template/admin/global-setting.php:10
+#: template/admin/share/share-setting.php:10
+msgid "Global setting data have been updated."
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:11
+#: template/admin/counter/providers-counter.php:23
+#: template/admin/counter/style-setting.php:20
+#: template/admin/global-setting.php:11 template/admin/providers-setting.php:16
+#: template/admin/settings.php:24 template/admin/share/share-providers.php:16
+#: template/admin/share/share-setting.php:11
+#: template/admin/share/style-setting.php:21
+#: template/admin/style-setting.php:19
+msgid "Dismiss this notice."
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:23
+msgid "Cache (hours)"
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:55
+#: template/admin/share/share-setting.php:43
+msgid ""
+"Choose \"Yes\" if you want to use the default font family of the theme "
+"installed on your website."
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:74
+#: template/admin/global-setting.php:355
+#: template/admin/share/share-setting.php:133
+#: template/admin/share/share-setting.php:154
+msgid "Shortcode "
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:21
+#: template/admin/providers-setting.php:14
+#: template/admin/share/share-providers.php:14
+msgid "Providers data have been updated."
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:92
+#: template/admin/providers-setting.php:55
+#: template/admin/providers-setting.php:85
+#: template/admin/share/share-providers.php:68
+msgid "Getting Started"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:213
+msgid "Get Access Token"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:374
+#: template/admin/share/share-providers.php:131
+msgid "Text Below The Number"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:386
+#: template/admin/share/share-providers.php:143
+msgid "Label Name"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:412
+msgid "ago"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:420
+msgid "Clear"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:424
+msgid "Cached : "
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:521
+#: template/admin/counter/providers-counter.php:530
+#: template/admin/counter/providers-counter.php:539
+msgid "Go to APP Settings and Set Callback URL"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:522
+#: template/admin/counter/providers-counter.php:531
+#: template/admin/counter/providers-counter.php:540
+msgid "App Settings "
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:524
+#: template/admin/counter/providers-counter.php:533
+#: template/admin/counter/providers-counter.php:542
+msgid "Add the following URL to the \"Valid OAuth redirect URIs\" field:"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:549
+msgid "Generate Key"
+msgstr ""
+
+#: template/admin/counter/style-setting.php:19
+#: template/admin/share/style-setting.php:20
+#: template/admin/style-setting.php:17
+msgid "Styles data have been updated."
+msgstr ""
+
+#: template/admin/counter/style-setting.php:38
+#: template/admin/share/style-setting.php:303
+msgid "Select Hover Effects"
+msgstr ""
+
+#: template/admin/counter/style-setting.php:72
+msgid "Select Counter Style"
+msgstr ""
+
+#: template/admin/counter/style-setting.php:87
+#: template/admin/share/style-setting.php:350
+msgid "Buy Now"
+msgstr ""
+
+#: template/admin/counter/tab-menu.php:12
+msgid "WP Social Counter Settings"
+msgstr ""
+
+#: template/admin/counter/tab-menu.php:20
+msgid "Counter Settings"
+msgstr ""
+
+#: template/admin/counter/tab-menu.php:30 template/admin/share/tab-menu.php:18
+#: template/admin/tab-menu.php:23
+msgid "Style Settings"
+msgstr ""
+
+#: template/admin/global-setting.php:22
+msgid "Custom login redirect "
+msgstr ""
+
+#: template/admin/global-setting.php:48
+msgid "Show button to wp-login page "
+msgstr ""
+
+#: template/admin/global-setting.php:58
+msgid "wp login form middle "
+msgstr ""
+
+#: template/admin/global-setting.php:63
+msgid "wp login form head"
+msgstr ""
+
+#: template/admin/global-setting.php:69
+msgid "wp login footer "
+msgstr ""
+
+#: template/admin/global-setting.php:74
+msgid "wp login message section "
+msgstr ""
+
+#: template/admin/global-setting.php:85
+msgid "Show button to wp-register page "
+msgstr ""
+
+#: template/admin/global-setting.php:97
+msgid "wp register form middle "
+msgstr ""
+
+#: template/admin/global-setting.php:102
+msgid "wp register form head "
+msgstr ""
+
+#: template/admin/global-setting.php:107
+msgid "wp register footer "
+msgstr ""
+
+#: template/admin/global-setting.php:119
+msgid "Show button to Wp-fundraising login page"
+msgstr ""
+
+#: template/admin/global-setting.php:130
+msgid "Wp-fundraising login form outer before "
+msgstr ""
+
+#: template/admin/global-setting.php:135
+msgid "Wp-fundraising login form outer after "
+msgstr ""
+
+#: template/admin/global-setting.php:140
+msgid "Wp-fundraising login form inner before "
+msgstr ""
+
+#: template/admin/global-setting.php:145
+msgid "Wp-fundraising login form inner after "
+msgstr ""
+
+#: template/admin/global-setting.php:150
+msgid "Wp-fundraising login form start "
+msgstr ""
+
+#: template/admin/global-setting.php:155
+msgid "Wp-fundraising login form end "
+msgstr ""
+
+#: template/admin/global-setting.php:160
+msgid "Wp-fundraising login form button before "
+msgstr ""
+
+#: template/admin/global-setting.php:165
+msgid "Wp-fundraising login form button after "
+msgstr ""
+
+#: template/admin/global-setting.php:170
+msgid "Wp-fundraising login form message "
+msgstr ""
+
+#: template/admin/global-setting.php:182
+msgid "Show button in wp-comment page "
+msgstr ""
+
+#: template/admin/global-setting.php:193
+msgid "wp comment form top "
+msgstr ""
+
+#: template/admin/global-setting.php:198
+msgid "wp comment form after login"
+msgstr ""
+
+#: template/admin/global-setting.php:209
+msgid "Show button to WooCommerce login page "
+msgstr ""
+
+#: template/admin/global-setting.php:220
+msgid "WooCommerce login form start "
+msgstr ""
+
+#: template/admin/global-setting.php:226
+msgid "WooCommerce login form middle "
+msgstr ""
+
+#: template/admin/global-setting.php:231
+msgid "WooCommerce login form end "
+msgstr ""
+
+#: template/admin/global-setting.php:242
+msgid "Show button to WooCommerce register page "
+msgstr ""
+
+#: template/admin/global-setting.php:254
+msgid "WooCommerce registration form start "
+msgstr ""
+
+#: template/admin/global-setting.php:259
+msgid "WooCommerce registration form middle "
+msgstr ""
+
+#: template/admin/global-setting.php:264
+msgid "WooCommerce registration form end "
+msgstr ""
+
+#: template/admin/global-setting.php:275
+msgid "Show button to WooCommerce billing page "
+msgstr ""
+
+#: template/admin/global-setting.php:286
+msgid "WooCommerce before checkout billing form "
+msgstr ""
+
+#: template/admin/global-setting.php:291
+msgid "WooCommerce after checkout billing form "
+msgstr ""
+
+#: template/admin/global-setting.php:302
+msgid "Show button to BuddyPress "
+msgstr ""
+
+#: template/admin/global-setting.php:313
+msgid "BuddyPress before register form "
+msgstr ""
+
+#: template/admin/global-setting.php:318
+msgid "BuddyPress account details fields "
+msgstr ""
+
+#: template/admin/global-setting.php:323
+msgid "BuddyPress after register form "
+msgstr ""
+
+#: template/admin/providers-setting.php:87
+msgid "Buttons"
+msgstr ""
+
+#: template/admin/providers-setting.php:88
+msgid "Usage"
+msgstr ""
+
+#: template/admin/providers-setting.php:103
+msgid "Getting Started "
+msgstr ""
+
+#: template/admin/providers-setting.php:119
+msgid "Must add the following URL to the \"Valid OAuth redirect URIs\" field: "
+msgstr ""
+
+#: template/admin/providers-setting.php:125
+msgid ""
+"After getting the App ID & App Secret, Go to \"Settings\" tab and put those "
+"information "
+msgstr ""
+
+#: template/admin/providers-setting.php:127
+msgid "Click on \"Save Changes\""
+msgstr ""
+
+#: template/admin/providers-setting.php:142
+msgid "App ID - "
+msgstr ""
+
+#: template/admin/providers-setting.php:142
+#: template/admin/providers-setting.php:156
+msgid "(Required)"
+msgstr ""
+
+#: template/admin/providers-setting.php:156
+msgid "App Secret - "
+msgstr ""
+
+#: template/admin/providers-setting.php:175
+msgid "Login Label Text "
+msgstr ""
+
+#: template/admin/providers-setting.php:188
+msgid "Logout Label Text "
+msgstr ""
+
+#: template/admin/providers-setting.php:206
+msgid "Shortcode"
+msgstr ""
+
+#: template/admin/providers-setting.php:227
+msgid "Simple Link"
+msgstr ""
+
+#: template/admin/providers-setting.php:231
+msgid "Login with"
+msgstr ""
+
+#: template/admin/settings.php:14
+msgid "WP Syncing Setting"
+msgstr ""
+
+#: template/admin/settings.php:23
+msgid "Syncing setting data have been updated."
+msgstr ""
+
+#: template/admin/settings.php:35
+msgid "Syncing user info when login/register"
+msgstr ""
+
+#: template/admin/settings.php:55
+msgid "Sync user profile image too"
+msgstr ""
+
+#: template/admin/share/share-setting.php:69
+msgid "Hide Icon"
+msgstr ""
+
+#: template/admin/share/share-setting.php:83
+msgid "Hide Text"
+msgstr ""
+
+#: template/admin/share/share-setting.php:97
+msgid "Hide Label"
+msgstr ""
+
+#: template/admin/share/share-setting.php:111
+msgid "Hide Share Count"
+msgstr ""
+
+#: template/admin/share/style-setting.php:43
+#: template/admin/share/style-setting.php:234
+msgid "Primary Content"
+msgstr ""
+
+#: template/admin/share/style-setting.php:49
+msgid "Fixed Display "
+msgstr ""
+
+#: template/admin/share/style-setting.php:94
+#: template/admin/share/style-setting.php:387
+msgid "Fixed Display"
+msgstr ""
+
+#: template/admin/share/style-setting.php:105
+#: template/admin/share/style-setting.php:244
+msgid "Disable "
+msgstr ""
+
+#: template/admin/share/style-setting.php:116
+msgid "Left Floating "
+msgstr ""
+
+#: template/admin/share/style-setting.php:128
+msgid "Right Floating "
+msgstr ""
+
+#: template/admin/share/style-setting.php:140
+msgid "Top Inline "
+msgstr ""
+
+#: template/admin/share/style-setting.php:152
+msgid "Bottom Inline "
+msgstr ""
+
+#: template/admin/share/style-setting.php:198
+msgid "Layout"
+msgstr ""
+
+#: template/admin/share/style-setting.php:210
+msgid "Horizontal"
+msgstr ""
+
+#: template/admin/share/style-setting.php:221
+msgid "Vertical"
+msgstr ""
+
+#: template/admin/share/style-setting.php:256
+msgid "After Content "
+msgstr ""
+
+#: template/admin/share/style-setting.php:269
+msgid "Before Content "
+msgstr ""
+
+#: template/admin/share/style-setting.php:281
+msgid "Both"
+msgstr ""
+
+#: template/admin/share/style-setting.php:335
+msgid "Select Share Style"
+msgstr ""
+
+#: template/admin/share/style-setting.php:383
+msgid "Main Content"
+msgstr ""
+
+#: template/admin/share/tab-menu.php:10
+msgid "WP Social Share Settings"
+msgstr ""
+
+#: template/admin/share/tab-menu.php:16
+msgid "Share Settings"
+msgstr ""
+
+#: template/admin/tab-menu.php:10
+msgid "WP Social Login Settings"
+msgstr ""
+
+#: template/admin/tab-menu.php:17
+msgid "Global Settings"
+msgstr ""
+
+#: template/login/login-btn-html.php:88
+msgid "Logout"
+msgstr ""
+
+#: template/share/primary_content.php:37 template/share/share-html.php:37
+msgid "Shares"
+msgstr ""
+
+#: wp-social.php:113
+msgid "Join the Community"
+msgstr ""
+
+#: wp-social.php:115
+msgid ""
+"Join our Facebook group to get 20% discount coupon on premium products. "
+"Follow us to get more exciting offers."
+msgstr ""
+
+#: wp-social.php:121
+msgid ""
+"Learn the step by step process for developing your site easily from video "
+"tutorials."
+msgstr ""
+
+#: wp-social.php:126
+msgid "Request a feature"
+msgstr ""
+
+#: wp-social.php:128
+msgid "Have any special feature in mind? Let us know through the feature request."
+msgstr ""
+
+#: wp-social.php:133
+msgid "Documentation"
+msgstr ""
+
+#: wp-social.php:135
+msgid ""
+"Detailed documentation to help you understand the functionality of each "
+"feature."
+msgstr ""
+
+#: wp-social.php:140
+msgid "Public Roadmap"
+msgstr ""
+
+#: wp-social.php:142
+msgid "Check our upcoming new features, detailed development stories and tasks"
+msgstr ""
+
+#: wp-social.php:148
+msgid "GetGenie"
+msgstr ""
+
+#: wp-social.php:150
+msgid "Your AI-Powered Content & SEO Assistant for WordPress"
+msgstr ""
+
+#: wp-social.php:158
+msgid "All-in-One drag and drop Addons for Elementor"
+msgstr ""
+
+#: wp-social.php:164
+msgid "ShopEngine"
+msgstr ""
+
+#: wp-social.php:166
+msgid "Complete WooCommerce Solution for Elementor"
+msgstr ""
+
+#: wp-social.php:172
+msgid "MetForm"
+msgstr ""
+
+#: wp-social.php:180
+msgid "Ultimate Review"
+msgstr ""
+
+#: wp-social.php:188
+msgid "Fundraising & Donation Platform"
+msgstr ""
+
+#: wp-social.php:190
+msgid "Enable donation system in your website"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Wp Social"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpmet.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Wp Social Login / Social Sharing / Social Counter System for Facebook, "
+"Google, Twitter, Linkedin, Dribble, Pinterest, Wordpress, Instagram, "
+"GitHub, Vkontakte, Reddit and more providers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wpmet"
+msgstr ""

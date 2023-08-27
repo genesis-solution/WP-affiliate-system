@@ -100,7 +100,7 @@ class Affiliates_Dashboard_Block extends Affiliates_Dashboard {
 			array(
 				'title'              => _x( 'Affiliates Dashboard', 'block title', 'affiliates' ),
 				'description'        => _x( 'Displays the complete Affiliates Dashboard with its sections', 'block description', 'affiliates' ),
-				'keyword_affiliates' => __( 'Affiliates', 'affiliates' ),
+				'keyword_affiliates' => __( '行政人員', 'affiliates' ),
 				'keyword_dashboard'  => __( 'Dashboard', 'affiliates' ),
 				'dashboard_notice'   => _x( 'Affiliates Dashboard', 'Notice shown when editing the Affiliates Dashboard Profile block as a non-affiliate.', 'affiliates' ),
 				'affiliates_icon'    => AFFILIATES_PLUGIN_URL . '/images/affiliates-32.png'

@@ -32,7 +32,7 @@ function affiliates_admin_affiliates_edit( $affiliate_id ) {
 	global $wpdb;
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliate = affiliates_get_affiliate( intval( $affiliate_id ) );
@@ -235,14 +235,14 @@ function affiliates_admin_affiliates_edit_submit() {
 	$result = array();
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	if (
 		!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE] ) ||
 		!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE],  'affiliates-edit' )
 	) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliates_table = _affiliates_get_tablename( 'affiliates' );
@@ -393,14 +393,14 @@ function affiliates_admin_affiliates_bulk_status_active_submit() {
 	$result = false;
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	if (
 		!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_ACTION_NONCE] ) ||
 		!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_ACTION_NONCE], 'admin' )
 	) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliates_table = _affiliates_get_tablename( 'affiliates' );
@@ -446,14 +446,14 @@ function affiliates_admin_affiliates_bulk_status_pending_submit() {
 	$result = false;
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	if (
 		!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_ACTION_NONCE] ) ||
 		!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_ACTION_NONCE], 'admin' )
 	) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliates_table = _affiliates_get_tablename( 'affiliates' );

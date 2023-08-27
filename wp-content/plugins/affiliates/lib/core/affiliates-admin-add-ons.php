@@ -52,83 +52,83 @@ function affiliates_admin_add_ons() {
 	echo '</h2>';
 
 	$entries = array(
-		'affiliates-pro' => array(
-			'title'   => 'Affiliates Pro',
-			'content' => 'Affiliates Pro is a powerful affiliate marketing and management system for sellers, shops and developers, who want to increase sales and foster growth with their own affiliate program.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-pro.png',
-			'url'     => 'https://www.itthinx.com/shop/affiliates-pro/',
-			'index'   => 10
-		),
-		'affiliates-enterprise' => array(
-			'title'   => 'Affiliates Enterprise',
-			'content' => 'Affiliates Enterprise is a powerful affiliate marketing and management system for active marketers, sellers, shops and developers. This growth-oriented business solution features affiliate campaigns, mulitple tiers and pixel tracking, in addition to all the powerful features included in Affiliates Pro.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-enterprise.png',
-			'url'     => 'https://www.itthinx.com/shop/affiliates-enterprise/',
-			'index'   => 10
-		),
-		'affiliates-import' => array(
-			'title'   => 'Affiliates Import <span style="color:#f00">FREE</span>',
-			'content' => 'This extension allows to import affiliate accounts from a text file into the affiliate system.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-import.png',
-			'url'     => 'https://wordpress.org/plugins/affiliates-import/',
-			'index'   => 20
-		),
-		'affiliates-buddypress' => array(
-			'title'   => 'Affiliates BuddyPress <span style="color:#f00">FREE</span>',
-			'content' => 'This integration with BuddyPress helps to display affiliate content in the BuddyPress user profile.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-buddypress.png',
-			'url'     => 'https://wordpress.org/plugins/affiliates-buddypress/',
-			'index'   => 20
-		),
-		'affiliates-recaptcha' => array(
-			'title'   => 'Affiliates reCAPTCHA <span style="color:#f00">FREE</span>',
-			'content' => 'This extension integrates with Google\'s reCAPTCHA service for the affiliate registration form.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-recaptcha.png',
-			'url'     => 'https://wordpress.org/plugins/affiliates-recaptcha/',
-			'index'   => 20
-		),
-		'affiliates-by-username' => array(
-			'title'   => 'Affiliates by Username',
-			'content' => 'This extension allows affiliate links to indicate usernames in addition to the affiliate IDs used normally.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-by-username.png',
-			'url'     => 'https://www.itthinx.com/shop/affiliates-by-username/',
-			'index'   => 20
-		),
-		'affiliates-coupons' => array(
-			'title'   => 'Affiliates Coupons',
-			'content' => 'This extension requires Affiliates Pro or Affiliates Enterprise and WooCommerce. It allows to create coupons for affiliates automatically and in bulk.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-coupons.png',
-			'url'     => 'https://www.itthinx.com/shop/affiliates-coupons/',
-			'index'   => 100
-		),
-		'affiliates-ms' => array(
-			'title'   => 'Affiliates MS',
-			'content' => 'Affiliates MS is a solution to maintain a centralized affiliate program for a WordPress Network of sites.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-ms.png',
-			'url'     => 'https://www.itthinx.com/shop/affiliates-ms/',
-			'index'   => 100
-		),
-		'affiliates-permanent' => array(
-			'title'   => 'Affiliates Permanent',
-			'content' => 'New customers (or new users) are assigned to the referring affiliate. The affiliate will be credited with a referral on every purchase made by the customer from thereon. Assignments can be changed manually in user profiles.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-permanent.png',
-			'url'     => 'https://www.itthinx.com/shop/affiliates-permanent/',
-			'index'   => 100
-		),
-		'affiliates-products' => array(
-			'title'   => 'Affiliates Products',
-			'content' => 'This extension requires WooCommerce and provides product commissions for distribution and vendors. It automatically grants commissions on product sales to assigned partners or affiliates. It is suitable to share revenue on every sale of one or more products.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-products.png',
-			'url'     => 'https://www.itthinx.com/shop/affiliates-products/',
-			'index'   => 100
-		),
-		'affiliates-users' => array(
-			'title'   => 'Affiliates Users',
-			'content' => 'This extension automatically creates affiliate accounts for new users. It also allows to create affiliate accounts for all existing users.',
-			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-users.png',
-			'url'     => 'https://www.itthinx.com/shop/affiliates-users/',
-			'index'   => 20
-		),
+//		'affiliates-pro' => array(
+//			'title'   => 'Affiliates Pro',
+//			'content' => 'Affiliates Pro is a powerful affiliate marketing and management system for sellers, shops and developers, who want to increase sales and foster growth with their own affiliate program.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-pro.png',
+//			'url'     => 'https://www.itthinx.com/shop/affiliates-pro/',
+//			'index'   => 10
+//		),
+//		'affiliates-enterprise' => array(
+//			'title'   => 'Affiliates Enterprise',
+//			'content' => 'Affiliates Enterprise is a powerful affiliate marketing and management system for active marketers, sellers, shops and developers. This growth-oriented business solution features affiliate campaigns, mulitple tiers and pixel tracking, in addition to all the powerful features included in Affiliates Pro.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-enterprise.png',
+//			'url'     => 'https://www.itthinx.com/shop/affiliates-enterprise/',
+//			'index'   => 10
+//		),
+//		'affiliates-import' => array(
+//			'title'   => 'Affiliates Import <span style="color:#f00">FREE</span>',
+//			'content' => 'This extension allows to import affiliate accounts from a text file into the affiliate system.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-import.png',
+//			'url'     => 'https://wordpress.org/plugins/affiliates-import/',
+//			'index'   => 20
+//		),
+//		'affiliates-buddypress' => array(
+//			'title'   => 'Affiliates BuddyPress <span style="color:#f00">FREE</span>',
+//			'content' => 'This integration with BuddyPress helps to display affiliate content in the BuddyPress user profile.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-buddypress.png',
+//			'url'     => 'https://wordpress.org/plugins/affiliates-buddypress/',
+//			'index'   => 20
+//		),
+//		'affiliates-recaptcha' => array(
+//			'title'   => 'Affiliates reCAPTCHA <span style="color:#f00">FREE</span>',
+//			'content' => 'This extension integrates with Google\'s reCAPTCHA service for the affiliate registration form.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-recaptcha.png',
+//			'url'     => 'https://wordpress.org/plugins/affiliates-recaptcha/',
+//			'index'   => 20
+//		),
+//		'affiliates-by-username' => array(
+//			'title'   => 'Affiliates by Username',
+//			'content' => 'This extension allows affiliate links to indicate usernames in addition to the affiliate IDs used normally.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-by-username.png',
+//			'url'     => 'https://www.itthinx.com/shop/affiliates-by-username/',
+//			'index'   => 20
+//		),
+//		'affiliates-coupons' => array(
+//			'title'   => 'Affiliates Coupons',
+//			'content' => 'This extension requires Affiliates Pro or Affiliates Enterprise and WooCommerce. It allows to create coupons for affiliates automatically and in bulk.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-coupons.png',
+//			'url'     => 'https://www.itthinx.com/shop/affiliates-coupons/',
+//			'index'   => 100
+//		),
+//		'affiliates-ms' => array(
+//			'title'   => 'Affiliates MS',
+//			'content' => 'Affiliates MS is a solution to maintain a centralized affiliate program for a WordPress Network of sites.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-ms.png',
+//			'url'     => 'https://www.itthinx.com/shop/affiliates-ms/',
+//			'index'   => 100
+//		),
+//		'affiliates-permanent' => array(
+//			'title'   => 'Affiliates Permanent',
+//			'content' => 'New customers (or new users) are assigned to the referring affiliate. The affiliate will be credited with a referral on every purchase made by the customer from thereon. Assignments can be changed manually in user profiles.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-permanent.png',
+//			'url'     => 'https://www.itthinx.com/shop/affiliates-permanent/',
+//			'index'   => 100
+//		),
+//		'affiliates-products' => array(
+//			'title'   => 'Affiliates Products',
+//			'content' => 'This extension requires WooCommerce and provides product commissions for distribution and vendors. It automatically grants commissions on product sales to assigned partners or affiliates. It is suitable to share revenue on every sale of one or more products.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-products.png',
+//			'url'     => 'https://www.itthinx.com/shop/affiliates-products/',
+//			'index'   => 100
+//		),
+//		'affiliates-users' => array(
+//			'title'   => 'Affiliates Users',
+//			'content' => 'This extension automatically creates affiliate accounts for new users. It also allows to create affiliate accounts for all existing users.',
+//			'image'   => AFFILIATES_PLUGIN_URL . 'images/add-ons/affiliates-users.png',
+//			'url'     => 'https://www.itthinx.com/shop/affiliates-users/',
+//			'index'   => 20
+//		),
 	);
 	uasort( $entries, 'affiliates_admin_add_ons_sort' );
 
@@ -148,11 +148,11 @@ function affiliates_admin_add_ons() {
 	}
 	echo '</ul>'; // .add-ons
 
-	if ( AFFILIATES_PLUGIN_NAME == 'affiliates' ) {
+	if ( AFFILIATES_PLUGIN_NAME == 'my affiliate' ) {
 
-	echo '<h2>';
-	echo esc_html__( 'Affiliates Pro', 'affiliates' );
-	echo '</h2>';
+//	echo '<h2>';
+//	echo esc_html__( 'Affiliates Pro', 'affiliates' );
+//	echo '</h2>';
 
 	echo '<ul class="feature-listing">';
 
@@ -198,15 +198,15 @@ function affiliates_admin_add_ons() {
 	echo esc_html__( 'Affiliate link generator form', 'affiliates' );
 	echo '</li>';
 
-	echo '<li>';
-	echo __( 'The <a href="https://docs.itthinx.com/">Documentation</a> site also provides up-to-date information on the Affiliates, Affiliates Pro and Affiliates Enterprise plugin features.', 'affiliates' );
-	echo '</li>';
+//	echo '<li>';
+//	echo __( 'The <a href="https://docs.itthinx.com/">Documentation</a> site also provides up-to-date information on the Affiliates, Affiliates Pro and Affiliates Enterprise plugin features.', 'affiliates' );
+//	echo '</li>';
 
 	echo '</ul>';
 
 	}
 
-	if ( ( AFFILIATES_PLUGIN_NAME == 'affiliates' ) || ( AFFILIATES_PLUGIN_NAME == 'affiliates-pro' ) ) {
+	if ( ( AFFILIATES_PLUGIN_NAME == 'my affiliate' ) || ( AFFILIATES_PLUGIN_NAME == 'affiliates-pro' ) ) {
 
 	echo '<h2>';
 	echo esc_html__( 'Affiliates Enterprise', 'affiliates' );
@@ -240,9 +240,9 @@ function affiliates_admin_add_ons() {
 	echo esc_html__( 'Add-Ons', 'affiliates' );
 	echo '</h2>';
 
-	echo '<p>';
-	echo __( 'Free and premium extensions are listed on the <a href="https://www.itthinx.com/plugins-overview/">Overview</a> page and in the <a href="https://www.itthinx.com/shop/">Shop</a>.', 'affiliates' );
-	echo '</p>';
+//	echo '<p>';
+//	echo __( 'Free and premium extensions are listed on the <a href="https://www.itthinx.com/plugins-overview/">Overview</a> page and in the <a href="https://www.itthinx.com/shop/">Shop</a>.', 'affiliates' );
+//	echo '</p>';
 
 	echo '</div>';
 

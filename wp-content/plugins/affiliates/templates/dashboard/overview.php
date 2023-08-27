@@ -54,7 +54,7 @@ $link_info  = wp_kses(
 	array( 'code' => array(), 'a' => array( 'href' => array() ) )
 );
 ?>
-<h2><?php esc_html_e( 'Overview', 'affiliates' ); ?></h2>
+<h2><?php esc_html_e( '概述', 'affiliates' ); ?></h2>
 <div class="dashboard-section dashboard-section-overview">
 	<div class="stats-container">
 		<div class="stats-item">

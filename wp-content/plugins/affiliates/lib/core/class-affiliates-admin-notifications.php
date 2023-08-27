@@ -39,7 +39,7 @@ class Affiliates_Admin_Notifications {
 	public static function view() {
 
 		if ( !current_user_can( AFFILIATES_ADMINISTER_OPTIONS ) ) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 
 		wp_enqueue_style( 'affiliates-admin-notifications' );
@@ -99,8 +99,8 @@ class Affiliates_Admin_Notifications {
 		self::$sections = apply_filters(
 			'affiliates_notifications_sections',
 			array(
-				'affiliates'    => __( 'Affiliates', 'affiliates' ),
-				'administrator' => __( 'Administrator', 'affiliates' )
+				'affiliates'    => __( '附屬公司', 'affiliates' ),
+				'administrator' => __( '行政人員', 'affiliates' )
 			)
 		);
 	}
@@ -111,7 +111,7 @@ class Affiliates_Admin_Notifications {
 	public static function affiliates_registration_section () {
 
 		if ( !current_user_can( AFFILIATES_ADMINISTER_OPTIONS ) ) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 
 		$notifications = get_option( 'affiliates_notifications', null );
@@ -174,7 +174,7 @@ class Affiliates_Admin_Notifications {
 	public static function administrator_registration_section () {
 
 		if ( !current_user_can( AFFILIATES_ADMINISTER_OPTIONS ) ) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 
 		if ( isset( $_POST['submit'] ) ) {

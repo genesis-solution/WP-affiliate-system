@@ -104,7 +104,7 @@ require_once AFFILIATES_CORE_LIB . '/class-affiliates-exclusion.php';
 // affiliates notifications
 require_once AFFILIATES_CORE_LIB . '/class-affiliates-notifications.php';
 if ( is_admin() ) {
-	if ( AFFILIATES_PLUGIN_NAME == 'affiliates' ) {
+	if ( AFFILIATES_PLUGIN_NAME == 'my affiliate' ) {
 		require_once AFFILIATES_CORE_LIB . '/class-affiliates-admin-notifications.php';
 	}
 }
@@ -1768,7 +1768,7 @@ if ( is_admin() ) {
 	require_once AFFILIATES_CORE_LIB . '/affiliates-admin.php';
 	require_once AFFILIATES_CORE_LIB . '/class-affiliates-settings.php';
 	require_once AFFILIATES_CORE_LIB . '/affiliates-admin-user-registration.php';
-	if ( AFFILIATES_PLUGIN_NAME == 'affiliates' ) {
+	if ( AFFILIATES_PLUGIN_NAME == 'my affiliate' ) {
 		require_once AFFILIATES_CORE_LIB . '/class-affiliates-totals.php';
 	}
 	require_once AFFILIATES_CORE_LIB . '/affiliates-admin-add-ons.php';
@@ -1794,8 +1794,8 @@ function affiliates_admin_menu() {
 
 	// main
 	$page = add_menu_page(
-		__( 'Affiliates Overview', 'affiliates' ),
-		'Affiliates', // do not translate (this was marked as todo after core bug 18857 had been fixed http://core.trac.wordpress.org/ticket/18857 translation affects $screen->id)
+		__( '附屬公司概覽', 'affiliates' ),
+		'行政人員', // do not translate (this was marked as todo after core bug 18857 had been fixed http://core.trac.wordpress.org/ticket/18857 translation affects $screen->id)
 		AFFILIATES_ACCESS_AFFILIATES,
 		'affiliates-admin',
 		'affiliates_admin',
@@ -1809,8 +1809,8 @@ function affiliates_admin_menu() {
 	// overview on affiliates-admin
 	$page = add_submenu_page(
 		'affiliates-admin',
-		__( 'Manage Affiliates', 'affiliates' ),
-		__( 'Manage Affiliates', 'affiliates' ),
+		__( '管理附屬公司', 'affiliates' ),
+		__( '管理附屬公司', 'affiliates' ),
 		AFFILIATES_ADMINISTER_AFFILIATES,
 		'affiliates-admin-affiliates',
 		apply_filters( 'affiliates_add_submenu_page_function', 'affiliates_admin_affiliates' )
@@ -1819,11 +1819,25 @@ function affiliates_admin_menu() {
 	add_action( 'admin_print_styles-' . $page, 'affiliates_admin_print_styles' );
 	add_action( 'admin_print_scripts-' . $page, 'affiliates_admin_print_scripts' );
 
+    // Share token
+    $page = add_submenu_page(
+        'affiliates-admin',
+        __( 'Share token', 'affiliates' ),
+        __( 'Share token', 'affiliates' ),
+        AFFILIATES_SHARE_TOKEN_AFFILIATES,
+        'affiliates-admin-share-token-affiliates',
+        apply_filters( 'affiliates_add_submenu_page_function', 'affiliates_admin_share_token_affiliates' )
+    );
+    $pages[] = $page;
+    add_action( 'admin_print_styles-' . $page, 'affiliates_admin_print_styles' );
+    add_action( 'admin_print_scripts-' . $page, 'affiliates_admin_print_scripts' );
+
+
 	// hits by date
 	$page = add_submenu_page(
 		'affiliates-admin',
-		__( 'Visits & Referrals', 'affiliates' ),
-		__( 'Visits & Referrals', 'affiliates' ),
+		__( '管理附屬公司', 'affiliates' ),
+		__( '管理附屬公司', 'affiliates' ),
 		AFFILIATES_ACCESS_AFFILIATES,
 		'affiliates-admin-hits',
 		apply_filters( 'affiliates_add_submenu_page_function', 'affiliates_admin_hits' )
@@ -1861,8 +1875,8 @@ function affiliates_admin_menu() {
 	// referrals
 	$page = add_submenu_page(
 		'affiliates-admin',
-		__( 'Referrals', 'affiliates' ),
-		__( 'Referrals', 'affiliates' ),
+		__( '推薦人', 'affiliates' ),
+		__( '推薦人', 'affiliates' ),
 		AFFILIATES_ACCESS_AFFILIATES,
 		'affiliates-admin-referrals',
 		apply_filters( 'affiliates_add_submenu_page_function', 'affiliates_admin_referrals' )
@@ -1872,7 +1886,7 @@ function affiliates_admin_menu() {
 	add_action( 'admin_print_scripts-' . $page, 'affiliates_admin_print_scripts' );
 
 	// totals
-	if ( AFFILIATES_PLUGIN_NAME == 'affiliates' ) {
+	if ( AFFILIATES_PLUGIN_NAME == 'my affiliate' ) {
 		$page = add_submenu_page(
 			'affiliates-admin',
 			__( 'Totals', 'affiliates' ),
@@ -1913,32 +1927,32 @@ function affiliates_admin_menu() {
 	add_action( 'admin_print_scripts-' . $page, 'affiliates_admin_print_scripts' );
 
 	// notifications
-	$page = add_submenu_page(
-		'affiliates-admin',
-		__( 'Notifications', 'affiliates' ),
-		__( 'Notifications', 'affiliates' ),
-		AFFILIATES_ACCESS_AFFILIATES,
-		'affiliates-admin-notifications',
-		apply_filters( 'affiliates_add_submenu_page_function', array( Affiliates_Notifications::get_instance()->get_admin_class(), 'view' ) )
-	);
-	$pages[] = $page;
-	add_action( 'admin_print_styles-' . $page, 'affiliates_admin_print_styles' );
-	add_action( 'admin_print_scripts-' . $page, 'affiliates_admin_print_scripts' );
-
-	add_action( 'load-' . $page, array( Affiliates_Notifications::get_instance()->get_admin_class(), 'load_page' ) );
+//	$page = add_submenu_page(
+//		'affiliates-admin',
+//		__( 'Notifications', 'affiliates' ),
+//		__( 'Notifications', 'affiliates' ),
+//		AFFILIATES_ACCESS_AFFILIATES,
+//		'affiliates-admin-notifications',
+//		apply_filters( 'affiliates_add_submenu_page_function', array( Affiliates_Notifications::get_instance()->get_admin_class(), 'view' ) )
+//	);
+//	$pages[] = $page;
+//	add_action( 'admin_print_styles-' . $page, 'affiliates_admin_print_styles' );
+//	add_action( 'admin_print_scripts-' . $page, 'affiliates_admin_print_scripts' );
+//
+//	add_action( 'load-' . $page, array( Affiliates_Notifications::get_instance()->get_admin_class(), 'load_page' ) );
 
 	// add-ons
-	$page = add_submenu_page(
-		'affiliates-admin',
-		__( 'Add-Ons', 'affiliates' ),
-		__( 'Add-Ons', 'affiliates' ),
-		AFFILIATES_ADMINISTER_OPTIONS,
-		'affiliates-admin-add-ons',
-		apply_filters( 'affiliates_add_submenu_page_function', 'affiliates_admin_add_ons' )
-	);
-	$pages[] = $page;
-	add_action( 'admin_print_styles-' . $page, 'affiliates_admin_print_styles' );
-	add_action( 'admin_print_scripts-' . $page, 'affiliates_admin_print_scripts' );
+//	$page = add_submenu_page(
+//		'affiliates-admin',
+//		__( 'Add-Ons', 'affiliates' ),
+//		__( 'Add-Ons', 'affiliates' ),
+//		AFFILIATES_ADMINISTER_OPTIONS,
+//		'affiliates-admin-add-ons',
+//		apply_filters( 'affiliates_add_submenu_page_function', 'affiliates_admin_add_ons' )
+//	);
+//	$pages[] = $page;
+//	add_action( 'admin_print_styles-' . $page, 'affiliates_admin_print_styles' );
+//	add_action( 'admin_print_scripts-' . $page, 'affiliates_admin_print_scripts' );
 
 	do_action( 'affiliates_admin_menu', $pages );
 }
@@ -1950,8 +1964,8 @@ function affiliates_network_admin_menu() {
 	require_once AFFILIATES_CORE_LIB . '/class-affiliates-settings-network.php';
 	$pages = array();
 	$page = add_menu_page(
-		__( 'Affiliates', 'affiliates' ),
-		__( 'Affiliates', 'affiliates' ),
+		__( '附屬公司概覽', 'affiliates' ),
+		__( '附屬公司概覽', 'affiliates' ),
 		AFFILIATES_ACCESS_AFFILIATES,
 		'affiliates-network-admin',
 		array( 'Affiliates_Settings_Network', 'network_admin_settings' ),
@@ -1973,27 +1987,8 @@ require_once AFFILIATES_CORE_LIB . '/class-affiliates-admin-help.php';
  * @return string or nothing
  */
 function affiliates_footer( $render = true ) {
-	$footer = '<div class="affiliates-footer">' .
-		'<p>' .
-		sprintf(
-			/* translators: 1: link 2: link */
-			__( 'Thank you for using the %1$s plugin by %2$s.', 'affiliates' ),
-			'<a style="text-decoration:none;" href="https://www.itthinx.com/plugins/affiliates" target="_blank">Affiliates</a>',
-			'<a style="text-decoration:none;" href="https://www.itthinx.com" target="_blank">itthinx</a>'
-		) .
-		' ' .
-		sprintf(
-			/* translators: link */
-			__( 'Please give it a %s rating!', 'affiliates' ),
-			sprintf( '<a style="text-decoration:none;" href="%s">&#9733;&#9733;&#9733;&#9733;&#9733;</a>',
-				'https://wordpress.org/support/view/plugin-reviews/affiliates?filter=5#postform'
-			)
-		) .
-		'</p>' .
-		'<p>' .
-		affiliates_donate( false ) .
-		'</p>' .
-		'</div>';
+    $render = false;
+	$footer = '<div class="affiliates-footer">Welcome</div>';
 	$footer = apply_filters( 'affiliates_footer', $footer );
 	if ( $render ) {
 		echo $footer;
@@ -2011,6 +2006,7 @@ function affiliates_footer( $render = true ) {
  * @return string|null
  */
 function affiliates_donate( $render = true, $small = false ) {
+    $render = false;
 	$output = '<style type="text/css">';
 	$output .= '.button.affiliates-premium-button { background-color: #5da64f; color: #ffffff; font-weight: bold; border-top-color: #8dd67f; border-bottom-color: #2d761f; border-left-color: #7dc66f; border-right-color: #3d862f; }';
 	$output .= '.button.affiliates-shop-button { background-color: #d65d4f; color: #ffffff; font-weight: bold; border-top-color: #f67d6f; border-bottom-color: #a62d1f; border-left-color: #e66d5f; border-right-color: #b63d2f; }';
@@ -2550,7 +2546,7 @@ function affiliates_get_referral_amount_decimals( $context = null ) {
 /**
  * Provide the related post URL for the referral.
  *
- * @since 4.19.0
+ * @since 1.0.0
  *
  * @param array|object $referral
  *
@@ -2574,7 +2570,7 @@ function affiliates_get_referral_post_permalink( $referral ) {
 /**
  * Provide the related post title for the referral.
  *
- * @since 4.19.0
+ * @since 1.0.0
  *
  * @param array|object $referral
  *

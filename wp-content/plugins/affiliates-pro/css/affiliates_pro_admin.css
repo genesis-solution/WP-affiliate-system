@@ -1,0 +1,209 @@
+/**
+ * affiliates_pro_admin.css
+ *
+ * Copyright 2011 "kento" Karim Rahimpur - www.itthinx.com
+ *
+ * This code is provided subject to the license granted.
+ * Unauthorized use and distribution is prohibited.
+ * See COPYRIGHT.txt and LICENSE.txt
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This header and all notices must be kept intact.
+ *
+ * @author Karim Rahimpur
+ * @package affiliates-pro
+ * @since affiliates-pro 1.0.0
+ */
+
+.affiliates-pro-footer {
+	border-top: 1px solid #ccc;
+	padding-top: 0.5em;
+	margin-top: 0.5em;
+}
+.affiliates-pro-footer .affiliates-pro a {
+	text-decoration: none;
+}
+.affiliates-pro-footer .affiliates-footer {
+	border-top: 1px solid #eee;
+	padding-top: 0.25em;
+	margin-top: 0.25em;
+}
+
+.minimum-total-filter,
+.referral-status-filter,
+.currency-id-filter {
+	margin-right: 1em;
+}
+.totals th.affiliate_id {
+	width: 10%;
+}
+.totals th.name,
+.totals th.email,
+.totals th.user_login {
+	width: 20%;
+}
+.totals th.currency_id {
+	width: 10%;
+}
+
+.totals td.total {
+	text-align: right;
+}
+
+.totals-overview {
+	margin-bottom: 1em;
+}
+
+.closing-referrals-overview {
+	padding-right: 1em;
+}
+.closing-referrals-overview .referrals-overview {
+	padding-right: 0;
+}
+.closing-referrals-overview .manage.confirm {
+	margin-top: 1em;
+}
+.manage a.generate {
+	text-decoration: none;
+	cursor: pointer;
+	padding-right: 1em;
+}
+.manage a.generate.button {
+	margin-right: 1em;
+}
+.manage a.generate .icon {
+	vertical-align: middle;
+	padding-right: 4px;
+}
+.manage a.generate .label {
+	height: 20px;
+	vertical-align: middle;
+}
+
+.manage a.close-referrals {
+	text-decoration: none;
+	cursor: pointer;
+	padding-right: 1em;
+}
+.manage a.close-referrals.button {
+	margin-right: 1em;
+}
+.manage a.close-referrals .icon {
+	vertical-align: middle;
+	padding-right: 4px;
+}
+.manage a.close-referrals .label {
+	height: 20px;
+	vertical-align: middle;
+}
+
+.notifications {
+	margin: 1em 1em 0 0;
+}
+.notifications h1 {
+	font-size: 2em;
+}
+.notifications h2 {
+	font-size: 1.5em;
+}
+.notifications h3 {
+	font-size: 1.2em;
+}
+.notifications h4 {
+	font-size: 1.1em;
+}
+.notifications input[type="checkbox"] {
+	margin-right: 4px;
+}
+
+.notifications input[name="admin_registration_subject"],
+.notifications textarea[name="admin_registration_message"],
+.notifications input[name="admin_registration_pending_subject"],
+.notifications textarea[name="admin_registration_pending_message"],
+.notifications input[name="registration_subject"],
+.notifications textarea[name="registration_message"],
+.notifications input[name="admin_subject"],
+.notifications input[name="subject"],
+.notifications textarea[name="admin_message"],
+.notifications input[name="registration_pending_subject"],
+.notifications textarea[name="registration_pending_message"],
+.notifications input[name="affiliate_pending_to_active_subject"],
+.notifications textarea[name="affiliate_pending_to_active_message"],
+.notifications textarea[name="message"] {
+	width: 100%;
+}
+table.wp-list-table td.image.column-image {
+	overflow: hidden;
+}
+
+div.column-toggles {
+	display:table;
+}
+div.column-toggle-container {
+	display:table-cell;
+	float:left;
+	white-space:nowrap;
+}
+div.column-toggle-container label {
+	padding: 0 8px 0 0;
+}
+td.affiliate-name a.edit {
+	background-image: url( ../images/edit.png );
+	background-repeat: no-repeat;
+	background-position: left center;
+	vertical-align: middle;
+	padding-left: 18px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+}
+td.affiliate-name a.remove {
+	background-image: url( ../images/remove.png );
+	background-repeat: no-repeat;
+	background-position: left center;
+	vertical-align: middle;
+	padding-left: 18px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+}
+td.affiliate-name a.edit:hover,
+td.affiliate-name a.remove:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	filter: none;
+}
+div.rates,
+div.rate-create,
+div.rate-edit {
+	margin: 1em;
+}
+div.rate-create div.field,
+div.rate-edit div.field {
+	padding: 2px 0;
+}
+div.rate-create div.field > label > span.label,
+div.rate-edit div.field > label > span.label {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+div.rate-create div.field > label > div.selectize-control,
+div.rate-edit div.field > label > div.selectize-control {
+	display: inline-block;
+	width: 75%;
+}
+div.rate-create div.field > label > span.description,
+div.rate-edit div.field > label > span.description {
+	display: inline-block;
+	width: 74%;
+	padding-left: 21%;
+}
+div.rate-create div.field textarea,
+div.rate-edit div.field textarea {
+	width: 74%;
+	min-height: 5em;
+}

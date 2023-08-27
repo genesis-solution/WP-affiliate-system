@@ -605,15 +605,15 @@ class Affiliates_Shortcodes {
 				$output .= '<thead>';
 				$output .= '<tr>';
 				$output .= '<th>';
-				$output .= __( 'Month', 'affiliates' );
+				$output .= __( '月', 'affiliates' );
 				$output .= '</th>';
 				$output .= '<th>';
-				$output .= __( 'Earnings', 'affiliates' );
+				$output .= __( '收益', 'affiliates' );
 				$output .= '</th>';
 				if ( $atts['show_paid'] ) {
 					$cols++;
 					$output .= '<th>';
-					$output .= __( 'Paid', 'affiliates' );
+					$output .= __( '有薪酬的', 'affiliates' );
 					$output .= '</th>';
 				}
 				$output .= '</tr>';
@@ -1169,7 +1169,7 @@ class Affiliates_Shortcodes {
 					if ( $atts['edit'] === 'yes' ) {
 						$output .=  wp_nonce_field( 'save', 'affiliate-nonce', true, false );
 						$output .= '<div class="save">';
-						$output .= sprintf( '<input class="button" type="submit" name="save" value="%s" />', __( 'Save', 'affiliates' ) );
+						$output .= sprintf( '<input class="button" type="submit" name="save" value="%s" style="width: 100px" />', __( '節省', 'affiliates' ) );
 						$output .= '</div>';
 						$output .= '</div>';
 						$output .= '</form>';

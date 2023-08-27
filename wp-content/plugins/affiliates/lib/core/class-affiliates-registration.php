@@ -150,7 +150,7 @@ class Affiliates_Registration {
 
 		wp_enqueue_style( 'affiliates' );
 
-		self::$submit_button_label = __( 'Sign Up', 'affiliates' );
+		self::$submit_button_label = __( '報名', 'affiliates' );
 
 		$output = '';
 
@@ -160,7 +160,7 @@ class Affiliates_Registration {
 		if ( affiliates_user_is_affiliate_status( null, 'pending' ) ) {
 			$output .= '<div class="affiliates-registration registered pending">';
 			$output .= '<p>';
-			$output .= __( 'Your affiliate application is pending approval.', 'affiliates' );
+			$output .= __( '您的聯屬網絡營銷申請正在等待批准。', 'affiliates' );
 			$output .= '</p>';
 			$output .= '</div>';
 			return $output;
@@ -172,7 +172,7 @@ class Affiliates_Registration {
 		if ( affiliates_user_is_affiliate_status( null, 'deleted' ) ) {
 			$output .= '<div class="affiliates-registration registered pending">';
 			$output .= '<p>';
-			$output .= __( 'Your affiliate account is closed.', 'affiliates' );
+			$output .= __( '您的聯屬帳戶已關閉。', 'affiliates' );
 			$output .= '</p>';
 			$output .= '</div>';
 			return $output;
@@ -184,7 +184,7 @@ class Affiliates_Registration {
 		if ( $is_affiliate = affiliates_user_is_affiliate() ) {
 			$output .= '<div class="affiliates-registration registered">';
 			$output .= '<p>';
-			$output .= __( 'You are already registered as an affiliate.', 'affiliates' );
+			$output .= __( '您已經註冊為會員。', 'affiliates' );
 			$output .= '</p>';
 			if ( isset( $options['registered_profile_link_url'] ) ) {
 				$output .= '<p>';
@@ -192,7 +192,7 @@ class Affiliates_Registration {
 				if ( isset( $options['registered_profile_link_text'] ) ) {
 					$output .= wp_filter_kses( $options['registered_profile_link_text'] );
 				} else {
-					$output .= __( 'Access your profile', 'affiliates' );
+					$output .= __( '訪問您的個人資料', 'affiliates' );
 				}
 				$output .= '</a>';
 				$output .= '</p>';
@@ -205,7 +205,7 @@ class Affiliates_Registration {
 		// Registration closed
 		//
 		if ( !get_option( 'aff_registration', get_option( 'users_can_register', false ) ) ) {
-			$output .= '<p>' . __( 'Registration is currently closed.', 'affiliates' ) . '</p>';
+			$output .= '<p>' . __( '註冊目前已關閉。', 'affiliates' ) . '</p>';
 			return $output;
 		}
 
@@ -280,9 +280,9 @@ class Affiliates_Registration {
 					if ( $field['required'] && empty( $value ) ) {
 						$error = true;
 						$output .= '<div class="error">';
-						$output .= __( '<strong>ERROR</strong>', 'affiliates' );
+						$output .= __( '<strong>錯誤</strong>', 'affiliates' );
 						$output .= ' : ';
-						$output .= sprintf( __( 'Please fill out the field <em>%s</em>.', 'affiliates' ), $field['label'] );
+						$output .= sprintf( __( '請填寫該字段 <em>%s</em>.', 'affiliates' ), $field['label'] );
 						$output .= '</div>';
 					}
 					$registration_fields[$name]['value'] = $value;
@@ -365,7 +365,7 @@ class Affiliates_Registration {
 									$output .= '<p>';
 									$output .= wp_kses(
 										sprintf(
-											__( 'Log in <a href="%s">here</a>.', 'affiliates' ),
+											__( '登錄 <a href="%s">這裡</a>.', 'affiliates' ),
 											esc_url( $login_url )
 										),
 										array( 'a' => array( 'href' => array() ) )
@@ -380,7 +380,7 @@ class Affiliates_Registration {
 								if ( isset( $options['registered_profile_link_text'] ) ) {
 									$output .= wp_filter_kses( $options['registered_profile_link_text'] );
 								} else {
-									$output .= esc_html__( 'Access your profile', 'affiliates' );
+									$output .= esc_html__( '訪問您的個人資料', 'affiliates' );
 								}
 								$output .= '</a>';
 								$output .= '</p>';
@@ -433,7 +433,7 @@ class Affiliates_Registration {
 				if ( $terms_post ) {
 					$terms_post_link = '<a target="_blank" href="' . esc_url( get_permalink( $terms_post->ID ) ) . '">' . get_the_title( $terms_post->ID ) . '</a>';
 					$terms = sprintf(
-						apply_filters( 'affiliates_terms_post_link_text', __( 'By signing up, you indicate that you have read and agree to the %s.', 'affiliates' ) ),
+						apply_filters( 'affiliates_terms_post_link_text', __( '註冊即表示您已閱讀並同意 %s.', 'affiliates' ) ),
 						$terms_post_link
 					);
 				}
@@ -460,7 +460,7 @@ class Affiliates_Registration {
 			}
 
 			$output .= '<div class="sign-up">';
-			$output .= '<input type="submit" name="' . $submit_name . '" value="'. self::$submit_button_label . '" />';
+			$output .= '<input type="submit" name="' . $submit_name . '" value="'. self::$submit_button_label . '" style="width: 200px"/>';
 			$output .= '</div>';
 
 			$output .= '</div>';

@@ -29,7 +29,7 @@ if ( !defined( 'ABSPATH' ) ) {
 function affiliates_admin_affiliates_add() {
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$current_url = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -163,14 +163,14 @@ function affiliates_admin_affiliates_add_submit() {
 	$result = array();
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	if (
 		!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE] ) ||
 		!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE], 'affiliates-add' )
 	) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliates_table = _affiliates_get_tablename( 'affiliates' );

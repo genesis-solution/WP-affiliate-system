@@ -240,7 +240,7 @@ class Affiliates_WooCommerce_Light_Integration {
 	public static function affiliates_admin_woocommerce_light() {
 		$output = '';
 		if ( !current_user_can( AFFILIATES_ADMINISTER_OPTIONS ) ) {
-			wp_die( esc_html__( 'Access denied.', 'affiliates-woocommerce-light' ) );
+			wp_die( esc_html__( '拒絕訪問。', 'affiliates-woocommerce-light' ) );
 		}
 		$options = get_option( self::PLUGIN_OPTIONS , array() );
 		if ( isset( $_POST['submit'] ) ) {
@@ -263,23 +263,23 @@ class Affiliates_WooCommerce_Light_Integration {
 		$output .= esc_html__( 'Affiliates WooCommerce Integration Light', 'affiliates-woocommerce-light' );
 		$output .= '</h2>';
 
-		$output .= '<p class="manage" style="border:2px solid #00a651;padding:1em;margin-right:1em;font-weight:bold;font-size:1em;line-height:1.62em">';
-		$output .= wp_kses(
-			sprintf(
-				__( 'Get additional features with <a href="%s" target="_blank">%s</a> and <a href="%s" target="_blank">%s</a>!', 'affiliates-woocommerce-light' ),
-				'https://www.itthinx.com/shop/affiliates-pro/',
-				'Affiliates Pro',
-				'https://www.itthinx.com/shop/affiliates-enterprise/',
-				'Affiliates Enterprise'
-			),
-			array( 'a' => array( 'href' => array(), 'target' => array() ) )
-		);
-		$output .= '</p>';
+//		$output .= '<p class="manage" style="border:2px solid #00a651;padding:1em;margin-right:1em;font-weight:bold;font-size:1em;line-height:1.62em">';
+//		$output .= wp_kses(
+//			sprintf(
+//				__( 'Get additional features with <a href="%s" target="_blank">%s</a> and <a href="%s" target="_blank">%s</a>!', 'affiliates-woocommerce-light' ),
+//				'https://www.itthinx.com/shop/affiliates-pro/',
+//				'Affiliates Pro',
+//				'https://www.itthinx.com/shop/affiliates-enterprise/',
+//				'Affiliates Enterprise'
+//			),
+//			array( 'a' => array( 'href' => array(), 'target' => array() ) )
+//		);
+//		$output .= '</p>';
 
 		$output .= '<div class="manage" style="padding:2em;margin-right:1em;">';
 		$output .= '<form action="" name="options" method="post">';
 		$output .= '<div>';
-		$output .= '<h3>' . esc_html__( 'Referral Rate', 'affiliates-woocommerce-light' ) . '</h3>';
+		$output .= '<h3>' . esc_html__( '推薦率', 'affiliates-woocommerce-light' ) . '</h3>';
 		$output .= '<p>';
 		$output .= '<label for="' . self::REFERRAL_RATE . '">' . esc_html__( 'Referral rate', 'affiliates-woocommerce-light') . '</label>';
 		$output .= '&nbsp;';
@@ -315,7 +315,7 @@ class Affiliates_WooCommerce_Light_Integration {
 
 		echo $output;
 
-		affiliates_footer();
+	//	affiliates_footer();
 	}
 
 	/**
@@ -326,24 +326,25 @@ class Affiliates_WooCommerce_Light_Integration {
 	 * @return string footer
 	 */
 	public static function affiliates_footer( $footer ) {
-		$options     = get_option( self::PLUGIN_OPTIONS , array() );
-		$usage_stats = isset( $options[self::USAGE_STATS] ) ? $options[self::USAGE_STATS] : self::USAGE_STATS_DEFAULT;
-		$protocol    = is_ssl() ? 'https://' : 'http://';
-		return
-			'<div style="font-size:0.9em">' .
-			'<p>' .
-			( $usage_stats ? sprintf( "<img src='%swww.itthinx.com/img/affiliates-woocommerce/affiliates-woocommerce-light.png' alt='Logo'/>", $protocol ) : '' ) .
-			wp_kses(
-				sprintf(
-					__( "Powered by <a href='%s' target='_blank'>itthinx.com</a>", 'affiliates-woocommerce-light' ),
-					'https://www.itthinx.com/shop/',
-					'itthinx'
-				),
-				array( 'a' => array( 'href' => array(), 'target' => array() ) )
-			) .
-			'</p>' .
-			'</div>' .
-			$footer;
+//		$options     = get_option( self::PLUGIN_OPTIONS , array() );
+//		$usage_stats = isset( $options[self::USAGE_STATS] ) ? $options[self::USAGE_STATS] : self::USAGE_STATS_DEFAULT;
+//		$protocol    = is_ssl() ? 'https://' : 'http://';
+//		return
+//			'<div style="font-size:0.9em">' .
+//			'<p>' .
+//			( $usage_stats ? sprintf( "<img src='%swww.itthinx.com/img/affiliates-woocommerce/affiliates-woocommerce-light.png' alt='Logo'/>", $protocol ) : '' ) .
+//			wp_kses(
+//				sprintf(
+//					__( "Powered by <a href='%s' target='_blank'>itthinx.com</a>", 'affiliates-woocommerce-light' ),
+//					'https://www.itthinx.com/shop/',
+//					'itthinx'
+//				),
+//				array( 'a' => array( 'href' => array(), 'target' => array() ) )
+//			) .
+//			'</p>' .
+//			'</div>' .
+//			$footer;
+        return "";
 	}
 
 	/**
@@ -419,6 +420,7 @@ class Affiliates_WooCommerce_Light_Integration {
 						$order_id_data = $data['order_id'];
 						if (
 							is_array( $order_id_data ) &&
+
 							array_key_exists( 'domain', $order_id_data ) &&
 							$order_id_data['domain'] === 'affiliates-woocommerce-light' &&
 							array_key_exists( 'value', $order_id_data )

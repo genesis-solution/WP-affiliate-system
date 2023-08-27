@@ -114,7 +114,7 @@ class Affiliates_Dashboard_Earnings extends Affiliates_Dashboard_Section_Table {
 	 * {@inheritDoc}
 	 */
 	public static function get_name() {
-		return __( 'Earnings', 'affiliates' );
+		return __( '收益', 'affiliates' );
 	}
 
 	/**
@@ -185,15 +185,15 @@ class Affiliates_Dashboard_Earnings extends Affiliates_Dashboard_Section_Table {
 		$this->column_display_names = array();
 
 		$this->columns['period'] = array(
-			'title'       => __( 'Period', 'affiliates' ),
+			'title'       => __( '時期', 'affiliates' ),
 			'description' => __( 'The earnings period for the amounts earned.', 'affiliates' )
 		);
 		$this->columns['earnings'] = array(
-			'title'       => __( 'Earnings', 'affiliates' ),
+			'title'       => __( '收益', 'affiliates' ),
 			'description' => __( 'The earnings for the period covered.', 'affiliates' )
 		);
 		$this->columns['paid'] = array(
-			'title'       => __( 'Paid', 'affiliates' ),
+			'title'       => __( '有薪酬的', 'affiliates' ),
 			'description' => __( 'The earnings paid for the period covered.', 'affiliates' )
 		);
 	}

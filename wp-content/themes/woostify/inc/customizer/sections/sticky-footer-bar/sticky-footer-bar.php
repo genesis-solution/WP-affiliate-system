@@ -188,7 +188,7 @@ $wp_customize->add_control(
 		$wp_customize,
 		'woostify_setting[sticky_footer_bar_items]',
 		array(
-			'label'    => __( 'Items', 'woostify' ),
+			'label'    => __( '項目', 'woostify' ),
 			'section'  => 'woostify_sticky_footer_bar',
 			'settings' => 'woostify_setting[sticky_footer_bar_items]',
 			'tab'      => 'general',

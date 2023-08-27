@@ -34,7 +34,7 @@ function affiliates_admin_hits() {
 	$output = '';
 
 	if ( !current_user_can( AFFILIATES_ACCESS_AFFILIATES ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	if (
@@ -51,7 +51,7 @@ function affiliates_admin_hits() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_FILTER_NONCE] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_FILTER_NONCE], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -149,7 +149,7 @@ function affiliates_admin_hits() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_NONCE_1] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_NONCE_1], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -158,7 +158,7 @@ function affiliates_admin_hits() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_NONCE_2] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_NONCE_2], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -170,7 +170,7 @@ function affiliates_admin_hits() {
 	$hits_table = _affiliates_get_tablename( 'hits' );
 
 	$output .= '<h1>';
-	$output .= __( 'Visits & Referrals', 'affiliates' );
+	$output .= __( '訪問和推薦', 'affiliates' );
 	$output .= '</h1>';
 
 	$row_count = isset( $_POST['row_count'] ) ? intval( $_POST['row_count'] ) : 0;
@@ -305,11 +305,11 @@ function affiliates_admin_hits() {
 	} while ( $repeat );
 
 	$column_display_names = array(
-		'date'      => __( 'Date', 'affiliates' ) . '*',
-		'visits'    => __( 'Visits', 'affiliates' ),
-		'hits'      => __( 'Hits', 'affiliates' ),
-		'referrals' => __( 'Referrals', 'affiliates' ),
-		'ratio'     => __( 'Ratio', 'affiliates' )
+		'date'      => __( '日期', 'affiliates' ) . '*',
+		'visits'    => __( '訪問量', 'affiliates' ),
+		'hits'      => __( '點擊數', 'affiliates' ),
+		'referrals' => __( '推薦人', 'affiliates' ),
+		'ratio'     => __( '比率', 'affiliates' )
 	);
 
 	$output .= '<div id="" class="hits-overview">';
@@ -382,7 +382,7 @@ function affiliates_admin_hits() {
 		<div class="page-options">
 			<form id="setrowcount" action="" method="post">
 				<div>
-					<label for="row_count">' . __('Results per page', 'affiliates' ) . '</label>' .
+					<label for="row_count">' . __( '每頁結果', 'affiliates' ) . '</label>' .
 					//<input name="page" type="hidden" value="' . esc_attr( $page ) . '"/>
 					'<input name="row_count" type="text" size="2" value="' . esc_attr( $row_count ) .'" />
 					' . wp_nonce_field( 'admin', AFFILIATES_ADMIN_HITS_NONCE_1, true, false ) . '
@@ -469,13 +469,13 @@ function affiliates_admin_hits() {
 						$output .= '<tr class=" ' . ( $i % 2 == 0 ? 'even' : 'odd' ) . '">';
 						$output .= '<td colspan="5">';
 						$output .= '<div class="details-referrals">';
-						$output .= '<p class="description">' . esc_html__( 'Referrals', 'affiliates' ) . '</p>';
+						$output .= '<p class="description">' . esc_html__( '推薦人', 'affiliates' ) . '</p>';
 						$output .= '<table id="details-referrals-' . esc_attr( $result->date ) . '" class="details-referrals" cellspacing="0">';
 						$output .= '<thead>';
 						$output .= '<tr>';
-						$output .= '<th scope="col" class="datetime">' . esc_html__( 'Date', 'affiliates' ) . '</th>';
-						$output .= '<th scope="col" class="post-id">' . esc_html__( 'Post', 'affiliates' ) . '</th>';
-						$output .= '<th scope="col" class="affiliate-id">' . esc_html__( 'Affiliate', 'affiliates' ) . '</th>';
+						$output .= '<th scope="col" class="datetime">' . esc_html__( '日期', 'affiliates' ) . '</th>';
+						$output .= '<th scope="col" class="post-id">' . esc_html__( '郵政', 'affiliates' ) . '</th>';
+						$output .= '<th scope="col" class="affiliate-id">' . esc_html__( '附屬機構', 'affiliates' ) . '</th>';
 						$output .= '</tr>';
 						$output .= '</thead>';
 						$output .= '<tbody>';

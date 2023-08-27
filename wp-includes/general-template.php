@@ -522,10 +522,10 @@ function wp_login_form( $args = array() ) {
 		// Default 'redirect' value takes the user back to the request URI.
 		'redirect'       => ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'],
 		'form_id'        => 'loginform',
-		'label_username' => __( 'Username or Email Address' ),
-		'label_password' => __( 'Password' ),
-		'label_remember' => __( 'Remember Me' ),
-		'label_log_in'   => __( 'Log In' ),
+		'label_username' => __( '用戶名或郵箱地址' ),
+		'label_password' => __( '密碼' ),
+		'label_remember' => __( '記住賬號' ),
+		'label_log_in'   => __( '登錄' ),
 		'id_username'    => 'user_login',
 		'id_password'    => 'user_pass',
 		'id_remember'    => 'rememberme',
@@ -619,7 +619,7 @@ function wp_login_form( $args = array() ) {
 		) .
 		sprintf(
 			'<p class="login-submit">
-				<input type="submit" name="wp-submit" id="%1$s" class="button button-primary" value="%2$s" />
+				<input type="submit" name="wp-submit" id="%1$s" class="button button-primary" value="%2$s" style="width: 300px" />
 				<input type="hidden" name="redirect_to" value="%3$s" />
 			</p>',
 			esc_attr( $args['id_submit'] ),

@@ -253,7 +253,7 @@ class Affiliates_Settings_Integrations extends Affiliates_Settings {
 					$integration_class .= ' active';
 				}
 			}
-			if ( AFFILIATES_PLUGIN_NAME == 'affiliates' ) {
+			if ( AFFILIATES_PLUGIN_NAME == 'my affiliate' ) {
 				$button = '';
 			}
 			$button = apply_filters( 'affiliates_settings_integration_button', $button, $action, $key, $integration );

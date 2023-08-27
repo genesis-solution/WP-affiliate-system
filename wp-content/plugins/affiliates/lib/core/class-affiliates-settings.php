@@ -56,11 +56,11 @@ class Affiliates_Settings {
 		self::$sections = apply_filters(
 			'affiliates_settings_sections',
 			array(
-				'general'      => __( 'General', 'affiliates' ),
-				'registration' => __( 'Registration', 'affiliates' ),
-				'pages'        => __( 'Pages', 'affiliates' ),
-				'referrals'    => __( 'Referrals', 'affiliates' ),
-				'integrations' => __( 'Integrations', 'affiliates' )
+				'general'      => __( '一般的', 'affiliates' ),
+				'registration' => __( '登記', 'affiliates' ),
+				'pages'        => __( '頁數', 'affiliates' ),
+				'referrals'    => __( '推薦人', 'affiliates' ),
+				'integrations' => __( '集成', 'affiliates' )
 			)
 		);
 	}
@@ -175,7 +175,7 @@ class Affiliates_Settings {
 		global $wp, $wpdb, $affiliates_options, $wp_roles;
 
 		if ( !current_user_can( AFFILIATES_ADMINISTER_OPTIONS ) ) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 
 		wp_enqueue_style( 'affiliates-admin-settings' );

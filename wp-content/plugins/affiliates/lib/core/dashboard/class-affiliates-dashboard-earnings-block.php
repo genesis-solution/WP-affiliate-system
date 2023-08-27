@@ -49,12 +49,12 @@ class Affiliates_Dashboard_Earnings_Block extends Affiliates_Dashboard_Earnings 
 			'affiliates-dashboard-earnings-block',
 			'affiliates_dashboard_earnings_block',
 			array(
-				'title'                     => _x( 'Affiliates Dashboard Earnings', 'block title', 'affiliates' ),
-				'description'               => _x( 'Displays the Earnings section from the Affiliates Dashboard', 'block description', 'affiliates' ),
-				'keyword_affiliates'        => __( 'Affiliates', 'affiliates' ),
-				'keyword_dashboard'         => __( 'Dashboard', 'affiliates' ),
-				'keyword_earnings'          => __( 'Earnings', 'affiliates' ),
-				'dashboard_earnings_notice' => _x( 'Affiliates Dashboard Earnings', 'Notice shown when editing the Affiliates Dashboard Earnings block as a non-affiliate.', 'affiliates' )
+				'title'                     => _x( '附屬公司儀表板收益', 'block title', 'affiliates' ),
+				'description'               => _x( '顯示附屬機構儀表板的收入部分', 'block description', 'affiliates' ),
+				'keyword_affiliates'        => __( '附屬公司', 'affiliates' ),
+				'keyword_dashboard'         => __( '儀表板', 'affiliates' ),
+				'keyword_earnings'          => __( '收益', 'affiliates' ),
+				'dashboard_earnings_notice' => _x( '附屬公司儀表板收益', 'Notice shown when editing the Affiliates Dashboard Earnings block as a non-affiliate.', 'affiliates' )
 			)
 		);
 

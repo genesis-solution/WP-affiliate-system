@@ -54,7 +54,7 @@ function affiliates_admin_affiliates() {
 	$pname = get_option( 'aff_pname', AFFILIATES_PNAME );
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	// @deprecated
@@ -161,7 +161,7 @@ function affiliates_admin_affiliates() {
 			!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_FILTER_NONCE] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_FILTER_NONCE], 'admin' )
 		) {
-			wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+			wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -298,7 +298,7 @@ function affiliates_admin_affiliates() {
 			!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE_1] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE_1], 'admin' )
 		) {
-			wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+			wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -307,7 +307,7 @@ function affiliates_admin_affiliates() {
 			!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE_2] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE_2], 'admin' )
 		) {
-			wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+			wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -322,7 +322,7 @@ function affiliates_admin_affiliates() {
 	$output .=
 		'<div class="manage-affiliates">' .
 		'<h1>' .
-		esc_html__( 'Manage Affiliates', 'affiliates' ) .
+		esc_html__( '管理附屬公司', 'affiliates' ) .
 		'</h1>';
 
 	$output .= $notice;

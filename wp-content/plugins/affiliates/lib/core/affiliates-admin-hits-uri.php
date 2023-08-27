@@ -36,7 +36,7 @@ function affiliates_admin_hits_uri() {
 	$output = '';
 
 	if ( is_admin() && !current_user_can( AFFILIATES_ACCESS_AFFILIATES ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	if (
@@ -56,7 +56,7 @@ function affiliates_admin_hits_uri() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_FILTER_NONCE] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_FILTER_NONCE], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -223,7 +223,7 @@ function affiliates_admin_hits_uri() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_NONCE_1] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_NONCE_1], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -232,7 +232,7 @@ function affiliates_admin_hits_uri() {
 			!isset( $_POST[AFFILIATES_ADMIN_HITS_NONCE_2] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_HITS_NONCE_2], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 
@@ -482,13 +482,13 @@ function affiliates_admin_hits_uri() {
 	} while ( $repeat );
 
 	$column_display_names = array(
-		'date'       => __( 'Date', 'affiliates' ) . '*',
-		'name'       => __( 'Affiliate', 'affiliates' ),
-		'ip'         => __( 'IP', 'affiliates' ),
-		'referrals'  => __( 'Referrals', 'affiliates' ),
-		'src_uri'    => __( 'Source URI', 'affiliates' ),
-		'dest_uri'   => __( 'Landing URI', 'affiliates' ),
-		'user_agent' => __( 'User Agent', 'affiliates' )
+		'date'       => __( '日期', 'affiliates' ) . '*',
+		'name'       => __( '附屬機構', 'affiliates' ),
+		'ip'         => __( '知識產權', 'affiliates' ),
+		'referrals'  => __( '推薦人', 'affiliates' ),
+		'src_uri'    => __( '源URI', 'affiliates' ),
+		'dest_uri'   => __( '登陸URI', 'affiliates' ),
+		'user_agent' => __( '用戶代理', 'affiliates' )
 	);
 	if ( $campaigns ) {
 		$column_display_names['campaign'] = __( 'Campaign', 'affiliates' );
@@ -635,7 +635,7 @@ function affiliates_admin_hits_uri() {
 		'<div class="page-options">' .
 			'<form id="setrowcount" action="" method="post">' .
 				'<div>' .
-					'<label for="row_count">' . __('Results per page', 'affiliates' ) . '</label>' .
+					'<label for="row_count">' . __( '每頁結果', 'affiliates' ) . '</label>' .
 					'<input name="row_count" type="text" size="2" value="' . esc_attr( $row_count ) .'" />' .
 					wp_nonce_field( "admin", AFFILIATES_ADMIN_HITS_NONCE_1, true, false ) .
 					'<input class="button" type="submit" value="' . __( 'Apply', 'affiliates' ) . '"/>' .

@@ -31,7 +31,7 @@ function affiliates_admin() {
 	global $wpdb, $affiliates_options;
 
 	if ( !current_user_can( AFFILIATES_ACCESS_AFFILIATES ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	echo '<h1>' . __( 'Affiliates Overview', 'affiliates' ) . '</h1>';
@@ -52,7 +52,7 @@ function affiliates_admin() {
 			!isset( $_POST[AFFILIATES_ADMIN_OVERVIEW_NONCE] ) ||
 			!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_OVERVIEW_NONCE], 'admin' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 	}
 	$from_date = $affiliates_options->get_option( 'overview_from_date', null );
@@ -487,7 +487,7 @@ function affiliates_admin() {
 	echo '<div class="manage" style="margin-right:1em">';
 
 	echo '<h3>';
-	esc_html_e( 'Referrals', 'affiliates' );
+	esc_html_e( '推薦人', 'affiliates' );
 	echo '</h3>';
 
 	if ( count( $referral_stats ) > 0 ) {

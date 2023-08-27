@@ -462,7 +462,7 @@ class WCS_Admin_Post_Types {
 			'cb'                => '<input type="checkbox" />',
 			'status'            => __( 'Status', 'woocommerce-subscriptions' ),
 			'order_title'       => __( 'Subscription', 'woocommerce-subscriptions' ),
-			'order_items'       => __( 'Items', 'woocommerce-subscriptions' ),
+			'order_items'       => __( '項目', 'woocommerce-subscriptions' ),
 			'recurring_total'   => __( 'Total', 'woocommerce-subscriptions' ),
 			'start_date'        => __( 'Start Date', 'woocommerce-subscriptions' ),
 			'trial_end_date'    => __( 'Trial End', 'woocommerce-subscriptions' ),

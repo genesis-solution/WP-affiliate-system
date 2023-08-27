@@ -1,0 +1,22 @@
+===== Custom Function Guideline ====
+
+==== Share Parametter ====== parametter
+1. $provider = select share provider. 
+Example:
+$provider = ['facebook', 'twitter', 'whatsapp'];
+
+2. $attr = custom class, button style, 
+$attr['class'] = 'class name';
+$attr['style'] = 'style1';
+
+
+Call custom function format:
+if( function_exists('__wp_social_share') ){
+    echo __wp_social_share( $provider, $attr );
+}
+
+if( function_exists('__wp_social_share_pro_check') ){
+    if( __wp_social_share_pro_check() ){
+
+    }
+}

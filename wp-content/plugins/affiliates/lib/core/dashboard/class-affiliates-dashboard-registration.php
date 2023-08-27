@@ -83,7 +83,7 @@ class Affiliates_Dashboard_Registration extends Affiliates_Dashboard_Section {
 	}
 
 	public static function get_name() {
-		return __( 'Registration', 'affiliates' );
+		return __('登記', 'affiliates' );
 	}
 
 	public static function get_key() {

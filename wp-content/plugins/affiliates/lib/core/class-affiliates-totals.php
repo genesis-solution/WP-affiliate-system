@@ -46,7 +46,7 @@ class Affiliates_Totals {
 		$today = date( 'Y-m-d', time() );
 
 		if ( !current_user_can( AFFILIATES_ACCESS_AFFILIATES ) ) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 
 		if ( isset ( $_GET['action'] ) ) {
@@ -80,7 +80,7 @@ class Affiliates_Totals {
 				!isset( $_POST[self::NONCE] ) ||
 				!wp_verify_nonce( $_POST[self::NONCE], self::SET_FILTERS )
 			) {
-				wp_die( __( 'Access denied.', 'affiliates' ) );
+				wp_die( __( '拒絕訪問。', 'affiliates' ) );
 			}
 		}
 
@@ -149,7 +149,7 @@ class Affiliates_Totals {
 				!isset( $_POST[self::NONCE_1] ) ||
 				!wp_verify_nonce( $_POST[self::NONCE_1], self::SET_RPP )
 			) {
-				wp_die( __( 'Access denied.', 'affiliates' ) );
+				wp_die( __( '拒絕訪問。', 'affiliates' ) );
 			}
 		}
 
@@ -158,7 +158,7 @@ class Affiliates_Totals {
 				!isset( $_POST[self::NONCE_2] ) ||
 				!wp_verify_nonce( $_POST[self::NONCE_2], self::SET_PAGE )
 			) {
-				wp_die( __( 'Access denied.', 'affiliates' ) );
+				wp_die( __( '拒絕訪問。', 'affiliates' ) );
 			}
 		}
 
@@ -356,7 +356,7 @@ class Affiliates_Totals {
 			"class='button close-referrals' " .
 			"href='" . esc_url( $current_url ) . "&action=close_referrals" . $mp_params . "'>" .
 			"<img class='icon' alt='" . __( 'Close referrals', 'affiliates') . "' src='". AFFILIATES_PLUGIN_URL ."images/closed.png'/>" .
-			"<span class='label'>" . __( 'Close Referrals', 'affiliates') . "</span>" .
+			"<span class='label'>" . __( '關閉推薦', 'affiliates') . "</span>" .
 			"</a>";
 		$output .= "</p>";
 		$output .= '</div>';
@@ -445,7 +445,7 @@ class Affiliates_Totals {
 			<div class="page-options">
 				<form id="setrowcount" action="" method="post">
 					<div>
-						<label for="row_count">' . __('Results per page', 'affiliates' ) . '</label>' .
+						<label for="row_count">' . __( '每頁結果', 'affiliates' ) . '</label>' .
 						'<input name="row_count" type="text" size="2" value="' . esc_attr( $row_count ) .'" />
 						' . wp_nonce_field( self::SET_RPP, self::NONCE_1, true, false ) . '
 						<input class="button" type="submit" value="' . __( 'Apply', 'affiliates' ) . '"/>
@@ -735,7 +735,7 @@ class Affiliates_Totals {
 							"class='close-referrals button' " .
 							"href='" . esc_url( $current_url ) . "&action=close_referrals&step=2" . $mp_params . "'>" .
 							"<img class='icon' alt='" . __( 'Close referrals', 'affiliates') . "' src='". AFFILIATES_PLUGIN_URL ."images/closed.png'/>" .
-							"<span class='label'>" . __( 'Close Referrals', 'affiliates') . "</span>" .
+							"<span class='label'>" . __( '關閉推薦', 'affiliates') . "</span>" .
 							"</a>";
 
 						$output .= "<div class='warning'>";

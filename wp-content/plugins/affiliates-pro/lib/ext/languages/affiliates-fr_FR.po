@@ -1,0 +1,2818 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-27 13:03+0200\n"
+"PO-Revision-Date: 2023-06-27 13:44+0200\n"
+"Last-Translator: itthinx.com <support@itthinx.com>\n"
+"Language-Team: itthinx.com <support@itthinx.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:168
+#, php-format
+msgid "%.3f Ratio"
+msgstr "%.3f Ratio"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:1004
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:166
+#, php-format
+msgid "%d Hit"
+msgid_plural "%d Hits"
+msgstr[0] "%d Clic"
+msgstr[1] "%d Clics"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:167
+#, php-format
+msgid "%d Referral"
+msgid_plural "%d Referrals"
+msgstr[0] "%d Renvois"
+msgstr[1] "%d Renvois"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:165
+#, php-format
+msgid "%d Visit"
+msgid_plural "%d Visits"
+msgstr[0] "%d Visite"
+msgstr[1] "%d Visites"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:719
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:804
+msgid "(inoperative)"
+msgstr "(suspendu)"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:305
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:320
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:327
+msgid "(legacy)"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:160
+msgid "(no reference)"
+msgstr "(aucune référence)"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:713
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:796
+msgid "(removed)"
+msgstr "(supprimé)"
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:490
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:450
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:217
+#, php-format
+msgid ""
+"* Date is given for the server's time zone : %s, which has an offset of %s "
+"hours with respect to GMT."
+msgstr ""
+
+#: lib/ext/abstract/class-affiliates-totals.php:605
+msgid ""
+"*To undo, each referral would have to be set to the desired status "
+"individually."
+msgstr ""
+"* Pour annuler, chaque renvoi doit être défini à l'état désiré "
+"individuellement."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:239
+#, php-format
+msgid "<code>[affiliates_banner id=\"%d\"]</code>"
+msgstr "<code>[affiliates_banner id=\"%d\"]</code>"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:981
+#, php-format
+msgid "<span style=\"cursor:help\" title=\"%s\">Accepted</span>"
+msgstr "<span style=\"cursor:help\" title=\"%s\">Accepté</span>"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:978
+#, php-format
+msgid "<span style=\"cursor:help\" title=\"%s\">Closed</span>"
+msgstr "<span style=\"cursor:help\" title=\"%s\">Fermée</span>"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:984
+#, php-format
+msgid "<span style=\"cursor:help\" title=\"%s\">Pending</span>"
+msgstr "<span style=\"cursor:help\" title=\"%s\">En Attente</span>"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:987
+#, php-format
+msgid "<span style=\"cursor:help\" title=\"%s\">Rejected</span>"
+msgstr "<span style=\"cursor:help\" title=\"%s\">Rejeté</span>"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:238
+msgid ""
+"<strong>Discontinued, we recommend to use our WooCommerce integration "
+"instead.</strong>"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:540
+msgid "<strong>Export</strong> : Export the current totals listing to a file."
+msgstr ""
+"<Strong>Exportation</strong>: Exporte la liste des totaux en cours dans un "
+"fichier."
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:543
+msgid ""
+"<strong>Mass Payment File</strong> : Export the current totals for mass "
+"payment compatible with the PayPal file format<sup>*</sup>."
+msgstr ""
+"<strong>Fichier de Paiement en Masse</strong>: Exportez les totaux actuels "
+"pour les paiements en masse compatibles avec le format de fichier "
+"PayPal<sup>*</sup>."
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:548
+#, php-format
+msgid ""
+"<sup>*</sup>Note that the PayPal Mass Payment <a target='_blank' "
+"href='%s'>File Format</a> allows only one currency type per Mass Payment "
+"file."
+msgstr ""
+"<sup>*</sup>Notez que le <a target='_blank' href='%s'>Format de Fichier</a> "
+"de paiement en masse PayPal ne permet qu'un type de devise par fichier."
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:322
+msgid "A fixed commission amount is attributed with each referral."
+msgstr "Un montant de commission fixe est attribué à chaque renvoi."
+
+#: lib/ext/abstract/class-affiliates-totals.php:655
+#: lib/ext/abstract/class-affiliates-totals.php:701
+#: lib/ext/abstract/class-affiliates-totals.php:707
+#: lib/ext/abstract/class-affiliates-graph-renderer.php:268
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:198
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:295
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:335
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:641
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:577
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:237
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:362
+msgid "Accepted"
+msgstr "Accepté"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:152
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:233
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:240
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:303
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:375
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:382
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:443
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:515
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:522
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:132
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:340
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:347
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:41
+#: lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:112
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:732
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:784
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1265
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:53
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:111
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:250
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:259
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:94
+#: lib/ext/wordpress/class-affiliates-rates-wordpress.php:170
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:62
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:102
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:111
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:139
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:42
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:218
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:351
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:360
+#: lib/ext/includes/class-affiliates-referrals-export.php:256
+#: lib/ext/includes/class-affiliates-export.php:316
+#: lib/ext/includes/generate-mass-payment-file.php:36
+msgid "Access denied."
+msgstr "Accès refusé."
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:981
+msgid "Accumulated total for accepted referrals (commissions unpaid)."
+msgstr "Total accumulé pour les renvois acceptés (commissions non payées)."
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:978
+msgid "Accumulated total for closed referrals (commissions paid)."
+msgstr "Total accumulé pour les renvois fermée (commissions payées)."
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:984
+msgid "Accumulated total for pending referrals."
+msgstr "Total accumulé pour les renvois en attente."
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:987
+msgid "Accumulated total for rejected referrals."
+msgstr "Total accumulé pour les renvois rejetées."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:256
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:545
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:559
+msgid "Active"
+msgstr "Actif"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:76
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:211
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:385
+msgid "Add"
+msgstr "Ajouter"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:299
+msgid "Add New Banner"
+msgstr "Ajoutez une nouvelle bannière"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:193
+msgid "Add a new attribute"
+msgstr "Ajouter un nouvel attribut"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:157
+msgid "AddThis"
+msgstr "AddThis"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:142
+msgid "AddToAny"
+msgstr "AddToAny"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:57
+msgid "Administrator"
+msgstr "Administrateur"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:325
+msgid "Administrator Email Address"
+msgstr "E-mail de l'Administrateur"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:226
+msgid "Administrator Notifications"
+msgstr "Notifications d'Administrateur"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:781
+msgid "Administrator message:"
+msgstr "Message d'Administrateur:"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:779
+msgid "Administrator subject:"
+msgstr "Sujet d'Administrateur:"
+
+#: lib/ext/abstract/class-affiliates-totals.php:282
+#: lib/ext/abstract/class-affiliates-totals.php:695
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:299
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:455
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:533
+#: lib/ext/includes/class-affiliates-referrals-export.php:90
+#: lib/ext/includes/class-affiliates-export.php:76
+msgid "Affiliate"
+msgstr "Affilié"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:70
+msgid "Affiliate Attributes"
+msgstr "Attributs d'Affilié"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:312
+msgid "Affiliate Banner"
+msgstr "Bannières d'Affiliés"
+
+#: lib/ext/includes/class-affiliates-referrals-export.php:89
+msgid "Affiliate ID"
+msgstr "ID d'Affilié"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:623
+msgid "Affiliate Id"
+msgstr "Id d'Affilié"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:627
+msgid "Affiliate Name"
+msgstr "Nom d'Affilié"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:511
+msgid "Affiliate Notifications"
+msgstr "Notifications d'Affilié"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:701
+msgid "Affiliate Registration"
+msgstr "Enregistrement d’Affilié"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:565
+msgid "Affiliate Status"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-url-renderer-wordpress.php:199
+msgid "Affiliate URL"
+msgstr "URL d'Affilié"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:631
+msgid "Affiliate Username"
+msgstr "Nom d'Utilisateur d'Affilié"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:62
+msgid "Affiliate added."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:786
+msgid "Affiliate message:"
+msgstr "Message d'Affilié:"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:160
+msgid "Affiliate rates"
+msgstr "Tarifs d’affiliation"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:75
+msgid "Affiliate removed."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:784
+msgid "Affiliate subject:"
+msgstr "Sujet d'Affilié:"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:71
+msgid "Affiliate updated."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:50
+#: lib/ext/includes/class-affiliates-upgrade-3.php:155
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic-block.php:55
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals-block.php:55
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro-block.php:55
+#: lib/ext/dashboard/class-affiliates-dashboard-banners-block.php:55
+msgid "Affiliates"
+msgstr "Affiliés"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:158
+msgid "Affiliates AddThis Integration"
+msgstr "Intégration Affiliates AddThis"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:143
+msgid "Affiliates AddToAny Integration"
+msgstr "Intégration Affiliates AddToAny"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-banners-block.php:58
+msgctxt ""
+"Notice shown when editing the Affiliates Dashboard Banners block as a non-"
+"affiliate."
+msgid "Affiliates Dashboard Banners"
+msgstr "Tableau de Bord des Bannières des Affiliés"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-banners-block.php:53
+msgctxt "block title"
+msgid "Affiliates Dashboard Banners"
+msgstr "Tableau de Bord des Bannières d'Affiliés"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro-block.php:58
+msgctxt ""
+"Notice shown when editing the Affiliates Dashboard Overview block as a non-"
+"affiliate."
+msgid "Affiliates Dashboard Overview"
+msgstr "Tableau de Bord d'Aperçu d'Affiliés"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro-block.php:53
+msgctxt "block title"
+msgid "Affiliates Dashboard Overview"
+msgstr "Tableau de Bord d'Aperçu d'Affiliés"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals-block.php:58
+msgctxt ""
+"Notice shown when editing the Affiliates Dashboard Referrals block as a non-"
+"affiliate."
+msgid "Affiliates Dashboard Referrals"
+msgstr ""
+
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals-block.php:53
+msgctxt "block title"
+msgid "Affiliates Dashboard Referrals"
+msgstr ""
+
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic-block.php:58
+msgctxt ""
+"Notice shown when editing the Affiliates Dashboard Traffic block as a non-"
+"affiliate."
+msgid "Affiliates Dashboard Traffic"
+msgstr "Tableau de Bord de Traffic d'Affiliés"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic-block.php:53
+msgctxt "block title"
+msgid "Affiliates Dashboard Traffic"
+msgstr "Tableau de Bord de Traffic d'Affiliés"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:400
+msgid "Affiliates Enterprise"
+msgstr "Affiliates Enterprise"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:188
+msgid "Affiliates Gravity Forms Integration"
+msgstr "Intégration Affiliates Gravity Forms"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:173
+msgid "Affiliates Pay per Click"
+msgstr "Affiliates Pay per Click"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:235
+msgid "Affiliates PayPal Integration"
+msgstr "Intégration Affiliates Contact Form 7"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:402
+msgid "Affiliates Pro"
+msgstr "Affiliates Pro"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:722
+msgid "Affiliates Registration"
+msgstr "Enregistrement d'Affiliés"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:106
+msgid "Affiliates WooCommerce Integration"
+msgstr "Intégration Affiliates WooCommerce"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:568
+msgid "All Integrations"
+msgstr "Toutes les intégrations"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:291
+msgid "All other choices represent legacy options."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:147
+msgid "All rates"
+msgstr "Tous les tarifs"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:313
+msgid ""
+"Also note that if the value is equal to or greater than <code>1</code>, this "
+"would grant a commission amount higher than the actual (net) purchase amount "
+"&ndash; a case which is normally not desired."
+msgstr ""
+"Notez également que si la valeur est égale ou supérieure à <code>1</code>, "
+"ceci accorderait un montant de commission supérieur au montant réel (net) "
+"d'achat &ndash; un cas qui n'est normalement pas souhaité."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:459
+msgid "Alternatively, a banner image URL can be specified."
+msgstr "Alternativement, vous pouvez définir une URL d'image de bannière."
+
+#: lib/ext/abstract/class-affiliates-totals.php:696
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:82
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:359
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:187
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:538
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:976
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1317
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:223
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:304
+#: lib/ext/includes/class-affiliates-referrals-export.php:80
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:223
+msgid "Amount"
+msgstr "Montant"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:728
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:780
+msgid "An entry with matching conditions already exists."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:534
+msgid "Any Type"
+msgstr "Tous les types"
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:443
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:459
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:647
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:661
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:308
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:270
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:498
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:680
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:719
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:748
+#: templates/dashboard/banners.php:54 templates/dashboard/banners.php:162
+#: templates/dashboard/referrals.php:60 templates/dashboard/referrals.php:195
+#: templates/dashboard/traffic.php:78 templates/dashboard/traffic.php:212
+#: templates/dashboard/overview-pro.php:107
+msgid "Apply"
+msgstr "Appliquer"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:289
+msgid "Automatically generated from affiliate rate."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:355
+msgid "Automatically generated from affiliate tier rate for level."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:489
+msgid "Automatically generated from assumed default form rate."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:442
+msgid "Automatically generated from default event rate."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:653
+msgid "Automatically generated from default form amount."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:513
+#: lib/ext/includes/class-affiliates-upgrade-3.php:528
+msgid "Automatically generated from default form rate."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:392
+msgid "Automatically generated from default product rate."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:461
+msgid "Automatically generated from event rate."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:607
+msgid "Automatically generated from form amount."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:567
+#: lib/ext/includes/class-affiliates-upgrade-3.php:611
+#: lib/ext/includes/class-affiliates-upgrade-3.php:682
+msgid "Automatically generated from form rate."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:244
+msgid "Automatically generated from general rate."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:322
+msgid "Automatically generated from general tier rate for level."
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:412
+msgid "Automatically generated from product rate."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:184
+#: lib/ext/wordpress/class-affiliates-banner.php:296
+msgid "Banner"
+msgstr "Bannière"
+
+#: templates/dashboard/banners.php:131
+msgid "Banner Code"
+msgstr "Code de la banière"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:382
+msgid "Banner Image"
+msgstr "Image de la Bannière"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:615
+msgid "Banner draft updated."
+msgstr "Esquisse de bannière mis à jour."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:478
+msgid "Banner image URL."
+msgstr "URL d'image de la bannière."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:511
+msgid "Banner image height in pixels."
+msgstr "Hauteur de l'image de la bannière en pixels."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:500
+msgid "Banner image width in pixels."
+msgstr "Largeur de l'image de la bannière en pixels."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:611
+msgid "Banner published."
+msgstr "Bannière publiée."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:410
+msgid "Banner reference &hellip;"
+msgstr "Référence de la bannière &hellip;"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:610
+#, php-format
+msgid "Banner restored to revision from %s"
+msgstr "Bannière restaurée à révision de %s"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:612
+msgid "Banner saved."
+msgstr "Bannière enregistré."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:614
+#, php-format
+msgid "Banner scheduled for: <strong>%1$s</strong>."
+msgstr "Bannière prévue pour: <strong>%1$s</strong>."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:613
+msgid "Banner submitted."
+msgstr "Bannière soumise."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:606
+#: lib/ext/wordpress/class-affiliates-banner.php:609
+msgid "Banner updated."
+msgstr "Bannière actualisé."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:295
+#: lib/ext/wordpress/class-affiliates-banner.php:297
+#: lib/ext/wordpress/class-affiliates-banner.php:309
+#: lib/ext/dashboard/class-affiliates-dashboard-banners.php:72
+#: lib/ext/dashboard/class-affiliates-dashboard-banners-block.php:57
+#: templates/dashboard/banners.php:43
+msgid "Banners"
+msgstr "Bannières"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:338
+msgid ""
+"Before switching from legacy options to <em>Rates</em>, use these buttons to "
+"generate rate entries from existing data."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:743
+msgid "Bulk Actions"
+msgstr "Actions Groupées"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:151
+msgid "Bulk action executed"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:298
+#, php-format
+msgid ""
+"Calculates commissions based on the definitions in the <a href=\"%s\">Rates</"
+"a> section."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-url-renderer-wordpress.php:176
+msgid "Campaign"
+msgstr "Campagne"
+
+#: lib/ext/includes/class-affiliates-referrals-export.php:94
+msgid "Campaign ID"
+msgstr "ID de Campagne"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:215
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:357
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:497
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:308
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1629
+msgid "Cancel"
+msgstr "Annuler"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1627
+msgid "Cancel this action"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:444
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:648
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:309
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:499
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:681
+#: templates/dashboard/banners.php:55 templates/dashboard/referrals.php:61
+#: templates/dashboard/traffic.php:79 templates/dashboard/overview-pro.php:108
+msgid "Clear"
+msgstr "Vider"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:385
+msgid "Click to add a new affiliate"
+msgstr "Cliquez pour ajouter un nouvel affilié"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:76
+msgid "Click to add a new attribute"
+msgstr "Cliquez pour ajouter un nouvel attribut"
+
+#: lib/ext/abstract/class-affiliates-totals.php:590
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:530
+msgid "Click to close these referrals"
+msgstr "Cliquez pour fermer ces renvois"
+
+#: lib/ext/abstract/class-affiliates-totals.php:594
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:534
+msgid "Close Referrals"
+msgstr "Fermer Renvois"
+
+#: lib/ext/abstract/class-affiliates-totals.php:593
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:533
+msgid "Close referrals"
+msgstr "Fermer renvois"
+
+#: lib/ext/abstract/class-affiliates-totals.php:587
+msgid "Close these referrals by clicking:"
+msgstr "Fermez ces renvois en cliquant sur:"
+
+#: lib/ext/abstract/class-affiliates-totals.php:656
+#: lib/ext/abstract/class-affiliates-totals.php:702
+#: lib/ext/abstract/class-affiliates-totals.php:708
+#: lib/ext/abstract/class-affiliates-graph-renderer.php:296
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:222
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:578
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:267
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:363
+msgid "Closed"
+msgstr "Fermé"
+
+#: lib/ext/abstract/class-affiliates-totals.php:401
+msgid "Closing referrals"
+msgstr "Clôture des renvois"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:400
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:691
+msgid "Columns"
+msgstr "Colonnes"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:44
+msgid "Commissions"
+msgstr "Commissions"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:183
+msgid "Contact Form 7"
+msgstr ""
+
+#: lib/ext/wp-init.php:264
+msgid "Cookie Expiration"
+msgstr "Expiration de Cookie"
+
+#: templates/dashboard/banners.php:135 templates/dashboard/overview-pro.php:130
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: lib/ext/wp-init.php:263
+msgid "Coupons"
+msgstr "Bons"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:269
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:409
+#, php-format
+msgid ""
+"Coupons may not be assigned to multiple affiliates. The coupon code <strong>"
+"%s</strong> has already been assigned to the affiliate with Id %d."
+msgstr ""
+"Les coupons ne peuvent pas être attribués à plusieurs affiliés. Le code de "
+"coupon <strong>%s</strong> a déjà été attribué à l'affilié avec l'Id %d."
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1253
+msgid "Create"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:829
+msgid "Create a new rate"
+msgstr ""
+
+#: lib/ext/abstract/class-affiliates-totals.php:286
+#: lib/ext/abstract/class-affiliates-totals.php:697
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:83
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:362
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:188
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:297
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:459
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:597
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:224
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:308
+#: lib/ext/includes/class-affiliates-referrals-export.php:81
+msgid "Currency"
+msgstr "Devise"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1005
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1347
+msgid "Currency ID"
+msgstr "ID Devise"
+
+#: templates/dashboard/overview-pro.php:92
+msgid "Custom Date Range"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:608
+msgid "Custom field deleted."
+msgstr "Champ personnalisé supprimé."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:607
+msgid "Custom field updated."
+msgstr "Champ personnalié mis à jour."
+
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic-block.php:56
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals-block.php:56
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro-block.php:56
+#: lib/ext/dashboard/class-affiliates-dashboard-banners-block.php:56
+msgid "Dashboard"
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-referrals-export.php:96
+msgid "Data"
+msgstr "Donnée"
+
+#: lib/ext/abstract/class-affiliates-totals.php:693
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:151
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:291
+#: lib/ext/includes/class-affiliates-referrals-export.php:84
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:448
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:215
+msgid "Date"
+msgstr "Date"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:238
+msgid "Default referral calculation"
+msgstr "Calcul de renvois par défaut"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:248
+msgid "Default referral calculation value"
+msgstr "Valeur de calcul de renvois par défaut"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:739
+msgid "Default subject and message"
+msgstr "Sujet et message par défaut"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:777
+msgid "Default subjects and messages"
+msgstr "Sujets et messages par défaut"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:370
+msgid "Delete"
+msgstr "Supprimer"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:297
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:561
+msgid "Deleted"
+msgstr "Supprimé"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:317
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1245
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1596
+#: lib/ext/includes/class-affiliates-referrals-export.php:85
+msgid "Description"
+msgstr "Description"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:315
+msgid "Details"
+msgstr "Détails"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-banners-block.php:54
+msgctxt "block description"
+msgid "Displays the Banners section from the Affiliates Dashboard"
+msgstr ""
+
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro-block.php:54
+msgctxt "block description"
+msgid "Displays the Overview section from the Affiliates Dashboard"
+msgstr ""
+
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals-block.php:54
+msgctxt "block description"
+msgid "Displays the Referrals section from the Affiliates Dashboard"
+msgstr ""
+
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic-block.php:54
+msgctxt "block description"
+msgid "Displays the Traffic section from the Affiliates Dashboard"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:285
+msgid "Duplicate key"
+msgstr "Clé double"
+
+#: templates/dashboard/overview-pro.php:60
+msgid "Earnings"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:85
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:124
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:259
+#: lib/ext/wordpress/class-affiliates-banner.php:300
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:841
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:842
+msgid "Edit"
+msgstr "Editer"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:151
+#, php-format
+msgid "Edit %s"
+msgstr "Editer %s"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:301
+msgid "Edit Banner"
+msgstr "Editer Bannière"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1301
+msgid "Edit Rate"
+msgstr "Éditer le tarif"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:219
+msgid "Edit an affiliate"
+msgstr "Editer un Affilié"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:335
+msgid "Edit an attribute"
+msgstr "Editer un attribut"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:251
+msgid "Edit this rate"
+msgstr ""
+
+#: lib/ext/abstract/class-affiliates-totals.php:283
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:242
+#: lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:193
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:456
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:534
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:621
+#: lib/ext/includes/class-affiliates-export.php:77
+msgid "Email"
+msgstr "Email"
+
+#: lib/ext/wordpress/class-affiliates-settings-ext.php:63
+msgid "Enable Notifications"
+msgstr "Activer les Notifications"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:502
+msgid "Enable registration emails"
+msgstr "Activer emails d'enregistrement"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:219
+msgid "Enable registration notifications"
+msgstr "Activer notifications d'enregistrement"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:178
+msgid "Event rates"
+msgstr "Tarifs des événements"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:175
+msgid "Events Manager"
+msgstr "Events Manager"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:518
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:389
+#: lib/ext/includes/class-affiliates-referrals-export.php:235
+msgid "Export"
+msgstr "Exportation"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:514
+msgid "Export to File"
+msgstr "Exporter au Fichier"
+
+#: lib/ext/abstract/class-affiliates-totals.php:675
+msgid "Failed"
+msgstr "Échoué"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:597
+msgid "Filter"
+msgstr "Filtre"
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:385
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:610
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:294
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:486
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:396
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:603
+msgid "Filters"
+msgstr "Filtres"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:180
+msgid "First Name"
+msgstr "Prénom"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:186
+#: lib/ext/includes/class-affiliates-upgrade-3.php:194
+#: lib/ext/includes/class-affiliates-upgrade-3.php:202
+#: lib/ext/includes/class-affiliates-upgrade-3.php:210
+msgid "Form rates"
+msgstr "Tarifs des formulaires"
+
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:298
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:303
+msgid "Format: YYYY-MM-DD"
+msgstr "Format : YYYY-MM-DD"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:191
+msgid "Formidable Forms"
+msgstr "Formidable Forms"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:539
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:978
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1319
+msgid "Formula"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:270
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:391
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:637
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:297
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:489
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:536
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:634
+#: lib/ext/includes/class-affiliates-export.php:79
+#: templates/dashboard/referrals.php:48 templates/dashboard/traffic.php:51
+#: templates/dashboard/overview-pro.php:97
+msgid "From"
+msgstr "De"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:158
+msgid "General rate"
+msgstr "Taux général"
+
+#: lib/ext/wordpress/class-affiliates-url-renderer-wordpress.php:208
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:517
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:525
+msgid "Generate"
+msgstr "Générer"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:522
+msgid "Generate a Mass Payment File"
+msgstr "Générer un Fichier de Paiement en Masse"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:150
+msgid "Generate all rates"
+msgstr "Générer tous les tarifs"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:130
+msgid "Generation action executed."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:187
+#: lib/ext/includes/class-affiliates-upgrade-3.php:199
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:304
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1030
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1377
+msgid "Group"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:506
+msgid "Height"
+msgstr "Hauteur"
+
+#: lib/ext/abstract/class-affiliates-graph-renderer.php:248
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:157
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:160
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:464
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro.php:210
+msgid "Hits"
+msgstr "Clics"
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:79
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:341
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:295
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:294
+msgid "ID"
+msgstr "ID"
+
+#: lib/ext/includes/class-affiliates-referrals-export.php:88
+msgid "IP"
+msgstr "IP"
+
+#: lib/ext/abstract/class-affiliates-totals.php:281
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:83
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:454
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:532
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:609
+#: lib/ext/includes/class-affiliates-export.php:75
+msgid "Id"
+msgstr "Id"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:350
+msgid ""
+"If <em>Referral Amount Method</em> is used in general or for some "
+"affiliates, switching to <em>Rates</em> is currently not recommended."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:463
+msgid ""
+"If a banner image is set, it takes precedence - this is only used if no "
+"banner image is set."
+msgstr ""
+"Si une image de bannière est définie, elle a priorité - elle est utilisée "
+"uniquement si aucune image de bannière n'est définie."
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:249
+msgid ""
+"If a valid <strong>Username</strong> is specified and no email is given, the "
+"user's email address will be used automatically."
+msgstr ""
+"Si un <strong>Nom d'utilisateur</strong> valide est spécifié et qu'aucun "
+"email n'est donné, l'adresse e-mail de l'utilisateur sera utilisée "
+"automatiquement."
+
+#: lib/ext/abstract/class-affiliates-totals.php:534
+msgid "If these referrals can be closed, click the confirmation button below."
+msgstr ""
+"Si ces renvois peuvent être fermés, cliquez sur le bouton de confirmation ci-"
+"dessous."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:203
+msgid "Image"
+msgstr "Image"
+
+#: lib/ext/wordpress/class-affiliates-rates-wordpress.php:180
+msgid "Important"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:655
+msgid "Include active affiliates"
+msgstr "Inclure les affiliés actifs"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:649
+msgid "Include inoperative affiliates"
+msgstr "Inclure les affiliés inactifs"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:661
+msgid "Include pending affiliates"
+msgstr "Inclure les affiliés en attente"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:667
+msgid "Include removed affiliates"
+msgstr "Inclure les affiliés effacés"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:135
+msgid ""
+"Instead of <a href=\"#integration-affiliates-woocommerce-light\">Affiliates "
+"WooCommerce Integration Light</a>, you should install and activate the "
+"advanced <a href=\"#integration-affiliates-woocommerce\">Affiliates "
+"WooCommerce Integration</a>."
+msgstr ""
+"Au lieu de <a href=\"#integration-affiliates-woocommerce-light\">Affiliates "
+"WooCommerce Integration Light</a>, vous devriez installer et activer <a href="
+"\"#integration-affiliates-woocommerce\">Affiliates WooCommerce Integration</"
+"a>."
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:316
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1054
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1401
+msgid "Integration"
+msgstr "Intégration"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:775
+msgid ""
+"Integration-specific data tokens can also be used in the subject and message."
+msgstr ""
+"Des jetons de données spécifiques à l'intégration peuvent également être "
+"utilisés dans le sujet et le message."
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:289
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:429
+msgid "Invalid data"
+msgstr "Données invalides"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:425
+msgid "Invalid key"
+msgstr "Clé non valide"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1133
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1479
+msgid "Item ID (numeric) or empty"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:74
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:231
+msgid "Items"
+msgstr ""
+
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:232
+msgid "Items related to the referral."
+msgstr "Éléments liés à la recommandation."
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:200
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:342
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:482
+msgid "Key"
+msgstr "Clé"
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:166
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:417
+msgid "Landing URI"
+msgstr ""
+
+#: templates/dashboard/overview-pro.php:87
+msgid "Last 30 Days"
+msgstr ""
+
+#: templates/dashboard/overview-pro.php:86
+msgid "Last 7 Days"
+msgstr "7 derniers jours"
+
+#: templates/dashboard/overview-pro.php:88
+msgid "Last 90 Days"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:185
+msgid "Last Name"
+msgstr "Nom de Famille"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1014
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1356
+msgid ""
+"Leave this empty in most cases. It is only required in cases where the "
+"currency cannot be determined from the originating transaction. Examples: "
+"USD, GBP, EUR, ..."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:313
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1224
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1574
+msgid "Level"
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:162
+msgid "Level rates"
+msgstr "Taux de nivellement"
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:81
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:356
+msgid "Line Amount"
+msgstr "Montant ligne"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:908
+msgid "Link"
+msgstr "Lien"
+
+#: templates/dashboard/banners.php:47
+msgid "Link banners to &hellip;"
+msgstr "Lier les bannières à ..."
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:539
+#: lib/ext/includes/class-affiliates-export.php:81
+#: templates/dashboard/overview-pro.php:117
+msgid "Links"
+msgstr "Liens"
+
+#: templates/dashboard/overview-pro.php:134
+msgid "Log out"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:614
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:376
+msgid "Manage Affiliates"
+msgstr "Gérer les Affiliés"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:526
+msgid "Mass Payment File"
+msgstr "Fichier de Paiement en Masse"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:246
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:270
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:359
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:533
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:559
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:585
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:665
+msgid "Message"
+msgstr "Message"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:724
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:758
+msgid "Message format and tokens"
+msgstr "Format des messages et jetons"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:743
+msgid "Message:"
+msgstr "Message:"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:240
+msgid "Method"
+msgstr "Méthode"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:335
+msgid "Migrate Rates 2.x"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:615
+msgid "Minimum Total"
+msgstr "Minimum Total"
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:433
+#: templates/dashboard/traffic.php:62
+msgid "Minimum number of referrals"
+msgstr ""
+
+#: templates/dashboard/overview-pro.php:90
+msgid "Monthly"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:345
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:651
+msgid ""
+"More than one notification may be sent if multiple statuses are enabled."
+msgstr ""
+"Plusieurs notifications peuvent être envoyées si plusieurs états sont "
+"activés."
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:232
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:615
+msgid "Name"
+msgstr "Nom"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:200
+msgid "Name can not be empty."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:385
+msgid "New Affiliate"
+msgstr "Nouvel Affilié"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:76
+msgid "New Attribute"
+msgstr "Nouvel Attribut"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:298
+#: lib/ext/wordpress/class-affiliates-banner.php:302
+msgid "New Banner"
+msgstr "Nouvelle Bannière"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:840
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:960
+msgid "New Rate"
+msgstr "Nouveau Taux"
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:332
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:335
+msgid "New Referral Item"
+msgstr "Nouvel élément de référence"
+
+#: templates/dashboard/traffic.php:204
+msgctxt "Label used to show next page of affiliate earnings results"
+msgid "Next"
+msgstr ""
+
+#: templates/dashboard/referrals.php:187
+msgctxt "Label used to show next page of affiliate referral results"
+msgid "Next"
+msgstr ""
+
+#: templates/dashboard/banners.php:154
+msgctxt "Link label to go to the next page"
+msgid "Next"
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:207
+msgid "Ninja Forms"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:303
+msgid "No Banners found"
+msgstr "Aucun bannière trouvé"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:304
+msgid "No Banners found in trash"
+msgstr "Aucun bannière trouvé dans la corbeille"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:138
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:363
+msgid "No such affiliate."
+msgstr "Cet affilié est inconnu."
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:153
+msgid "None"
+msgstr "Aucun"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:311
+#, php-format
+msgid ""
+"Note that the value indicated is a rate, for example, to grant "
+"10% commissions on sales, indicate <code>0.10</code> as the value."
+msgstr ""
+"Notez que la valeur indiquée est un taux, par exemple, pour accorder 10% des "
+"commissions sur les ventes, indiquez <code>0.10</code> comme valeur."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:75
+msgid "Notifications"
+msgstr "Notifications"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:617
+msgid ""
+"Notifications for the affiliates can be enabled here. If the integration "
+"used provides its own notification settings, enable these through the "
+"integration&rsquo;s settings or here. Do not enable them both, as that could "
+"cause duplicate notifications to be sent."
+msgstr ""
+"Les notifications des affiliés peuvent être activées ici. Si l'intégration "
+"utilisée fournit ses propres paramètres de notification, activez-les via les "
+"paramètres d'intégration ou ici. Ne les activez pas tous les deux, car cela "
+"pourrait entraîner l'envoi de notifications en double."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:303
+msgid ""
+"Notifications for the site administrator can be enabled here. If the "
+"integration used provides its own notification settings, enable these "
+"through the integration&rsquo;s settings or here. Do not enable them both, "
+"as that could cause duplicate notifications to be sent."
+msgstr ""
+"Les notifications pour l'administrateur du site peuvent être activées ici. "
+"Si l'intégration utilisée fournit ses propres paramètres de notification, "
+"activez-les via les paramètres d'intégration ou ici. Ne les activez pas tous "
+"les deux, car cela pourrait entraîner l'envoi de notifications en double."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:344
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:650
+msgid ""
+"Notifications on referral status updates are only sent when the status "
+"changes from <em>pending</em> to <em>accepted</em>."
+msgstr ""
+"Les notifications sur les mises à jour de l'état des renvois ne sont "
+"envoyées que lorsque l'état passe de <em>en attente</em> à <em>accepté</em>."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:346
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:652
+msgid ""
+"Notifications on referral status updates may not be supported by all "
+"integrations."
+msgstr ""
+"Les notifications sur les mises à jour de l'état des renvois peuvent ne pas "
+"être prises en charge par toutes les intégrations."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:634
+msgid "Notifications will be sent to affiliates when credited with a referral."
+msgstr ""
+"Les notifications seront envoyées aux affiliés lorsqu'ils seront crédités "
+"d'un renvoi."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:320
+msgid ""
+"Notifications will be sent to the email address specified in <em>Settings > "
+"General</em>, or if indicated, to the email address specified here."
+msgstr ""
+"Les notifications seront envoyées à l'adresse e-mail spécifiée dans "
+"<em>Paramètres > Général</em> ou, si indiqué, à l'adresse e-mail spécifiée "
+"ici."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:223
+msgid "Notify the administrator about new affiliate accounts."
+msgstr "Notifier l'administrateur des nouveaux comptes d'affiliés."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:630
+msgid "Notify the affiliates"
+msgstr "Notifier les affiliés"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:316
+msgid "Notify the site administrator"
+msgstr "Notifier l’administrateur du site"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:332
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:638
+msgid "Notify when a referral is:"
+msgstr "Notifier quand un renvois est:"
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:350
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:308
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1085
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1432
+msgid "Object"
+msgstr "Objet"
+
+#: lib/ext/abstract/class-affiliates-totals.php:667
+msgid "Omitted"
+msgstr "Omis"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:346
+msgid ""
+"Once the rate entries have been created, you can switch the <em>Method</em> "
+"setting above to <em>Rates</em>."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:368
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:370
+msgid "Online documentation"
+msgstr "Documentation en ligne"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro-block.php:57
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro.php:635
+#: templates/dashboard/overview-pro.php:48
+msgid "Overview"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-url-renderer-wordpress.php:150
+msgid "Page URL"
+msgstr "URL de la Page"
+
+#: templates/dashboard/referrals-entry.php:60
+msgid "Paid"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:305
+msgid "Parent Banner"
+msgstr "Bannière Parent"
+
+#: templates/dashboard/overview-pro.php:120
+#, php-format
+msgid "Paste a URL on %s here"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:175
+msgid ""
+"Pay affiliate commissions based on clicks or visits to affiliate links. This "
+"plugin adds the possibility to grant commissions based on Pay per Click, Pay "
+"per Visit and Pay per Daily Visit with <a href=\"https://www.itthinx.com/"
+"shop/affiliates-pro/\">Affiliates Pro</a> and <a href=\"https://www.itthinx."
+"com/shop/affiliates-enterprise/\">Affiliates Enterprise</a>."
+msgstr ""
+"Payez des commissions d'affiliation basées sur des clics ou des visites aux "
+"liens d'affiliation. Ce plugin ajoute la possibilité d'accorder des "
+"commissions basées sur Paiement par Clic, Paiement par Visite et Paiement "
+"par Visite Quotidienne avec <a href=\"https://www.itthinx.com/plugins/"
+"affiliates-pro/\">Affiliates Pro</a> et <a href=\"https://www.itthinx.com/"
+"plugins/affiliates-enterprise/\">Affiliates Enterprise</a>."
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:172
+msgid "Pay per Click"
+msgstr "Paiement par Clic"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:234
+msgid "PayPal"
+msgstr "PayPal"
+
+#: lib/ext/wp-init.php:259
+msgid "PayPal Email"
+msgstr "Email PayPal"
+
+#: lib/ext/abstract/class-affiliates-totals.php:657
+#: lib/ext/abstract/class-affiliates-totals.php:703
+#: lib/ext/abstract/class-affiliates-totals.php:709
+#: lib/ext/abstract/class-affiliates-graph-renderer.php:278
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:210
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:296
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:232
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:340
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:519
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:646
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:560
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:579
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:252
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:364
+#: templates/dashboard/referrals-entry.php:63
+msgid "Pending"
+msgstr "En Attente"
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:134
+msgid ""
+"Please check the <em>Rates</em> section to verify that all necessary rate "
+"entries have been created."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-url-renderer-wordpress.php:153
+msgid "Please enter a valid URL."
+msgstr "Veuillez saisir une URL valide."
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:97
+#, php-format
+msgid ""
+"Please install and activate the <a href=\"%s\">itthinx updates</a> plugin to "
+"enable automatic updates for your plugins by itthinx."
+msgstr ""
+"Veuillez installer et activer le plugin <a href=\"%s\">itthinx updates</a> "
+"pour activer les mises à jour automatiques de vos plugins par itthinx."
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:348
+msgid ""
+"Please note that this only supports methods of type <em>Referral Amount</em> "
+"and <em>Referral Rate</em>, no rate entries will be created for <em>Referral "
+"Amount Method</em>."
+msgstr ""
+
+#: lib/ext/abstract/class-affiliates-totals.php:524
+msgid "Please review the list of referrals that will be <em>closed</em>."
+msgstr "Veuillez consulter la liste des renvois qui seront <em>fermées</em>."
+
+#: lib/ext/abstract/class-affiliates-totals.php:694
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:300
+#: lib/ext/includes/class-affiliates-referrals-export.php:87
+msgid "Post"
+msgstr "Article"
+
+#: lib/ext/includes/class-affiliates-referrals-export.php:86
+msgid "Post ID"
+msgstr "ID de l'Article"
+
+#: templates/dashboard/traffic.php:201
+msgctxt "Label used to show previous page of affiliate earnings results"
+msgid "Previous"
+msgstr ""
+
+#: templates/dashboard/referrals.php:184
+msgctxt "Label used to show previous page of affiliate referral results"
+msgid "Previous"
+msgstr ""
+
+#: templates/dashboard/banners.php:151
+msgctxt "Link label to go back to previous page"
+msgid "Previous"
+msgstr ""
+
+#: lib/ext/includes/class-affiliates-upgrade-3.php:170
+msgid "Product rates"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:84
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:537
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:974
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1315
+msgid "Rate"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:353
+msgid "Rate ID"
+msgstr "ID du tarif"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:723
+msgid "Rate could not be created."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:774
+msgid "Rate could not be updated."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:719
+msgid "Rate created."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:766
+msgid "Rate updated."
+msgstr "Tarif mis à jour."
+
+#: lib/ext/wordpress/class-affiliates-rates-wordpress.php:128
+#: lib/ext/wordpress/class-affiliates-rates-wordpress.php:129
+#: lib/ext/wordpress/class-affiliates-rates-wordpress.php:174
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:195
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:295
+msgid "Rates"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:162
+msgid "Ratio"
+msgstr "Ratio"
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:80
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:344
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:297
+#: lib/ext/includes/class-affiliates-referrals-export.php:79
+msgid "Reference"
+msgstr "Référence"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:318
+#: lib/ext/wp-init.php:260
+msgid "Referral Amount"
+msgstr "Montant de Renvois"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:325
+#: lib/ext/wp-init.php:261
+msgid "Referral Amount Method"
+msgstr "Méthode de Montant de Renvois"
+
+#: lib/ext/includes/class-affiliates-referrals-export.php:78
+msgid "Referral ID"
+msgstr "ID de Renvois"
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:323
+msgid "Referral Items"
+msgstr "Articles de référence"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:310
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:624
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:706
+msgid "Referral Notifications"
+msgstr "Notifications de Renvois"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:303
+#: lib/ext/wp-init.php:262
+msgid "Referral Rate"
+msgstr "Taux de Renvois"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:584
+msgid "Referral Status"
+msgstr "État de Renvois"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:53
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:60
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:298
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:612
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:160
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:429
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:161
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals-block.php:57
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:470
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:67
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro.php:212
+#: templates/dashboard/referrals.php:39 templates/dashboard/traffic.php:61
+#: templates/dashboard/overview-pro.php:56
+msgid "Referrals"
+msgstr "Renvois"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:52
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:59
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:208
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:491
+msgid "Registration"
+msgstr "Enregistrement"
+
+#: lib/ext/abstract/class-affiliates-totals.php:658
+#: lib/ext/abstract/class-affiliates-totals.php:704
+#: lib/ext/abstract/class-affiliates-totals.php:710
+#: lib/ext/abstract/class-affiliates-graph-renderer.php:287
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:234
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:580
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:282
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:365
+#: templates/dashboard/referrals-entry.php:66
+msgid "Rejected"
+msgstr "Rejeté"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:241
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1236
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1587
+msgid "Relative"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-wordpress.php:50
+#, php-format
+msgid "Remember that the only trusted source for %s is our %s."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:374
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:410
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:86
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:125
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:493
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:851
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:852
+msgid "Remove"
+msgstr "Supprimer"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:744
+msgid "Remove affiliate"
+msgstr "Supprimer l'affilié"
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:475
+msgid "Remove an attribute"
+msgstr "Supprimer un attribut"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:166
+#: lib/ext/wordpress/class-affiliates-banner.php:775
+msgid "Remove banner image"
+msgstr "Supprimer l'image de banniére"
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:375
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:412
+msgid "Remove this referral item from the referral."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:587
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:455
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:658
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:267
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:716
+#: templates/dashboard/banners.php:160 templates/dashboard/referrals.php:193
+#: templates/dashboard/traffic.php:210
+msgid "Results per page"
+msgstr "Resultats par page"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:735
+msgid "Same as [site_title]."
+msgstr "La même que [site_title]."
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:353
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:305
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:281
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:371
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:597
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:677
+#: lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:220
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1605
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:257
+msgid "Save"
+msgstr "Enregistrer"
+
+#: templates/dashboard/referrals.php:56
+msgid "Search"
+msgstr "Rechercher"
+
+#: templates/dashboard/banners.php:51
+msgid "Search &hellip;"
+msgstr "Rechercher &hellip;"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:306
+msgid "Search Banners"
+msgstr "Rechercher Bannières"
+
+#: templates/dashboard/referrals.php:57
+msgid "Search for &hellip;"
+msgstr "Recherche pour &hellip;"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1144
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1156
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1490
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1503
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: templates/dashboard/referrals.php:57
+msgid "Search for a term in referrals"
+msgstr "Rechercher un terme dans les références"
+
+#: lib/ext/wordpress/class-affiliates-admin-wordpress.php:44
+msgid "Security &amp; Safety first!"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:506
+msgid "Send new affiliates an email when their user account is created."
+msgstr ""
+"Envoyez un email à les nouveaux affiliés lorsque leur compte d'utilisateur "
+"est créé."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:140
+msgid "Set Banner Image"
+msgstr "Définir l'Image de la Bannière"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:428
+msgid ""
+"Set a banner image and determine its title and other attributes directly for "
+"the image attachment using the <strong>Banner Image</strong> facilities."
+msgstr ""
+"Définissez une image de bannière et déterminez son titre et d'autres "
+"attributs directement pour l'image en utilisant les fonctionnalités "
+"<strong>Image de Bannière</strong>."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:141
+#: lib/ext/wordpress/class-affiliates-banner.php:163
+#: lib/ext/wordpress/class-affiliates-banner.php:761
+#: lib/ext/wordpress/class-affiliates-banner.php:762
+msgid "Set banner image"
+msgstr "Définir l'image de la bannière"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:746
+msgid "Set status to Active"
+msgstr "Définir l'état sur Actif"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:745
+msgid "Set status to Pending"
+msgstr "Définir l'état sur En Attente"
+
+#: lib/ext/wordpress/class-affiliates-settings-ext.php:51
+msgid "Set up Commissions"
+msgstr "Créer des Commissions"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:204
+msgid "Shortcode"
+msgstr "Code Court"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:673
+msgid "Show accumulated referral totals"
+msgstr "Montrer les totaux des renvois accumulés"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:115
+msgid "Show totals for accepted referrals"
+msgstr "Montrer les totaux des renvois acceptées accumulés"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:125
+msgid "Show totals for closed referrals"
+msgstr "Montrer les totaux des renvois fermées accumulés"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:120
+msgid "Show totals for pending referrals"
+msgstr "Montrer les totaux des renvois en attente accumulés"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:130
+msgid "Show totals for rejected referrals"
+msgstr "Montrer les totaux des renvois rejetées accumulés"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:206
+msgid "Something went wrong."
+msgstr ""
+
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:476
+#: templates/dashboard/traffic.php:67
+msgid "Source"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:163
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:408
+msgid "Source URI"
+msgstr ""
+
+#: lib/ext/abstract/class-affiliates-totals.php:698
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:291
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:312
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:538
+#: lib/ext/includes/class-affiliates-referrals-export.php:82
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:227
+msgid "Status"
+msgstr "État"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:571
+msgid "Status changed from Pending to Active"
+msgstr "Ètat modifié de En Attente à Actif"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:238
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:262
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:351
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:525
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:551
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:577
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:657
+msgid "Subject"
+msgstr "Sujet"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:741
+msgid "Subject:"
+msgstr "Sujet:"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:482
+#: templates/dashboard/traffic.php:73
+msgid "Target"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:309
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1196
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1548
+msgid "Term"
+msgstr ""
+
+#: lib/ext/wp-init.php:233
+msgid ""
+"The <a href=\"https://www.itthinx.com/plugins/affiliates\" target=\"_blank"
+"\">Affiliates</a> plugin must be deactivated or removed."
+msgstr ""
+"Le plugin <a href=\"https://www.itthinx.com/plugins/affiliates\" target="
+"\"_blank\">Affiliates</a> doit être désactivé ou supprimé."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:734
+msgid ""
+"The ID of the new affiliate user account. This is the user ID, not the "
+"affiliate ID."
+msgstr ""
+"L'ID du nouveau compte d'utilisateur affilié. Il s'agit de l'ID utilisateur, "
+"et non de l'ID d'affilié."
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:329
+msgid "The commission amount is calculated by a specific algorithm."
+msgstr "Le montant de la commission est calculé par un algorithme spécifique."
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:307
+msgid ""
+"The commission amount is proportional to the amount of the originating "
+"transaction."
+msgstr ""
+"Le montant de la commission est proportionnel au montant de la transaction "
+"d'origine."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:768
+msgid "The current referral status"
+msgstr "L'état de renvois actuel"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:228
+msgid "The current status of the referral."
+msgstr "L'état de renvois actuel."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:252
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:276
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:365
+msgid ""
+"The format for this administrator notification is <strong>HTML</strong>."
+msgstr ""
+"Le format de cette notification d'administrateur est <strong>HTML</strong>."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:539
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:565
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:591
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:671
+msgid "The format for this affiliate notification is <strong>HTML</strong>."
+msgstr "Le format de cette notification d'affilié est <strong>HTML</strong>."
+
+#: templates/dashboard/banners.php:48
+#, php-format
+msgid ""
+"The main site URL is used by default or you can paste a link to a specific "
+"page on %s here."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:726
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:760
+msgid ""
+"The message format is HTML and line breaks must be indicated by <code>&lt;br/"
+"&gt;</code>."
+msgstr ""
+"Le format du message est HTML et les sauts de ligne doivent être indiqués "
+"par <code>&lt;br/&gt;</code>."
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:494
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:471
+msgid "The number of corresponding referrals or conversions."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:496
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:465
+msgid "The number of hits or clicks."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:495
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:459
+msgid "The number of unique visits."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:733
+msgid "The password for the new affiliate user account."
+msgstr "Le mot de passe du nouveau compte d'utilisateur affilié."
+
+#: lib/ext/wordpress/class-affiliates-rates-wordpress.php:183
+msgid ""
+"The rates defined here are effective only when the method used to calculate "
+"commissions is <em>Rates</em>."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:287
+#, php-format
+msgid ""
+"The recommended method is <em>Rates</em>, which calculates commissions based "
+"on the definitions in the <a href=\"%s\">Rates</a> section."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:425
+msgid ""
+"The reference for this banner (also used as <em>alt</em> attribute for "
+"images specified by URL)."
+msgstr ""
+"La référence de cette bannière (également utilisée comme attribut <em>alt</"
+"em> pour les images spécifiées par l'URL)."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:769
+msgid "The referral amount"
+msgstr "Le montant de renvois"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-referrals.php:224
+msgid "The referral amount or total commission."
+msgstr "Le montant de renvois."
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:294
+msgid "The referral could not be saved."
+msgstr "Impossible d'enregistrer le renvoi."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:770
+msgid "The referral currency ID"
+msgstr "L'ID de la devise de renvois"
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:289
+msgid "The referral has been saved."
+msgstr "Le renvois a été enregistrée."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:772
+msgid ""
+"The referral reference (an internal reference normally related to the "
+"originating transaction)"
+msgstr ""
+"La référence de renvoi (une référence interne normalement liée à la "
+"transaction d'origine)"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:771
+msgid "The referral type (an internal reference)"
+msgstr "Le type de renvois (une référence interne)"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:765
+msgid "The referring affiliate&rsquo;s ID"
+msgstr "L'ID d'affilié référant"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:766
+msgid "The referring affiliate&rsquo;s email address"
+msgstr "L'adresse e-mail de l'affilié référent"
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:767
+msgid "The referring affiliate&rsquo;s name"
+msgstr "Le nom de l'affilié référent"
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:203
+msgid "The username does not exist."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:732
+msgid "The username for the new affiliate user account."
+msgstr "Le nom d'utilisateur du nouveau compte d'utilisateur affilié."
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:864
+#, php-format
+msgid ""
+"There are different email addresses on record for the affiliate and the "
+"associated user. This might be ok, but if in doubt please check. The email "
+"address on file for the user is %s"
+msgstr ""
+"Il y a différentes adresses emails enregistrées pour l'affilié et "
+"l'utilisateur associé. Cela semble fonctionner mais en cas de doute merci de "
+"vérifier. L'adresse email enregistrée est : %s"
+
+#: lib/ext/abstract/class-affiliates-totals.php:740
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:133
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:564
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:755
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:471
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:1019
+#: templates/dashboard/referrals.php:172 templates/dashboard/traffic.php:188
+msgid "There are no results."
+msgstr "Aucun résultat."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:727
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:761
+msgid "These default tokens can be used in the subjects and the messages:"
+msgstr ""
+"Ces jetons par défaut peuvent être utilisés dans les sujets et les messages:"
+
+#: lib/ext/abstract/class-affiliates-totals.php:677
+#, php-format
+msgid "These referrals could not be updated to <em>%s</em>."
+msgstr "Ces renvois n'ont pas pu être mis à jour vers <em>%s</em>."
+
+#: lib/ext/abstract/class-affiliates-totals.php:669
+#, php-format
+msgid ""
+"These referrals have been omitted because their status must not be changed "
+"to <em>%s</em>."
+msgstr ""
+"Ces renvois ont été omis parce que leur état ne doit pas être changé sur <em>"
+"%s</em>."
+
+#: lib/ext/abstract/class-affiliates-totals.php:662
+#, php-format
+msgid "These referrals have been updated to <em>%s</em>."
+msgstr "Ces renvois ont été mises à jour sur <em>%s</em>."
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:232
+msgid ""
+"These settings are used to calculate commissions for affiliates in general."
+msgstr ""
+"Ces paramètres servent à calculer les commissions des affiliés en général."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:514
+msgid "These templates are used to notify affiliates."
+msgstr "Ces modèles sont utilisés pour notifier les affiliés."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:229
+msgid ""
+"These templates are used to notify the site administrator of new affiliates."
+msgstr ""
+"Ces modèles sont utilisés pour aviser l'administrateur du site des nouveaux "
+"affiliés."
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:290
+#| msgid ""
+#| "This <strong>requires</strong> the <a href=\"http://www.itthinx.com/"
+#| "plugins/itthinx-updates/\">itthinx updates</a> plugin."
+msgid ""
+"This <strong>requires</strong> the <a href=\"https://www.itthinx.com/plugins/"
+"itthinx-updates/\">itthinx updates</a> plugin."
+msgstr ""
+
+#: lib/ext/abstract/class-affiliates-totals.php:600
+msgid "This action can not be undone*."
+msgstr "Cette action ne peut pas être annulée*."
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:115
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:147
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:162
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:177
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:192
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:203
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:211
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:219
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:227
+#| msgid ""
+#| "This integration is suitable to be used with <a href=\"http://www.itthinx."
+#| "com/plugins/affiliates-pro/\">Affiliates Pro</a> or <a href=\"http://www."
+#| "itthinx.com/plugins/affiliates-enterprise/\">Affiliates Enterprise</a>."
+msgid ""
+"This integration is suitable to be used with <a href=\"https://www.itthinx."
+"com/shop/affiliates-pro/\">Affiliates Pro</a> or <a href=\"https://www."
+"itthinx.com/shop/affiliates-enterprise/\">Affiliates Enterprise</a>."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:242
+#| msgid ""
+#| "This integration is suitable to be used with <a href=\"http://www.itthinx."
+#| "com/plugins/affiliates-pro/\">Affiliates Pro</a> or <a href=\"http://www."
+#| "itthinx.com/plugins/affiliates-enterprise/\">Affiliates Enterprise</a>. "
+#| "Note that this integration is not intended to be used for e-commerce "
+#| "systems that provide their own PayPal Payments Standard gateway."
+msgid ""
+"This integration is suitable to be used with <a href=\"https://www.itthinx."
+"com/shop/affiliates-pro/\">Affiliates Pro</a> or <a href=\"https://www."
+"itthinx.com/shop/affiliates-enterprise/\">Affiliates Enterprise</a>. Note "
+"that this integration is not intended to be used for e-commerce systems that "
+"provide their own PayPal Payments Standard gateway."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:222
+msgid "This integration seems to be inactive or not installed."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:309
+msgid "This is recommended if commissions are a percentage of sales amounts."
+msgstr ""
+"Ceci est recommandé si les commissions représentent un pourcentage des "
+"montants des ventes."
+
+#: lib/ext/wordpress/class-affiliates-banner.php:461
+msgid ""
+"This is useful if you want to use an external image or an image that is "
+"located outside the uploads directory structure."
+msgstr ""
+"Cela est utile si vous souhaitez utiliser une image externe ou une image "
+"située en dehors de la structure de répertoires de téléchargement."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:573
+msgid "This notification is sent to affiliates once they are approved."
+msgstr ""
+"Cette notification est envoyée aux affiliés une fois qu'ils ont été "
+"approuvés."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:521
+msgid ""
+"This notification is sent to new affiliates if their application is pending "
+"approval."
+msgstr ""
+"Cette notification est envoyée aux nouveaux affiliés si leur demande est en "
+"attente d'approbation."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:547
+msgid ""
+"This notification is sent to new affiliates if they are approved "
+"automatically."
+msgstr ""
+"Cette notification est envoyée aux nouveaux affiliés s'ils sont approuvés "
+"automatiquement."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:234
+msgid ""
+"This notification is sent to the administrator if a new affiliate "
+"application is pending approval."
+msgstr ""
+"Cette notification est envoyée à l'administrateur si un nouveau affiliée est "
+"en attente d'approbation."
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:258
+msgid ""
+"This notification is sent to the administrator if an affiliate has been "
+"approved automatically."
+msgstr ""
+"Cette notification est envoyée à l'administrateur si un affilié a été "
+"approuvé automatiquement."
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:109
+#, php-format
+#| msgid ""
+#| "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#| "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#| "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with <a href="
+#| "\"http://www.woothemes.com/woocommerce/\">WooCommerce</a>. With this "
+#| "advanced integration plugin, referrals are created and synchronized "
+#| "automatically for your affiliates when sales are made. This integration "
+#| "also supports referrals on recurring payments related to subscriptions "
+#| "and coupons related to affiliates to grant referrals when customers use "
+#| "them to credit the corresponding affiliate."
+msgid ""
+"This plugin integrates <a href=\"%s\">Affiliates Pro</a> and <a href=\"%s"
+"\">Affiliates Enterprise</a> with <a href=\"%s\">WooCommerce</a>. With this "
+"advanced integration plugin, referrals are created and synchronized "
+"automatically for your affiliates when sales are made. This integration also "
+"supports referrals on recurring payments related to subscriptions and "
+"coupons related to affiliates to grant referrals when customers use them to "
+"credit the corresponding affiliate."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:160
+#| msgid ""
+#| "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#| "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#| "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with <a href="
+#| "\"http://www.addthis.com/\">AddThis</a> &hellip; <em>&ldquo;Website tools "
+#| "that drive more shares, follows and conversions&rdquo;</em>. The <a href="
+#| "\"https://wordpress.org/plugins/addthis/\">Smart Website Tools</a> by "
+#| "AddThis are required."
+msgid ""
+"This plugin integrates <a href=\"https://www.itthinx.com/shop/affiliates-pro/"
+"\">Affiliates Pro</a> and <a href=\"https://www.itthinx.com/shop/affiliates-"
+"enterprise/\">Affiliates Enterprise</a> with <a href=\"https://www.addthis."
+"com/\">AddThis</a> &hellip; <em>&ldquo;Website tools that drive more shares, "
+"follows and conversions&rdquo;</em>. The <a href=\"https://wordpress.org/"
+"plugins/addthis/\">Smart Website Tools</a> by AddThis are required."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:145
+#| msgid ""
+#| "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#| "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#| "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with <a href="
+#| "\"http://www.addtoany.com/\">AddToAny</a> &hellip; <em>&ldquo;The "
+#| "Universal Sharing Platform&rdquo;</em>. The <a href=\"https://wordpress."
+#| "org/plugins/add-to-any/\">Share Buttons by AddToAny</a> are required."
+msgid ""
+"This plugin integrates <a href=\"https://www.itthinx.com/shop/affiliates-pro/"
+"\">Affiliates Pro</a> and <a href=\"https://www.itthinx.com/shop/affiliates-"
+"enterprise/\">Affiliates Enterprise</a> with <a href=\"https://www.addtoany."
+"com/\">AddToAny</a> &hellip; <em>&ldquo;The Universal Sharing Platform&rdquo;"
+"</em>. The <a href=\"https://wordpress.org/plugins/add-to-any/\">Share "
+"Buttons by AddToAny</a> are required."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:190
+#| msgid ""
+#| "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#| "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#| "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with <a href="
+#| "\"https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=290919\">Gravity "
+#| "Forms</a>."
+msgid ""
+"This plugin integrates <a href=\"https://www.itthinx.com/shop/affiliates-pro/"
+"\">Affiliates Pro</a> and <a href=\"https://www.itthinx.com/shop/affiliates-"
+"enterprise/\">Affiliates Enterprise</a> with <a href=\"https://www.e-junkie."
+"com/ecom/gb.php?cl=54585&c=ib&aff=290919\">Gravity Forms</a>."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:240
+#| msgid ""
+#| "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#| "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#| "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with PayPal "
+#| "Payments Standard. With this advanced integration plugin, referrals are "
+#| "created and synchronized automatically for your affiliates when sales are "
+#| "made."
+msgid ""
+"This plugin integrates <a href=\"https://www.itthinx.com/shop/affiliates-pro/"
+"\">Affiliates Pro</a> and <a href=\"https://www.itthinx.com/shop/affiliates-"
+"enterprise/\">Affiliates Enterprise</a> with PayPal Payments Standard. With "
+"this advanced integration plugin, referrals are created and synchronized "
+"automatically for your affiliates when sales are made."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:292
+#| msgid ""
+#| "This requires an <strong>update</strong> of the <a href=\"http://www."
+#| "itthinx.com/plugins/itthinx-updates/\">itthinx updates</a> plugin."
+msgid ""
+"This requires an <strong>update</strong> of the <a href=\"https://www."
+"itthinx.com/plugins/itthinx-updates/\">itthinx updates</a> plugin."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-notifications-extended.php:508
+msgid ""
+"This should normally be enabled, so that new affiliates receive their "
+"username and password to be able to log in and access their account."
+msgstr ""
+"Cela devrait normalement être activé, de sorte que les nouveaux affiliés "
+"reçoivent leur nom d'utilisateur et mot de passe pour pouvoir se connecter "
+"et accéder à leur compte."
+
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:109
+msgid "Title:"
+msgstr "Titre:"
+
+#: lib/ext/wordpress/class-affiliates-admin-wordpress.php:70
+#, php-format
+msgid "To buy or renew visit %s"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-wordpress.php:61
+#, php-format
+msgid "To buy or renew visit %s."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-rates-wordpress.php:186
+#, php-format
+msgid ""
+"To enable the rates defined here, please go to <a href=\"%s\">Commissions</"
+"a> and select <em>Rates</em> as the method."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:93
+msgid ""
+"To maintain advanced integrations, the <strong>itthinx updates</strong> "
+"plugin is required."
+msgstr ""
+"Pour maintenir des intégrations avancées, l'extension <strong>itthinx "
+"updates</strong> est nécessaire."
+
+#: lib/ext/abstract/class-affiliates-totals.php:285
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:186
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:458
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:746
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:222
+msgid "Total"
+msgstr "Total"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:276
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:74
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:75
+msgid "Totals"
+msgstr "Totaux"
+
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic-block.php:57
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:158
+#: templates/dashboard/traffic.php:39
+msgid "Traffic"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:489
+msgid ""
+"Try to obtain the image width and height based on the URL and update the "
+"values."
+msgstr ""
+"Essayez d'obtenir la largeur et la hauteur de l'image en fonction de l'URL "
+"et mettez à jour les valeurs."
+
+#: lib/ext/wordpress/class-affiliates-admin-referral-ext.php:347
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:298
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:969
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1310
+#: lib/ext/includes/class-affiliates-referrals-export.php:83
+msgid "Type"
+msgstr "Type"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:391
+#: lib/ext/wordpress/class-affiliates-banner.php:473
+msgid "URL"
+msgstr "URL"
+
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:912
+msgid "URL Parameter"
+msgstr "Paramètre de l'URL"
+
+#: templates/dashboard/referrals-entry.php:69
+msgid "Unknown"
+msgstr ""
+
+#: templates/dashboard/referrals-entry.php:57
+msgid "Unpaid"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:280
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:397
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:641
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:302
+#: lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:493
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:537
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:640
+#: lib/ext/includes/class-affiliates-export.php:80
+#: templates/dashboard/referrals.php:52 templates/dashboard/traffic.php:55
+#: templates/dashboard/overview-pro.php:101
+msgid "Until"
+msgstr "Jusqu'a"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:486
+msgid "Update Size"
+msgstr "Mettre à jour la Dimension"
+
+#: lib/ext/abstract/class-affiliates-totals.php:660
+msgid "Updated"
+msgstr "Actualisé"
+
+#: lib/ext/wordpress/class-affiliates-settings-ext.php:57
+msgid "Upload Banners"
+msgstr "Télécharger des Bannières"
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:550
+msgid ""
+"Use the <em>Currency</em> filter to restrict the listing to one currency."
+msgstr "Utilisez le filtre <em>Devise</em> pour limiter la liste à une devise."
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:343
+msgid "Use these buttons to migrate referral rates from version 2.x."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-banner.php:432
+#, php-format
+msgid ""
+"Use this shortcode to embed the banner: <code>[affiliates_banner id=\"%d\"]</"
+"code>"
+msgstr ""
+"Utilisez ce code court pour intégrer la bannière: <code>[affiliates_banner "
+"id=\"%d\"]</code>"
+
+#: lib/ext/includes/class-affiliates-referrals-export.php:91
+msgid "User ID"
+msgstr "ID d'Utilisateur"
+
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:217
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:581
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1071
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1418
+msgid "User Registration"
+msgstr "Enregistrement d'Utilisateur"
+
+#: lib/ext/abstract/class-affiliates-totals.php:284
+#: lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:256
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:457
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:535
+#: lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:627
+#: lib/ext/includes/class-affiliates-export.php:78
+msgid "Username"
+msgstr "Nom d'Utilisateur"
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:315
+msgid "Using <code>0</code> results in zero commission amounts."
+msgstr ""
+"L'utilisation de <code>0</code> entraîne des montants de commissions nulles."
+
+#: lib/ext/abstract/class-affiliates-totals.php:530
+msgid ""
+"Usually only referrals that are <em>accepted</em> and have been paid out "
+"should be <em>closed</em>. If there are unwanted or too many referrals "
+"shown, restrict your filter settings."
+msgstr ""
+"Habituellement seulement les renvois qui sont acceptés et ont été payés "
+"devraient être fermés. S’il y a des renvois non désirés ou trop des renvois "
+"montrés, restreindre les paramètres de filtrage."
+
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:84
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:205
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:347
+#: lib/ext/wordpress/class-affiliates-attributes-wordpress.php:487
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:296
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:987
+#: lib/ext/wordpress/class-affiliates-rates-table-renderer.php:1328
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:250
+msgid "Value"
+msgstr "Valeur"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:307
+#: lib/ext/wordpress/class-affiliates-banner.php:308
+msgid "View Banner"
+msgstr "Visualiser la Bannière"
+
+#: lib/ext/abstract/class-affiliates-graph-renderer.php:258
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:154
+#: lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:159
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:458
+#: lib/ext/dashboard/class-affiliates-dashboard-overview-pro.php:211
+#: templates/dashboard/overview-pro.php:52
+msgid "Visits"
+msgstr "Visites"
+
+#: templates/dashboard/overview-pro.php:89
+msgid "Weekly"
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-totals-wordpress.php:552
+msgid ""
+"Where a specific PayPal email address is on file for an affiliate, it will "
+"be used."
+msgstr ""
+"Lorsqu'une adresse e-mail PayPal spécifique est en fichier pour un affilié, "
+"elle sera utilisée."
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:498
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:483
+msgid "Where the traffic lead to."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-traffic-renderer-wordpress.php:497
+#: lib/ext/dashboard/class-affiliates-dashboard-traffic.php:477
+msgid "Where the traffic originated from."
+msgstr ""
+
+#: lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:282
+msgid "Which method to choose &hellip;"
+msgstr "Choisir la méthode &hellip;"
+
+#: lib/ext/wordpress/class-affiliates-banner.php:495
+msgid "Width"
+msgstr "Largeur"
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:105
+#: lib/ext/includes/class-affiliates-upgrade-3.php:167
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: templates/dashboard/overview-pro.php:91
+msgid "Yearly"
+msgstr ""
+
+#: lib/ext/wp-init.php:242
+msgid ""
+"You are running PHP with <a target=\"_blank\" href=\"http://www.php.net/"
+"manual/en/book.bc.php\">BCMath Arbitrary Precision Mathematics</a> disabled. "
+"Your <strong>Affiliates</strong> plugin will use substitute functions, but "
+"you should seriously consider getting BCMath enabled to avoid loss of "
+"precision."
+msgstr ""
+"Vous utilisez PHP avec <a target=\"_blank\" href=\"http://www.php.net/manual/"
+"en/book.bc.php\">BCMath Arbitrary Precision Mathematics</a> désactivé. Votre "
+"extension <strong>Affiliates</strong> utilisera des fonctions de "
+"substitution, mais vous devriez considérer sérieusement l'activation de "
+"BCMath pour éviter toute perte de précision."
+
+#: lib/ext/wordpress/class-affiliates-settings-integrations-ext.php:129
+msgid ""
+"You should deactivate the <a href=\"#integration-affiliates-woocommerce-light"
+"\">Affiliates WooCommerce Integration Light</a> and only leave the advanced "
+"<a href=\"#integration-affiliates-woocommerce\">Affiliates WooCommerce "
+"Integration</a> activated."
+msgstr ""
+"Vous devriez désactiver <a href=\"#integration-affiliates-woocommerce-light"
+"\">Affiliates WooCommerce Integration Light</a> et laisser uniquement "
+"l'intégration avancé <a href=\"#integration-affiliates-woocommerce"
+"\">Affiliates WooCommerce Integration</a> activé."
+
+#: templates/dashboard/overview-pro.php:126
+msgid "Your affiliate URL"
+msgstr "URL d'Affilié"
+
+#~ msgid "Affiliates Ecwid Integration"
+#~ msgstr "Intégration Affiliates Ecwid"
+
+#~ msgid "Affiliates Events Manager Integration"
+#~ msgstr "Intégration Affiliates Events Manager"
+
+#~ msgid "Affiliates Formidable Integration"
+#~ msgstr "Intégration Affiliates Formidable"
+
+#~ msgid "Affiliates Jigoshop Integration"
+#~ msgstr "Intégration Affiliates Jigoshop"
+
+#~ msgid "Affiliates TheCartPress Integration"
+#~ msgstr "Intégration Affiliates TheCartPress"
+
+#~ msgid "Affiliates eShop Integration"
+#~ msgstr "Intégration Affiliates eShop"
+
+#~ msgid "Ecwid"
+#~ msgstr "Ecwid"
+
+#~ msgid ""
+#~ "Instead of <a href=\"#integration-affiliates-ecwid-light\">Affiliates "
+#~ "Ecwid Integration Light</a>, you should install and activate the advanced "
+#~ "<a href=\"#integration-affiliates-ecwid\">Affiliates Ecwid Integration</"
+#~ "a>."
+#~ msgstr ""
+#~ "Au lieu de <a href=\"#integration-affiliates-ecwid-light\">Affiliates "
+#~ "Ecwid Integration Light</a>, vous devriez installer et activer <a href="
+#~ "\"#integration-affiliates-ecwid\">Affiliates Ecwid Integration</a>."
+
+#~ msgid ""
+#~ "Instead of <a href=\"#integration-affiliates-eshop-light\">Affiliates "
+#~ "eShop Integration Light</a>, you should install and activate the advanced "
+#~ "<a href=\"#integration-affiliates-eshop\">Affiliates eShop Integration</"
+#~ "a>."
+#~ msgstr ""
+#~ "Au lieu de <a href=\"#integration-affiliates-eshop-light\">Affiliates "
+#~ "eShop Integration Light</a>, vous devriez installer et activer <a href="
+#~ "\"#integration-affiliates-eshop\">Affiliates eShop Integration</a>."
+
+#~ msgid ""
+#~ "Instead of <a href=\"#integration-affiliates-jigoshop-light\">Affiliates "
+#~ "Jigoshop Integration Light</a>, you should install and activate the "
+#~ "advanced <a href=\"#integration-affiliates-jigoshop\">Affiliates Jigoshop "
+#~ "Integration</a>."
+#~ msgstr ""
+#~ "Au lieu de <a href=\"#integration-affiliates-jigoshop-light\">Affiliates "
+#~ "Jigoshop Integration Light</a>, vous devriez installer et activer <a href="
+#~ "\"#integration-affiliates-jigoshop\">Affiliates Jigoshop Integration</a>."
+
+#~ msgid "Jigoshop"
+#~ msgstr "Jigoshop"
+
+#~ msgid ""
+#~ "The most commonly used method is <em>Referral Rate</em>, corresponding to "
+#~ "the typical case where affiliates are granted commissions in proportion "
+#~ "to the purchase amount."
+#~ msgstr ""
+#~ "La méthode la plus couramment utilisée est <em>Taux de Renvois</em>, "
+#~ "correspondant au cas typique où les affiliés reçoivent des commissions "
+#~ "proportionnellement au montant de l'achat."
+
+#~ msgid "TheCartPress"
+#~ msgstr "TheCartPress"
+
+#~ msgid ""
+#~ "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#~ "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with <a href="
+#~ "\"http://open.ecwid.com/bPFZZ\">Ecwid</a>. With this advanced integration "
+#~ "plugin, referrals are created and synchronized automatically for your "
+#~ "affiliates when sales are made. This integration also supports coupons "
+#~ "related to affiliates to grant referrals when customers use them to "
+#~ "credit the corresponding affiliate."
+#~ msgstr ""
+#~ "Ce plugin intègre <a href=\"http://www.itthinx.com/plugins/affiliates-pro/"
+#~ "\">Affiliates Pro</a> et <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-enterprise/\">Affiliates Enterprise</a> avec <a href=\"http://"
+#~ "open.ecwid.com/bPFZZ\">Ecwid</a>. Grâce à ce plugin d'intégration "
+#~ "avancée, des renvois sont créées et synchronisées automatiquement pour "
+#~ "vos affiliés lors de la vente. Cette intégration prend également en "
+#~ "charge les bons liés aux affiliés pour accorder des renvois lorsque les "
+#~ "clients les utilisent pour créditer l'affilié correspondant."
+
+#~ msgid ""
+#~ "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#~ "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with <a href="
+#~ "\"http://wp-events-plugin.com\">Events Manager</a> and <a href=\"http://"
+#~ "eventsmanagerpro.com\">Events Manager Pro</a>."
+#~ msgstr ""
+#~ "Ce plugin intègre <a href=\"http://www.itthinx.com/plugins/affiliates-pro/"
+#~ "\">Affiliates Pro</a> et <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-enterprise/\">Affiliates Enterprise</a> avec <a href=\"http://"
+#~ "wp-events-plugin.com\">Events Manager</a> et <a href=\"http://"
+#~ "eventsmanagerpro.com\">Events Manager Pro</a>."
+
+#~ msgid ""
+#~ "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#~ "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with <a href="
+#~ "\"https://wordpress.org/plugins/formidable/\">Formidable Forms</a> and <a "
+#~ "href=\"https://formidablepro.com/?aff=itthinx&p=formidable-pro"
+#~ "\">Formidable Pro</a>."
+#~ msgstr ""
+#~ "Ce plugin intègre <a href=\"http://www.itthinx.com/plugins/affiliates-pro/"
+#~ "\">Affiliates Pro</a> et <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-enterprise/\">Affiliates Enterprise</a> avec <a href=\"https://"
+#~ "wordpress.org/plugins/formidable/\">Formidable Forms</a> et <a href="
+#~ "\"https://formidablepro.com/?aff=itthinx&p=formidable-pro\">Formidable "
+#~ "Pro</a>."
+
+#~ msgid ""
+#~ "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#~ "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with Jigoshop. "
+#~ "With this advanced integration plugin, referrals are created and "
+#~ "synchronized automatically for your affiliates when sales are made. This "
+#~ "integration also supports coupons related to affiliates to grant "
+#~ "referrals when customers use them to credit the corresponding affiliate."
+#~ msgstr ""
+#~ "Ce plugin intègre <a href=\"http://www.itthinx.com/plugins/affiliates-pro/"
+#~ "\">Affiliates Pro</a> et <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-enterprise/\">Affiliates Enterprise</a> avec Jigoshop. Grâce à "
+#~ "ce plugin d'intégration avancée, des renvois sont créées et synchronisées "
+#~ "automatiquement pour vos affiliés lors de la vente. Cette intégration "
+#~ "prend également en charge les bons liés aux affiliés pour accorder des "
+#~ "renvois lorsque les clients les utilisent pour créditer l'affilié "
+#~ "correspondant."
+
+#~ msgid ""
+#~ "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#~ "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with "
+#~ "TheCartPress. With this advanced integration plugin, referrals are "
+#~ "created and synchronized automatically for your affiliates when sales are "
+#~ "made. This integration also supports coupons related to affiliates to "
+#~ "grant referrals when customers use them to credit the corresponding "
+#~ "affiliate."
+#~ msgstr ""
+#~ "Ce plugin intègre <a href=\"http://www.itthinx.com/plugins/affiliates-pro/"
+#~ "\">Affiliates Pro</a> et <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-enterprise/\">Affiliates Enterprise</a> avec TheCartPress. "
+#~ "Grâce à ce plugin d'intégration avancée, des renvois sont créées et "
+#~ "synchronisées automatiquement pour vos affiliés lors de la vente. Cette "
+#~ "intégration prend également en charge les bons liés aux affiliés pour "
+#~ "accorder des renvois lorsque les clients les utilisent pour créditer "
+#~ "l'affilié correspondant."
+
+#~ msgid ""
+#~ "This plugin integrates <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-pro/\">Affiliates Pro</a> and <a href=\"http://www.itthinx.com/"
+#~ "plugins/affiliates-enterprise/\">Affiliates Enterprise</a> with eShop. "
+#~ "With this advanced integration plugin, referrals are created and "
+#~ "synchronized automatically for your affiliates when sales are made."
+#~ msgstr ""
+#~ "Ce plugin intègre <a href=\"http://www.itthinx.com/plugins/affiliates-pro/"
+#~ "\">Affiliates Pro</a> et <a href=\"http://www.itthinx.com/plugins/"
+#~ "affiliates-enterprise/\">Affiliates Enterprise</a> avec eShop. Grâce à ce "
+#~ "plugin d'intégration avancée, des renvois sont créées et synchronisées "
+#~ "automatiquement pour vos affiliés lors de la vente."
+
+#~ msgid ""
+#~ "You should deactivate the <a href=\"#integration-affiliates-ecwid-light"
+#~ "\">Affiliates Ecwid Integration Light</a> and only leave the advanced <a "
+#~ "href=\"#integration-affiliates-ecwid\">Affiliates Ecwid Integration</a> "
+#~ "activated."
+#~ msgstr ""
+#~ "Vous devriez désactiver <a href=\"#integration-affiliates-ecwid-light"
+#~ "\">Affiliates Ecwid Integration Light</a> et laisser uniquement "
+#~ "l'intégration avancé <a href=\"#integration-affiliates-ecwid\">Affiliates "
+#~ "Ecwid Integration</a> activé."
+
+#~ msgid ""
+#~ "You should deactivate the <a href=\"#integration-affiliates-eshop-light"
+#~ "\">Affiliates eShop Integration Light</a> and only leave the advanced <a "
+#~ "href=\"#integration-affiliates-eshop\">Affiliates eShop Integration</a> "
+#~ "activated."
+#~ msgstr ""
+#~ "Vous devriez désactiver <a href=\"#integration-affiliates-eshop-light"
+#~ "\">Affiliates eShop Integration Light</a> et laisser uniquement "
+#~ "l'intégration avancé <a href=\"#integration-affiliates-eshop\">Affiliates "
+#~ "eShop Integration</a> activé."
+
+#~ msgid ""
+#~ "You should deactivate the <em>Affiliates Jigoshop Integration Light</em> "
+#~ "and only leave the advanced <em>Affiliates Jigoshop Integration</em> "
+#~ "activated."
+#~ msgstr ""
+#~ "Vous devriez désactiver <em>Affiliates Jigoshop Integration Light</em> et "
+#~ "laisser uniquement l'intégration avancé <em>Affiliates Jigoshop "
+#~ "Integration</em> activé."
+
+#, php-format
+#~ msgid "[%s] Affiliate program"
+#~ msgstr "[%s] Programme d’Affiliation"
+
+#~ msgid "eShop"
+#~ msgstr "eShop"
+
+#~ msgid ""
+#~ "You should deactivate the <a href=\"#integration-affiliates-woocommerce-"
+#~ "light\">Affiliates WooCommerce Integration Light</em> and only leave the "
+#~ "advanced <a href=\"#integration-affiliates-woocommerce\">Affiliates "
+#~ "WooCommerce Integration</a> activated."
+#~ msgstr ""
+#~ "Vous devriez désactiver <a href=\"#integration-affiliates-woocommerce-"
+#~ "light\">Affiliates WooCommerce Integration Light</a> et laisser "
+#~ "uniquement l'intégration avancé <a href=\"#integration-affiliates-"
+#~ "woocommerce\">Affiliates WooCommerce Integration</a> activé."

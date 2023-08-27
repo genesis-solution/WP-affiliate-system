@@ -36,7 +36,7 @@ if ( !defined( 'ABSPATH' ) ) {
  * @var Affiliates_Dashboard_Earnings $section Section object available for use in the template.
  */
 ?>
-<h2><?php esc_html_e( 'Earnings', 'affiliates' ); ?></h2>
+<h2><?php esc_html_e( '收益', 'affiliates' ); ?></h2>
 <?php
 	//
 	// Render the earnings filter form
@@ -45,16 +45,16 @@ if ( !defined( 'ABSPATH' ) ) {
 <div class="dashboard-section dashboard-section-earnings">
 	<form id="setfilters" class="filters capsule-container" action="" method="post">
 		<div class="capsule half left">
-			<label for="from_date" class="from-date-filter"><?php _e( 'From', 'affiliates' ); ?></label>
+			<label for="from_date" class="from-date-filter"><?php _e( '從', 'affiliates' ); ?></label>
 			<input class="datefield from-date-filter" name="from_date" type="date" value="<?php echo esc_attr( $section->get_from_date() ); ?>"/>
 		</div>
 		<div class="capsule half right">
-			<label for="thru_date" class="thru-date-filter"><?php esc_html_e( 'Until', 'affiliates' ); ?></label>
+			<label for="thru_date" class="thru-date-filter"><?php esc_html_e( '直到', 'affiliates' ); ?></label>
 			<input class="datefield thru-date-filter" name="thru_date" type="date" class="datefield" value="<?php echo esc_attr( $section->get_thru_date() ); ?>"/>
 		</div>
 		<div class="filter-buttons">
-			<input class="button apply-button" type="submit" name="apply_filters" value="<?php esc_html_e( 'Apply', 'affiliates' ); ?>"/>
-			<input class="button clear-button" type="submit" name="clear_filters" value="<?php esc_html_e( 'Clear', 'affiliates' ); ?>"/>
+			<input class="button apply-button" type="submit" name="apply_filters" value="<?php esc_html_e( '申請', 'affiliates' ); ?>"/>
+			<input class="button clear-button" type="submit" name="clear_filters" value="<?php esc_html_e( '清除', 'affiliates' ); ?>"/>
 		</div>
 	</form>
 	<?php

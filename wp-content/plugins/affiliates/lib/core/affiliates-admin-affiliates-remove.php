@@ -32,7 +32,7 @@ function affiliates_admin_affiliates_remove( $affiliate_id ) {
 	global $wpdb;
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliate = affiliates_get_affiliate( intval( $affiliate_id ) );
@@ -102,14 +102,14 @@ function affiliates_admin_affiliates_remove_submit() {
 	$result = false;
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	if (
 		!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE] ) ||
 		!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_NONCE], 'affiliates-remove' )
 	) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliates_table = _affiliates_get_tablename( 'affiliates' );
@@ -149,7 +149,7 @@ function affiliates_admin_affiliates_bulk_remove() {
 	global $wpdb;
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliate_ids = isset( $_POST['affiliate_ids'] ) ? $_POST['affiliate_ids'] : null;
@@ -239,14 +239,14 @@ function affiliates_admin_affiliates_bulk_remove_submit() {
 	$result = false;
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	if (
 		!isset( $_POST[AFFILIATES_ADMIN_AFFILIATES_ACTION_NONCE] ) ||
 		!wp_verify_nonce( $_POST[AFFILIATES_ADMIN_AFFILIATES_ACTION_NONCE], 'admin' )
 	) {
-		wp_die( esc_html__( 'Access denied.', 'affiliates' ) );
+		wp_die( esc_html__( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$affiliates_table = _affiliates_get_tablename( 'affiliates' );

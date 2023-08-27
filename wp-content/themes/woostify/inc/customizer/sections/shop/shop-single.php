@@ -612,7 +612,7 @@ $wp_customize->add_control(
 		$wp_customize,
 		'woostify_setting[shop_single_product_data_tabs_items]',
 		array(
-			'label'    => __( 'Items', 'woostify' ),
+			'label'    => __( '項目', 'woostify' ),
 			'section'  => 'woostify_shop_single',
 			'settings' => 'woostify_setting[shop_single_product_data_tabs_items]',
 		)

@@ -1,0 +1,106 @@
+/**
+ * affiliates_pro.css
+ *
+ * Copyright 2011 "kento" Karim Rahimpur - www.itthinx.com
+ *
+ * This code is provided subject to the license granted.
+ * Unauthorized use and distribution is prohibited.
+ * See COPYRIGHT.txt and LICENSE.txt
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This header and all notices must be kept intact.
+ *
+ * @author Karim Rahimpur
+ * @package affiliates-pro
+ * @since affiliates-pro 1.0.0
+ */
+
+/* affiliate stats, traffic */
+.affiliate-stats.summary label.from-date-filter,
+.affiliate-stats.summary label.thru-date-filter,
+.affiliate-stats.referrals label.from-date-filter,
+.affiliate-stats.referrals label.thru-date-filter,
+.affiliates-traffic label.from-date-filter,
+.affiliates-traffic label.thru-date-filter,
+.affiliates-traffic label.src-uri-filter,
+.affiliates-traffic label.dest-uri-filter {
+	padding-right: 1em;
+}
+.affiliates-traffic .filters,
+.affiliates-traffic .page-options {
+	padding: 0 0 1em 0;
+}
+.affiliates-traffic table th {
+	padding: 4px;
+}
+
+.affiliates-traffic .widefat th.sortable,
+.affiliates-traffic .widefat th.sorted {
+	padding: 0;
+}
+
+.affiliates-traffic th.sortable a,
+.affiliates-traffic th.sorted a {
+	display: block;
+	overflow: hidden;
+	padding: 8px;
+
+	white-space: nowrap;
+}
+.affiliates-traffic th.sortable a span,
+.affiliates-traffic th.sorted a span {
+	cursor: pointer;
+	display: inline-block;
+}
+
+.affiliates-traffic td.truncated {
+	cursor: help;
+}
+.affiliates-traffic div.filter-section {
+	margin: 0 0 4px 0;
+}
+.affiliates-traffic div.page-options label.row-count {
+	padding: 0 4px 4px 0;
+}
+.affiliates-traffic .button {
+	margin: 0 4px;
+}
+.affiliates-traffic input[type="number"],
+.affiliates-traffic input[name="row_count"],
+.affiliates-traffic input.current-page {
+	width: 5em;
+}
+.affiliates-traffic input.current-page {
+	display: inline-block;
+}
+.affiliates-traffic .row-count input {
+	display: inline-block;
+}
+
+.affiliate-stats.summary noscript span.description.mini,
+.affiliate-stats.referrals noscript span.description.mini {
+	font-size: 0.62em;
+	padding: 0 1em;
+}
+.referral-data-title {
+	font-weight: bold;
+	border-bottom: 1px solid #333;
+}
+.widget-container div.totals table tr th,
+.widget-container div.totals table tr td {
+	padding-right: 4px;
+	padding-bottom: 4px;
+	text-align: right;
+}
+
+/* graph */
+.affiliate-graph {
+	height: 320px;
+}
+/* graph legend width fix */
+.affiliate-graph .legend table {
+	width: auto ! important;
+}

@@ -92,50 +92,50 @@ class Affiliates_Notice {
 	 */
 	public static function admin_notices() {
 
-		if ( AFFILIATES_PLUGIN_NAME == 'affiliates' ) {
-			$current_url = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-			$current_url = add_query_arg( self::HIDE_REVIEW_NOTICE, true, $current_url );
-
-			$output = '';
-
-			$output .= '<style type="text/css">';
-			$output .= 'div.affiliates-rating {';
-			$output .= sprintf( 'background: url(%s) #fff no-repeat 8px 8px;', AFFILIATES_PLUGIN_URL . '/images/affiliates-256x256.png' );
-			$output .= 'padding-left: 76px ! important;';
-			$output .= 'background-size: 64px 64px;';
-			$output .= '}';
-			$output .= '</style>';
-
-			$output .= '<div class="updated affiliates-rating">';
-			$output .= '<p>';
-			$output .= __( 'Many thanks for using <strong>Affiliates</strong>!', 'affiliates' );
-			$output .= ' ';
-			$output .= __( 'Could you please spare a minute and give it a review over at WordPress.org?', 'affiliates' );
-			$output .= '</p>';
-			$output .= '<p>';
-			$output .= sprintf(
-				'<a class="button button-primary" href="%s" target="_blank">%s</a>',
-				esc_url( 'https://wordpress.org/support/view/plugin-reviews/affiliates?filter=5#postform' ),
-				__( 'Yes, here we go!', 'affiliates' )
-			);
-			$output .= ' ';
-			$output .= sprintf(
-				'<a style="margin:1em" href="%s">%s</a>',
-				esc_url( $current_url ),
-				__( 'I have already done that.', 'affiliates' )
-			);
-			$output .= '</p>';
-			$output .= '<p>';
-			$output .= sprintf(
-				__( 'You can also follow <a href="%s" target="_blank">@itthinx</a> on Twitter or visit <a href="%s" target="_blank">itthinx.com</a> to check out other free and premium plugins we provide.', 'affiliates' ),
-				esc_url( 'https://twitter.com/itthinx' ),
-				esc_url( 'https://www.itthinx.com' )
-			);
-			$output .= '</p>';
-			$output .= '</div>';
-
-			echo $output;
-		}
+//		if ( AFFILIATES_PLUGIN_NAME == 'my affiliate' ) {
+//			$current_url = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+//			$current_url = add_query_arg( self::HIDE_REVIEW_NOTICE, true, $current_url );
+//
+//			$output = '';
+//
+//			$output .= '<style type="text/css">';
+//			$output .= 'div.affiliates-rating {';
+//			$output .= sprintf( 'background: url(%s) #fff no-repeat 8px 8px;', AFFILIATES_PLUGIN_URL . '/images/affiliates-256x256.png' );
+//			$output .= 'padding-left: 76px ! important;';
+//			$output .= 'background-size: 64px 64px;';
+//			$output .= '}';
+//			$output .= '</style>';
+//
+//			$output .= '<div class="updated affiliates-rating">';
+//			$output .= '<p>';
+//			$output .= __( 'Many thanks for using <strong>Affiliates</strong>!', 'affiliates' );
+//			$output .= ' ';
+//			$output .= __( 'Could you please spare a minute and give it a review over at WordPress.org?', 'affiliates' );
+//			$output .= '</p>';
+//			$output .= '<p>';
+//			$output .= sprintf(
+//				'<a class="button button-primary" href="%s" target="_blank">%s</a>',
+//				esc_url( 'https://wordpress.org/support/view/plugin-reviews/affiliates?filter=5#postform' ),
+//				__( 'Yes, here we go!', 'affiliates' )
+//			);
+//			$output .= ' ';
+//			$output .= sprintf(
+//				'<a style="margin:1em" href="%s">%s</a>',
+//				esc_url( $current_url ),
+//				__( 'I have already done that.', 'affiliates' )
+//			);
+//			$output .= '</p>';
+//			$output .= '<p>';
+//			$output .= sprintf(
+//				__( 'You can also follow <a href="%s" target="_blank">@itthinx</a> on Twitter or visit <a href="%s" target="_blank">itthinx.com</a> to check out other free and premium plugins we provide.', 'affiliates' ),
+//				esc_url( 'https://twitter.com/itthinx' ),
+//				esc_url( 'https://www.itthinx.com' )
+//			);
+//			$output .= '</p>';
+//			$output .= '</div>';
+//
+//			echo $output;
+//		}
 	}
 }
 Affiliates_Notice::init();

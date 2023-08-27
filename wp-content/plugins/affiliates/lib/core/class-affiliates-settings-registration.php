@@ -50,8 +50,8 @@ class Affiliates_Settings_Registration extends Affiliates_Settings {
 	public static function init() {
 		add_action( 'admin_init', array( __CLASS__, 'admin_init' ) );
 		self::$default_fields = array(
-			'first_name' => array( 'obligatory' => false, 'enabled' => true, 'label' => __( 'First Name', 'affiliates' ), 'required' => true, 'is_default' => true, 'type' => 'text' ),
-			'last_name'  => array( 'obligatory' => false, 'enabled' => true, 'label' => __( 'Last Name', 'affiliates' ), 'required' => true, 'is_default' => true, 'type' => 'text' ),
+			'first_name' => array( 'obligatory' => false, 'enabled' => true, 'label' => __( '名', 'affiliates' ), 'required' => true, 'is_default' => true, 'type' => 'text' ),
+			'last_name'  => array( 'obligatory' => false, 'enabled' => true, 'label' => __( '姓', 'affiliates' ), 'required' => true, 'is_default' => true, 'type' => 'text' ),
 			'user_login' => array( 'obligatory' => false, 'enabled' => true, 'label' => __( 'Username', 'affiliates' ), 'required' => true, 'is_default' => true, 'type' => 'text' ),
 			'user_email' => array( 'obligatory' => true, 'enabled' => true, 'label' => __( 'Email', 'affiliates' ), 'required' => true, 'is_default' => true, 'type' => 'text' ),
 			'user_url'	 => array( 'obligatory' => false, 'enabled' => true, 'label' => __( 'Website', 'affiliates' ), 'required' => false, 'is_default' => true, 'type' => 'text' ),
@@ -146,7 +146,7 @@ class Affiliates_Settings_Registration extends Affiliates_Settings {
 		echo
 			'<form action="" name="options" method="post">' .
 			'<div>' .
-			'<h3>' . esc_html__( 'Affiliate Registration', 'affiliates' ) . '</h3>' .
+			'<h3>' . esc_html__('會員註冊', 'affiliates' ) . '</h3>' .
 			'<p>' .
 			'<label>' .
 			'<input name="registration" type="checkbox" ' . ( $registration ? 'checked="checked"' : '' ) . '/>' .

@@ -28,7 +28,7 @@ define( 'AFFILIATES_DEFAULT_VERSION', '1.0.0' );
 /**
  * @var string plugin domain
  */
-define( 'AFFILIATES_PLUGIN_DOMAIN', 'affiliates' );
+define( 'AFFILIATES_PLUGIN_DOMAIN', 'my affiliate' );
 
 /**
  * @var string plugin directory on the server
@@ -125,6 +125,12 @@ define( 'AFFILIATES_MD5_ID_ENCODING', 2 );
  * @var string allows access to the affiliates section
  */
 define( 'AFFILIATES_ACCESS_AFFILIATES', 'aff_access' );
+
+// affiliates acceptting the pending request to share token
+/**
+ * @var string allows access to the affiliates section
+ */
+define( 'AFFILIATES_SHARE_TOKEN_AFFILIATES', 'share_token' );
 
 /**
  * @var string allows to administer affiliates (create, delete, view)

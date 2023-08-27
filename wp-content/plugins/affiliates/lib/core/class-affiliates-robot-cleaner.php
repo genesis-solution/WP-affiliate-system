@@ -101,7 +101,7 @@ class Affiliates_Robot_Cleaner {
 		global $wpdb, $affiliates_version;
 
 		if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 
 		add_action( 'admin_footer', array( __CLASS__, 'admin_footer' ) );
@@ -125,7 +125,7 @@ class Affiliates_Robot_Cleaner {
 				!wp_verify_nonce( $_REQUEST['robot-cleaner-nonce'], 'robot-cleaner-action' )
 			)
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		}
 
 		echo '<h3>' . esc_html__( 'Robot Cleaner', 'affiliates' ) . '</h3>';

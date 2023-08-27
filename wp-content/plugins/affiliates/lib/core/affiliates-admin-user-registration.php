@@ -28,7 +28,7 @@ require_once AFFILIATES_CORE_LIB . '/class-affiliates-user-registration.php';
 function affiliates_admin_user_registration() {
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_OPTIONS ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	echo '<h1>';

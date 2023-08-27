@@ -60,7 +60,7 @@ class Affiliates_Admin_Help {
 			$show_affiliates_help = false;
 
 			$title = '<h3>';
-			$title .= esc_html__( 'Affiliates', 'affiliates' );
+			$title .= esc_html__( '附屬公司', 'affiliates' );
 			$title .= '</h3>';
 
 			$help = apply_filters( 'affiliates_help_tab_title', $title );
@@ -93,13 +93,13 @@ class Affiliates_Admin_Help {
 			}
 
 			if ( $show_affiliates_help ) {
-				$screen->add_help_tab(
-					array(
-						'id' => 'affiliates',
-						'title' => esc_html__( 'Affiliates', 'affiliates' ),
-						'content' => $help
-					)
-				);
+//				$screen->add_help_tab(
+//					array(
+//						'id' => 'affiliates',
+//						'title' => esc_html__( 'Affiliates', 'affiliates' ),
+//						'content' => $help
+//					)
+//				);
 			}
 		}
 	}

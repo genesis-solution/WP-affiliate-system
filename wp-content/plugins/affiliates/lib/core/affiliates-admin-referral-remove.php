@@ -33,7 +33,7 @@ function affiliates_admin_referral_remove( $referral_id = null ) {
 	$output = '';
 
 	if ( !current_user_can( AFFILIATES_ADMINISTER_AFFILIATES ) ) {
-		wp_die( __( 'Access denied.', 'affiliates' ) );
+		wp_die( __( '拒絕訪問。', 'affiliates' ) );
 	}
 
 	$current_url = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -50,7 +50,7 @@ function affiliates_admin_referral_remove( $referral_id = null ) {
 			!isset( $_POST['referral-nonce'] ) ||
 			!wp_verify_nonce( $_POST['referral-nonce'], 'remove' )
 		) {
-			wp_die( __( 'Access denied.', 'affiliates' ) );
+			wp_die( __( '拒絕訪問。', 'affiliates' ) );
 		} else {
 			if ( !empty( $_POST['referral_id'] ) ) {
 				// remove the referral
@@ -138,7 +138,7 @@ function affiliates_admin_referral_remove( $referral_id = null ) {
 					$output .= '</p>';
 
 					$output .= '<p>';
-					$output .= '<span class="title">' . __( 'Reference', 'affiliates' ) . '</span>';
+					$output .= '<span class="title">' . __( '參考', 'affiliates' ) . '</span>';
 					$output .= ' ';
 					$output .= $reference;
 					$output .= '</p>';
