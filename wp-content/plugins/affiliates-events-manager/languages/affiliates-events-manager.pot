@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: PACKAGE VERSION\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2017-11-10 21:39+0100\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: lib/class-affiliates-events-manager.php:109
+msgid   "<strong>Affiliates Events Manager Integration</strong> plugin "
+        "requires an appropriate Affiliates plugin to be activated: <a href="
+        "\"http://www.itthinx.com/plugins/affiliates-pro\" target=\"_blank"
+        "\">Affiliates Pro</a> or <a href=\"http://www.itthinx.com/plugins/"
+        "affiliates-enterprise\" target=\"_blank\">Affiliates Enterprise</a>."
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:109
+msgid   "<strong>Affiliates Events Manager Integration</strong> plugin "
+        "requires an appropriate Affiliates plugin to be activated: <a href="
+        "\"https://wordpress.org/plugins/affiliates/\" target=\"_blank"
+        "\">Affiliates</a> or <a href=\"https://www.itthinx.com/plugins/"
+        "affiliates-pro\" target=\"_blank\">Affiliates Pro</a> or <a href="
+        "\"https://www.itthinx.com/plugins/affiliates-enterprise\" target="
+        "\"_blank\">Affiliates Enterprise</a>."
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:283
+msgid   "<strong>Important</strong> : Note that you <strong>must</strong> "
+        "choose the <code>Affiliates_EM_Method::event_booking_rates</code> "
+        "method under <strong>Affiliates > Settings > Commissions</strong> "
+        "for booking rates to be applied in general, or specify that method "
+        "as an attribute for individual affiliates - otherwise the event "
+        "booking rates will <strong>not</strong> apply."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:265
+#: lib-2/class-affiliates-events-manager.php:330
+msgid   "A referral for the original order must exist and must not have been "
+        "rejected."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:168
+#: lib-2/class-affiliates-em-booking.php:116
+#: lib-2/class-affiliates-events-manager.php:172
+msgid   "Access denied."
+msgstr  ""
+
+#: lib/class-affiliates-em-booking.php:70
+#: lib-2/class-affiliates-em-booking.php:68
+msgid   "Affiliates"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:151
+#: lib/class-affiliates-events-manager.php:197
+#: lib-2/class-affiliates-events-manager.php:155
+#: lib-2/class-affiliates-events-manager.php:211
+msgid   "Affiliates Events Manager Integration"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:218
+#: lib-2/class-affiliates-events-manager.php:233
+msgid   "Approved Bookings"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:222
+#: lib-2/class-affiliates-events-manager.php:237
+msgid   "Auto-adjust referral status when a booking is approved"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:243
+#: lib-2/class-affiliates-events-manager.php:258
+msgid   "Auto-adjust referral status when a booking is awaiting payment"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:215
+#: lib-2/class-affiliates-events-manager.php:230
+msgid   "Auto-adjust referral status when a booking is cancelled"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:229
+#: lib-2/class-affiliates-events-manager.php:244
+msgid   "Auto-adjust referral status when a booking is rejected"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:236
+#: lib-2/class-affiliates-events-manager.php:251
+msgid   "Auto-adjust referral status when a booking is unapproved"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:201
+#: lib-2/class-affiliates-events-manager.php:216
+msgid   "Auto-adjustments of referrals"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:342
+#: lib-2/class-affiliates-events-manager.php:408
+#, php-format
+msgid   "Booking %d"
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:262
+msgid   "Booking Rates"
+msgstr  ""
+
+#: lib-2/class-affiliates-em-booking.php:84
+msgid   "Booking Referral Rate"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:232
+#: lib-2/class-affiliates-events-manager.php:247
+msgid   "Bookings Awaiting Approval"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:239
+#: lib-2/class-affiliates-events-manager.php:254
+msgid   "Bookings Awaiting Payment"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:211
+#: lib-2/class-affiliates-events-manager.php:226
+msgid   "Cancelled Bookings"
+msgstr  ""
+
+#: lib/class-affiliates-em-booking.php:168
+msgid   "Create a rate"
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:294
+msgid   "Default rate"
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:267
+msgid   "Enable event booking referral rates"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:252
+#: lib-2/class-affiliates-events-manager.php:317
+msgid   "Enable recurring referrals"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:152
+#: lib-2/class-affiliates-events-manager.php:156
+msgid   "Events Manager Integration"
+msgstr  ""
+
+#: lib-2/class-affiliates-em-booking.php:95
+#: lib-2/class-affiliates-events-manager.php:304
+msgid   "Example: Set the referral rate to <strong>0.1</strong> if you want "
+        "your affiliates to get a <strong>10%</strong> commission on each "
+        "booking."
+msgstr  ""
+
+#: lib-2/class-affiliates-em-booking.php:89
+msgid   "Here you can set the Affiliate Referral Rate per Booking:&nbsp;"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:274
+#: lib-2/class-affiliates-events-manager.php:339
+msgid   "If set to 0, there is no time limit for referrals on recurring "
+        "payments granted to the initial affiliate. Any other number will "
+        "limit new referrals for a recurring event to so many days after the "
+        "initial referral."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:268
+#: lib-2/class-affiliates-events-manager.php:333
+msgid   "Limit / Timeout"
+msgstr  ""
+
+#: lib/class-affiliates-em-booking.php:173
+msgid   "Once you save this event, you can create a rate from here."
+msgstr  ""
+
+#: lib/class-affiliates-em-booking.php:108
+msgid   "Rates"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:247
+#: lib-2/class-affiliates-events-manager.php:312
+msgid   "Recurring Referrals"
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:289
+msgid   "Referral Rate"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:225
+#: lib-2/class-affiliates-events-manager.php:240
+msgid   "Rejected Bookings"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:279
+#: lib-2/class-affiliates-events-manager.php:346
+msgid   "Save"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:112
+#: lib-2/class-affiliates-events-manager.php:112
+msgid   "The <strong>Affiliates Events Manager Integration</strong> plugin "
+        "requires the <a href=\"http://wordpress.org/plugins/events-manager/"
+        "\">Events Manager</a> plugin to be activated."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:205
+#: lib-2/class-affiliates-events-manager.php:220
+msgid   "The default referral status as determined in <em>Settings > "
+        "Referrals</em> applies unless the following are enabled."
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:275
+msgid   "The rate can be set when editing an event, under <strong>Event "
+        "Content > Affiliates Booking Referral Rate</strong>."
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:299
+msgid   "The referral rate determines the referral amount based on the net "
+        "sale made."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:238
+#: lib/class-affiliates-events-manager.php:245
+#: lib-2/class-affiliates-events-manager.php:253
+#: lib-2/class-affiliates-events-manager.php:260
+msgid   "The referrals related to the booking will automatically be marked as "
+        "pending, unless they are closed."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:224
+#: lib-2/class-affiliates-events-manager.php:239
+msgid   "The referrals related to the booking will be accepted automatically, "
+        "unless they are closed."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:217
+#: lib/class-affiliates-events-manager.php:231
+#: lib-2/class-affiliates-events-manager.php:232
+#: lib-2/class-affiliates-events-manager.php:246
+msgid   "The referrals related to the booking will be rejected automatically, "
+        "unless they are closed."
+msgstr  ""
+
+#: lib/class-affiliates-em-booking.php:146
+msgid   "This event has no specific applicable rates."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:259
+#: lib-2/class-affiliates-events-manager.php:324
+msgid   "This option works for <strong>Recurring Events</strong> which can be "
+        "created through the Dashboard under <strong>Events > Recurring "
+        "Events</strong>."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:372
+#: lib-2/class-affiliates-events-manager.php:436
+msgid   "View"
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:255
+#: lib-2/class-affiliates-events-manager.php:320
+msgid   "When this option is enabled, referrals on recurring events bookings "
+        "by the same user, are credited to the affiliate who referred the "
+        "initial recurring event."
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:271
+msgid   "When this option is enabled, you can set referral rates for event "
+        "bookings."
+msgstr  ""
+
+#: lib/class-affiliates-events-manager.php:115
+msgid   "You do not need to use the <srtrong>Affiliates Events Manager "
+        "Integration Light</strong> plugin because you are already using the "
+        "advanced Affiliates Events Manager Integration plugin. Please "
+        "deactivate the <strong>Affiliates Events Manager Integration Light</"
+        "strong> plugin now."
+msgstr  ""
+
+#: lib-2/class-affiliates-events-manager.php:115
+msgid   "You do not need to use the <strong>Affiliates Events Manager "
+        "Integration Light</strong> plugin because you are already using the "
+        "advanced Affiliates Events Manager Integration plugin. Please "
+        "deactivate the <strong>Affiliates Events Manager Integration Light</"
+        "strong> plugin now."
+msgstr  ""
