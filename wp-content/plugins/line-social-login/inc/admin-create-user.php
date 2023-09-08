@@ -259,11 +259,12 @@ if(strlen($socialType) > 0) {
 					 * and save the image as attachment
 					 */
 					$avatar_url = $avatar_obj->get_avatar_url($getProfile, $socialType);
-					if(get_option('wp_social_login_sync_image_too') == 'yes') {
-						$attach     = save_image_from_url_as_attachment($avatar_url);
-					}else{
-						$attach['error'] = true;
-					}
+//					if(get_option('wp_social_login_sync_image_too') == 'yes') {
+//						$attach     = save_image_from_url_as_attachment($avatar_url);
+//					}else{
+//						$attach['error'] = true;
+//					}
+                    $attach     = save_image_from_url_as_attachment($avatar_url);
 
 					//$checkUser = xs_login_create_user($insertData);
 					$checkUser = xs_social_create_user($insertData);
@@ -325,16 +326,24 @@ if(strlen($socialType) > 0) {
 						update_user_meta($id, 'description', $description);
 						
 
-						if(get_option('wp_social_login_sync_image_too') == 'yes') {
-							$avatar_url = $avatar_obj->get_avatar_url($getProfile, $socialType);
-							$attach     = save_image_from_url_as_attachment($avatar_url);
+//						if(get_option('wp_social_login_sync_image_too') == 'yes') {
+//							$avatar_url = $avatar_obj->get_avatar_url($getProfile, $socialType);
+//							$attach     = save_image_from_url_as_attachment($avatar_url);
+//
+//							if(empty($attach['error'])) {
+//								wp_delete_attachment(get_user_meta($id, 'xs_social_profile_image_id'));
+//								update_user_meta($id, 'xs_social_profile_image', $attach['url']);
+//								update_user_meta($id, 'xs_social_profile_image_id', $attach['attachment_id']);
+//							}
+//						}
+                        $avatar_url = $avatar_obj->get_avatar_url($getProfile, $socialType);
+                        $attach     = save_image_from_url_as_attachment($avatar_url);
 
-							if(empty($attach['error'])) {
-								wp_delete_attachment(get_user_meta($id, 'xs_social_profile_image_id'));
-								update_user_meta($id, 'xs_social_profile_image', $attach['url']);
-								update_user_meta($id, 'xs_social_profile_image_id', $attach['attachment_id']);
-							}
-						}
+                        if(empty($attach['error'])) {
+                            wp_delete_attachment(get_user_meta($id, 'xs_social_profile_image_id'));
+                            update_user_meta($id, 'xs_social_profile_image', $attach['url']);
+                            update_user_meta($id, 'xs_social_profile_image_id', $attach['attachment_id']);
+                        }
 					}
 
 					/**
@@ -848,15 +857,22 @@ function create_line_app_user($code, $socialType) {
 			update_user_meta($id, 'display_name', $user->name);
 
 
-			if(get_option('wp_social_login_sync_image_too') == 'yes') {
-				$attach     = save_image_from_url_as_attachment($user->picture);
+//			if(get_option('wp_social_login_sync_image_too') == 'yes') {
+//				$attach     = save_image_from_url_as_attachment($user->picture);
+//
+//				if (empty($attach['error'])) {
+//					wp_delete_attachment(get_user_meta($id, 'xs_social_profile_image_id'));
+//					update_user_meta($id, 'xs_social_profile_image', $attach['url']);
+//					update_user_meta($id, 'xs_social_profile_image_id', $attach['attachment_id']);
+//				}
+//			}
+            $attach     = save_image_from_url_as_attachment($user->picture);
 
-				if (empty($attach['error'])) {
-					wp_delete_attachment(get_user_meta($id, 'xs_social_profile_image_id'));
-					update_user_meta($id, 'xs_social_profile_image', $attach['url']);
-					update_user_meta($id, 'xs_social_profile_image_id', $attach['attachment_id']);
-				}
-			}
+            if (empty($attach['error'])) {
+                wp_delete_attachment(get_user_meta($id, 'xs_social_profile_image_id'));
+                update_user_meta($id, 'xs_social_profile_image', $attach['url']);
+                update_user_meta($id, 'xs_social_profile_image_id', $attach['attachment_id']);
+            }
 		}
 
 		/**
