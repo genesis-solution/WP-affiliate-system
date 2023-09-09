@@ -173,7 +173,6 @@ if(strlen($socialType) > 0) {
 				 */
 				$final_redirect = resolve_redirect_url($_SESSION, $setting_data);
 
-
 				/**
 				 * Now cleaning the session
 				 *
@@ -751,7 +750,14 @@ function create_line_app_user($code, $socialType) {
 
     $profile_picture = $user->picture;
 
-	$final_redirect = get_site_url() . '/wp-admin';
+//	$final_redirect = get_site_url() . '/wp-admin';
+    $global_optionKey = 'xs_global_setting_data';
+    $setting_data = get_option($global_optionKey);
+
+    /**
+     * Resolve it before resetting the session
+     */
+    $final_redirect = $setting_data['custom_login_url']['data'];//resolve_redirect_url($_SESSION, $setting_data);
 
 	$old_user = get_user_by('email', $user->email);
 
