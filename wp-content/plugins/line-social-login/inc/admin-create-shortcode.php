@@ -18,7 +18,7 @@ function line_user_avatar_shortcode($atts) {
         $avatar = get_user_meta($current_user->ID, 'line_app_profile_image', true);
 
         //  $output = '<div class="user-avatar-with-display-name" style="margin-bottom: 10px">';
-        $output = '<img src="'.$avatar.'" alt="Avatar" width="50" height="'.$atts['size'].'" style="border-radius: 50%;" width="'.$atts['size'].'"/>';
+        $output = '<img src="'.$avatar.'" alt="Avatar" width="'.$atts['size'].'" height="'.$atts['size'].'" style="border-radius: 50%;" width="'.$atts['size'].'"/>';
         //  $output .= '</div>';
 
         if ($avatar != null)
