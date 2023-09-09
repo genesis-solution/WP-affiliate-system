@@ -63,6 +63,7 @@ class Line_App {
         if (is_wp_error($response)) {
             return $response->get_error_message();
         }
+
         return json_decode($response['body']);
     }
 }
