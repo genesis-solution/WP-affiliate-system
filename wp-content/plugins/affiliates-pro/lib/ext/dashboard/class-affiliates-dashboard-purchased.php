@@ -1,6 +1,6 @@
 <?php
 /**
- * class-affiliates-dashboard-shoplist.php
+ * class-affiliates-dashboard-purchased.php
  * This code is provided subject to the license granted.
  * Unauthorized use and distribution is prohibited.
  * See COPYRIGHT.txt and LICENSE.txt
@@ -21,9 +21,9 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Dashboard section: ShopList
+ * Dashboard section: Purchased
  */
-class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
+class Affiliates_Dashboard_Purchased extends Affiliates_Dashboard_Section_Table {
 
     protected static $section_order = 300;
 
@@ -33,7 +33,7 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
         'from_date'          => null,
         'thru_date'          => null,
         'per_page'           => self::PER_PAGE_DEFAULT,
-        'status'             => array( AFFILIATES_SHOPLIST_STATUS_ACCEPTED, AFFILIATES_SHOPLIST_STATUS_REJECTED )
+        'status'             => array( AFFILIATES_PURCHASED_STATUS_ACCEPTED, AFFILIATES_PURCHASED_STATUS_REJECTED )
     );
 
     /**
@@ -44,12 +44,12 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
     /**
      * {@inheritDoc}
      */
-    public static function get_name() { return __( '可共享頁面', 'affiliates' ); }
+    public static function get_name() { return __( '采购项目', 'affiliates' ); }
 
     /**
      * {@inheritDoc}
      */
-    public static function get_key() { return 'shoplist'; }
+    public static function get_key() { return 'purchasaed_project'; }
 
     /**
      * Filter by user's search query string ...
@@ -71,22 +71,22 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                 case 'per_page' :
                     $IX87242 = $this->get_per_page();
                     break;
-               case 'from_date' :
-                   $IX87242 = $this->get_from_date();
-                   break;
-               case 'thru_date' :
-                   $IX87242 = $this->get_thru_date();
-                   break;
-               case 'orderby' :
-                   $IX87242 = $this->get_orderby();
-                   break;
-               case 'order' :
-                   $IX87242 = $this->get_sort_order();
-                   break;
-               case 'referral-search':
-               case 'search' :
-                   $IX87242 = $this->get_search();
-                   break;
+                case 'from_date' :
+                    $IX87242 = $this->get_from_date();
+                    break;
+                case 'thru_date' :
+                    $IX87242 = $this->get_thru_date();
+                    break;
+                case 'orderby' :
+                    $IX87242 = $this->get_orderby();
+                    break;
+                case 'order' :
+                    $IX87242 = $this->get_sort_order();
+                    break;
+                case 'referral-search':
+                case 'search' :
+                    $IX87242 = $this->get_search();
+                    break;
             }
             if ( $IX87242 !== null ) {
                 $IX31514 = add_query_arg( $IX34149, $IX87242, $IX31514 );
@@ -205,7 +205,7 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                     if (!empty($shares) && count($shares) > 0)
                     {
                         $error_message = "您已經分享過該產品。 請聯繫管理員重新分享。";
-                      //  exit;
+                        //  exit;
                     }
                     else
                     {
@@ -259,13 +259,13 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
             $pending_token_users = $wpdb->get_results("SELECT * FROM {$table_name};");
             echo "<div class='row'>";
             echo '<div class="col-12" style="border-bottom: 1px solid gray">'.
-                    '<div class="table">'.
-                        '<div class="cell" style="width: 16.66%;">用戶 ID/姓名</div>'.
-                        '<div class="cell" style="width: 16.66%;">用戶郵箱</div>'.
-                        '<div class="cell" style="width: 33.33%">代幣</div>'.
-                        '<div class="cell" style="width: 16.66%;">產品視圖</div>'.
-                        '<div class="cell" style="width: 16.66%;">地位</div>'.
-                    '</div>'.
+                '<div class="table">'.
+                '<div class="cell" style="width: 16.66%;">用戶 ID/姓名</div>'.
+                '<div class="cell" style="width: 16.66%;">用戶郵箱</div>'.
+                '<div class="cell" style="width: 33.33%">代幣</div>'.
+                '<div class="cell" style="width: 16.66%;">產品視圖</div>'.
+                '<div class="cell" style="width: 16.66%;">地位</div>'.
+                '</div>'.
                 '</div>';
 
             foreach ($pending_token_users as $token_user) {
@@ -280,28 +280,28 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                 if (!empty($product) && $user_info) {
                     $token = $token_user->token;
                     $status = '<form name="token_form" id="token_form_'.$token_user->id.'" method="post" action="">'.
-                                    '<input type="hidden" name="token_user_id" value="'.$token_user->id.'">'.
-                                    '<select name="select_token_value" value="'.$token_user->status.'" onchange="document.getElementById(\''."token_form_".$token_user->id.'\').submit()">'.
-                                        '<option value="accept" '.($token_user->status == "accept" ? "selected" : "").'>接受</option>'.
-                                        '<option value="pending" '.($token_user->status == "pending" ? "selected" : "").'>待辦的</option>'.
-                                        '<option value="delete" '.($token_user->status == "delete" ? "selected" : "").'>刪除</option>'.
-                                        '<option value="share" '.($token_user->status == "share" ? "selected" : "").'>分享</option>'.
-                                    '</select>'.
-                                '</form>';
+                        '<input type="hidden" name="token_user_id" value="'.$token_user->id.'">'.
+                        '<select name="select_token_value" value="'.$token_user->status.'" onchange="document.getElementById(\''."token_form_".$token_user->id.'\').submit()">'.
+                        '<option value="accept" '.($token_user->status == "accept" ? "selected" : "").'>接受</option>'.
+                        '<option value="pending" '.($token_user->status == "pending" ? "selected" : "").'>待辦的</option>'.
+                        '<option value="delete" '.($token_user->status == "delete" ? "selected" : "").'>刪除</option>'.
+                        '<option value="share" '.($token_user->status == "share" ? "selected" : "").'>分享</option>'.
+                        '</select>'.
+                        '</form>';
 
-                        echo '<div class="col-12">'.
-                                '<div class="table">'.
-                                    '<div class="cell" style="width: 16.66%;">'.$token_user->user_id."/".$user_info->display_name.'</div>'.
-                                    '<div class="cell" style="width: 16.66%;">'.$user_info->user_email.'</div>'.
-                                    '<div class="cell" style="width: 33.33%">'.$token.'</div>'.
-                                    '<div class="cell" style="width: 16.66%;">'.
-                                        '<a href="'.get_permalink($product->ID).'" target="_blank">看法</a>'.
-                                    '</div>'.
-                                    '<div class="cell" style="width: 16.66.33%;">'.
-                                        $status.
-                                    '</div>'.
-                                '</div>'.
-                            '</div>';
+                    echo '<div class="col-12">'.
+                        '<div class="table">'.
+                        '<div class="cell" style="width: 16.66%;">'.$token_user->user_id."/".$user_info->display_name.'</div>'.
+                        '<div class="cell" style="width: 16.66%;">'.$user_info->user_email.'</div>'.
+                        '<div class="cell" style="width: 33.33%">'.$token.'</div>'.
+                        '<div class="cell" style="width: 16.66%;">'.
+                        '<a href="'.get_permalink($product->ID).'" target="_blank">看法</a>'.
+                        '</div>'.
+                        '<div class="cell" style="width: 16.66.33%;">'.
+                        $status.
+                        '</div>'.
+                        '</div>'.
+                        '</div>';
                 }
             }
             echo "</div>";
@@ -311,14 +311,14 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
 
         echo "<div class='row'>";
         echo '<div class="col-12" style="border-bottom: 1px solid gray">'.
-                '<div class="table">'.
-                    '<div class="cell" style="width: 8.33%;">ID</div>'.
-                    '<div class="cell" style="width: 16.66%;">產品名稱</div>'.
-                    '<div class="cell">產品內容</div>'.
-                    '<div class="cell" style="width: 8.33%;">查看頁面</div>'.
-                    '<div class="cell" style="width: 8.33%;">地位</div>'.
-                    '<div class="cell" style="width: 8.33%;">代幣</div>'.
-                '</div>'.
+            '<div class="table">'.
+            '<div class="cell" style="width: 8.33%;">ID</div>'.
+            '<div class="cell" style="width: 16.66%;">產品名稱</div>'.
+            '<div class="cell">產品內容</div>'.
+            '<div class="cell" style="width: 8.33%;">查看頁面</div>'.
+            '<div class="cell" style="width: 8.33%;">地位</div>'.
+            '<div class="cell" style="width: 8.33%;">代幣</div>'.
+            '</div>'.
             '</div>';
 
         $user_id = get_current_user_id();
@@ -329,8 +329,8 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
             ));
             $token = "";
             $status = '<form name="product" method="post" action="">'.
-                        '<input type="hidden" name="product_id" value="'.$product->ID.'">'.
-                        '<input type="submit" name="share_product" class="save_btn" value="分享">'.
+                '<input type="hidden" name="product_id" value="'.$product->ID.'">'.
+                '<input type="submit" name="share_product" class="save_btn" value="分享">'.
                 '</form>';
             if (!empty($shared_value_by_post_id)) {
                 $token = $shared_value_by_post_id->token;
@@ -345,18 +345,18 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                 }
             }
             echo '<div class="col-12">'.
-                    '<div class="table">'.
-                        '<div class="cell" style="width: 8.33%;">'.$product->ID.'</div>'.
-                        '<div class="cell" style="width: 16.66%;">'.$product->post_title.'</div>'.
-                        '<div class="cell" style="text-align: left">'.$product->post_content.'</div>'.
-                        '<div class="cell" style="width: 8.33%;">'.
-                            '<a href="'.get_permalink($product->ID).'" target="_blank">看法</a>'.
-                        '</div>'.
-                        '<div class="cell" style="width: 8.33%;">'.
-                            $status.
-                        '</div>'.
-                        '<div class="cell" style="width: 8.33%;">'.$token.'</div>'.
-                    '</div>'.
+                '<div class="table">'.
+                '<div class="cell" style="width: 8.33%;">'.$product->ID.'</div>'.
+                '<div class="cell" style="width: 16.66%;">'.$product->post_title.'</div>'.
+                '<div class="cell" style="text-align: left">'.$product->post_content.'</div>'.
+                '<div class="cell" style="width: 8.33%;">'.
+                '<a href="'.get_permalink($product->ID).'" target="_blank">看法</a>'.
+                '</div>'.
+                '<div class="cell" style="width: 8.33%;">'.
+                $status.
+                '</div>'.
+                '<div class="cell" style="width: 8.33%;">'.$token.'</div>'.
+                '</div>'.
                 '</div>';
         }
         echo "</div>";
@@ -399,4 +399,4 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
         }
     }
 }
-Affiliates_Dashboard_ShopList::init();
+Affiliates_Dashboard_Purchased::init();

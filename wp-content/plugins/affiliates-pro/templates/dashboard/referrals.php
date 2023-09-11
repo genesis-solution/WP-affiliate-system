@@ -247,7 +247,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 .dashboard-section-referrals .referrals-container .heading {
 	background-color: #ffffff;
-	color: 171717;
+	color: #171717;
 	font-weight: bold;
 	word-break: break-word;
 	border-bottom: 4px solid #9e9e9e;

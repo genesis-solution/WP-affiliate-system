@@ -35,7 +35,8 @@ class Affiliates_Dashboard_Pro extends Affiliates_Dashboard {
                 Affiliates_Dashboard_Banners::get_key() => Affiliates_Dashboard_Banners::class,
                 Affiliates_Dashboard_Traffic::get_key() => Affiliates_Dashboard_Traffic::class,
                 Affiliates_Dashboard_Referrals::get_key() => Affiliates_Dashboard_Referrals::class,
-                Affiliates_Dashboard_ShopList::get_key() => Affiliates_Dashboard_ShopList::class
+                Affiliates_Dashboard_ShopList::get_key() => Affiliates_Dashboard_ShopList::class,
+                Affiliates_Dashboard_Purchased::get_key() => Affiliates_Dashboard_Purchased::class
                 )
         );
     }
@@ -43,29 +44,34 @@ class Affiliates_Dashboard_Pro extends Affiliates_Dashboard {
 	public function __construct( $params = array() )
     {
         parent::__construct( $params );
-        add_filter( 'affiliates_dashboard_setup_sections', array( $this, 'setup_sections' ) ); }
+        add_filter( 'affiliates_dashboard_setup_sections', array( $this, 'setup_sections' ) );
+    }
 
 	public function setup_sections( $sections ) {
         $IX18344 = $this->get_user_id();
         if ( $IX18344 !== null && affiliates_user_is_affiliate( $IX18344 ) ) {
+            $sections[Affiliates_Dashboard_Purchased::get_key()] = array(
+                'class' => 'Affiliates_Dashboard_Purchased',
+                'parameters' => array( 'user_id' => $IX18344, 'order' => '1' )
+            );
             $sections[Affiliates_Dashboard_ShopList::get_key()] = array(
                 'class' => 'Affiliates_Dashboard_ShopList',
-                'parameters' => array( 'user_id' => $IX18344 )
+                'parameters' => array( 'user_id' => $IX18344, 'order' => '2' )
             );
             $sections[Affiliates_Dashboard_Overview_Pro::get_key()] = array(
                 'class' => 'Affiliates_Dashboard_Overview_Pro',
-                'parameters' => array( 'user_id' => $IX18344 ) );
-            $sections[Affiliates_Dashboard_Traffic::get_key()] = array(
-                'class' => 'Affiliates_Dashboard_Traffic',
-                'parameters' => array( 'user_id' => $IX18344 ) );
+                'parameters' => array( 'user_id' => $IX18344, 'order' => '3' ) );
+//            $sections[Affiliates_Dashboard_Traffic::get_key()] = array(
+//                'class' => 'Affiliates_Dashboard_Traffic',
+//                'parameters' => array( 'user_id' => $IX18344 ) );
             $sections[Affiliates_Dashboard_Referrals::get_key()] = array(
                 'class' => 'Affiliates_Dashboard_Referrals',
-                'parameters' => array( 'user_id' => $IX18344 )
+                'parameters' => array( 'user_id' => $IX18344, 'order' => '4' )
             );
-            $sections[Affiliates_Dashboard_Banners::get_key()] = array(
-                'class' => 'Affiliates_Dashboard_Banners',
-                'parameters' => array( 'user_id' => $IX18344 )
-            );
+//            $sections[Affiliates_Dashboard_Banners::get_key()] = array(
+//                'class' => 'Affiliates_Dashboard_Banners',
+//                'parameters' => array( 'user_id' => $IX18344 )
+//            );
         }
         return $sections;
     }

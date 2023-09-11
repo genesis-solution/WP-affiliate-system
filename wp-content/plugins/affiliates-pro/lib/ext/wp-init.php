@@ -132,8 +132,10 @@ require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliat
 require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-banners-shortcode.php';
 require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-shoplist.php';
 require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-shoplist-block.php';
-require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-shoplist.php';
 require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-shoplist-shortcode.php';
+require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-purchased.php';
+require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-purchased-block.php';
+require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-purchased-shortcode.php';
 require_once dirname( AFFILIATES_PRO_FILE ) . '/lib/ext/dashboard/class-affiliates-dashboard-pro.php';
 
 function affiliates_pro_widgets_init() { register_widget( 'Affiliates_Affiliate_Stats_Widget' ); }

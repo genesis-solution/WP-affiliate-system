@@ -207,33 +207,33 @@ class Affiliates_Dashboard implements I_Affiliates_Dashboard {
 					'class' => 'Affiliates_Dashboard_Login',
 					'parameters' => array()
 				),
-				Affiliates_Dashboard_Registration::get_key() => array(
-					'class' => 'Affiliates_Dashboard_Registration',
-					'parameters' => array( 'show_login' => false )
-				)
+//				Affiliates_Dashboard_Registration::get_key() => array(
+//					'class' => 'Affiliates_Dashboard_Registration',
+//					'parameters' => array( 'show_login' => false )
+//				)
 			);
 		} else {
 			if ( !affiliates_user_is_affiliate( $this->user_id ) ) {
-				$sections = array(
-					Affiliates_Dashboard_Registration::get_key() => array(
-						'class' => 'Affiliates_Dashboard_Registration',
-						'parameters' => array( 'user_id' => $this->user_id )
-					)
-				);
+//				$sections = array(
+//					Affiliates_Dashboard_Registration::get_key() => array(
+//						'class' => 'Affiliates_Dashboard_Registration',
+//						'parameters' => array( 'user_id' => $this->user_id )
+//					)
+//				);
 			} else {
 				$sections = array(
 					Affiliates_Dashboard_Overview::get_key() => array(
 						'class' => 'Affiliates_Dashboard_Overview',
 						'parameters' => array( 'user_id' => $this->user_id )
 					),
-					Affiliates_Dashboard_Earnings::get_key() => array(
-						'class' => 'Affiliates_Dashboard_Earnings',
-						'parameters' => array( 'user_id' => $this->user_id )
-					),
-					Affiliates_Dashboard_Profile::get_key()  => array(
-						'class' => 'Affiliates_Dashboard_Profile',
-						'parameters' => array( 'user_id' => $this->user_id )
-					)
+//					Affiliates_Dashboard_Earnings::get_key() => array(
+//						'class' => 'Affiliates_Dashboard_Earnings',
+//						'parameters' => array( 'user_id' => $this->user_id )
+//					),
+//					Affiliates_Dashboard_Profile::get_key()  => array(
+//						'class' => 'Affiliates_Dashboard_Profile',
+//						'parameters' => array( 'user_id' => $this->user_id )
+//					)
 				);
 			}
 		}

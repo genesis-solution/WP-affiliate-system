@@ -58,8 +58,8 @@ do_action( 'affiliates_dashboard_before' );
 			<?php
 			foreach ( $sections as $section_key => $section ) {
 				?>
-				<div class='section-link-item <?php echo esc_attr( $section_key . ' ' . ( $section_key === $current_section_key ? 'active' : '' ) ); ?>'>
-					<a href="<?php echo esc_url( $dashboard->get_url( array( Affiliates_Dashboard::SECTION_URL_PARAMETER => $section_key ) ) ); ?>"><?php echo esc_html( $section['class']::get_name() ); ?></a>
+				<div class='section-link-item <?php echo esc_attr( $section_key . ' ' . ( $section_key === $current_section_key ? 'active' : '' ) ); ?>' style="padding: 5px">
+					<a href="<?php echo esc_url( $dashboard->get_url( array( Affiliates_Dashboard::SECTION_URL_PARAMETER => $section_key ) ) ); ?>" style="font-size: 25px;"><?php echo esc_html( $section['class']::get_name() ); ?></a>
 				</div>
 				<?php
 			}
@@ -99,7 +99,7 @@ do_action( 'affiliates_dashboard_after' );
 }
 .affiliates-dashboard-section-links .section-link-item {
 	flex-grow: 1;
-	cursor: pointer;
+	cursor: pointer;
 	border-bottom: 4px solid #9e9e9e;
 }
 .affiliates-dashboard-section-links .section-link-item a {
