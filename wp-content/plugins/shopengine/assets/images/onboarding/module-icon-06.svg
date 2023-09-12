@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffba80"/>
+      <stop offset="1" stop-color="#e57411"/>
+    </linearGradient>
+    <filter id="text_bg" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#a75105" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#text_bg)">
+    <rect id="text_bg-2" data-name="text / bg" width="44" height="44" rx="22" transform="translate(9 7)" fill="url(#linear-gradient)"/>
+  </g>
+  <text id="_80_" data-name="80+" transform="translate(31 36)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-15.24" y="0">80+</tspan></text>
+</svg>

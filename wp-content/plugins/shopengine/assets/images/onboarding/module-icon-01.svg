@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#70c0ff"/>
+      <stop offset="1" stop-color="#157bcb"/>
+    </linearGradient>
+    <filter id="text_bg" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#0a60a4" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#text_bg)">
+    <rect id="text_bg-2" data-name="text / bg" width="44" height="44" rx="22" transform="translate(9 7)" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="icon" transform="translate(16.61 15)">
+    <path id="Path_1941" data-name="Path 1941" d="M24.315,18.553a4.5,4.5,0,0,1-.629,2.41,4.406,4.406,0,0,1-.9,1.118,4.621,4.621,0,0,1-7.068-.943A4.532,4.532,0,0,1,15,18.751a4.622,4.622,0,0,1,1.665-3.668,4.663,4.663,0,0,1,7.65,3.47Z" transform="translate(2.073 1.973)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_1942" data-name="Path 1942" d="M17.44,18.2l1.176,1.118L21.05,16.97" transform="translate(2.474 2.461)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_1943" data-name="Path 1943" d="M3.17,7.44l10.282,5.95L23.664,7.475" transform="translate(0.128 0.894)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_1944" data-name="Path 1944" d="M12,23.1V12.54" transform="translate(1.58 1.733)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_1945" data-name="Path 1945" d="M24.77,10.349v6.591a.769.769,0,0,1-.012.163,4.565,4.565,0,0,0-3.027-1.129,4.663,4.663,0,0,0-4.658,4.658,4.566,4.566,0,0,0,.675,2.4,3.292,3.292,0,0,0,.373.524L15.99,24.729a5.477,5.477,0,0,1-4.821,0L4.952,21.283A5.5,5.5,0,0,1,2.39,16.939V10.349A5.494,5.494,0,0,1,4.952,6.006L11.17,2.559a5.477,5.477,0,0,1,4.821,0l6.218,3.447A5.494,5.494,0,0,1,24.77,10.349Z" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

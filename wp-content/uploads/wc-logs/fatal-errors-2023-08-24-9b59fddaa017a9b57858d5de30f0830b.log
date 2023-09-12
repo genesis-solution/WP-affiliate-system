@@ -1,0 +1,24 @@
+2023-08-24T01:54:50+00:00 CRITICAL Uncaught Error: Undefined constant "AFFILIATES_SHARE_TOKEN_AFFILIATES" in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\wp-init.php:1827
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): affiliates_admin_menu('')
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Projects\WP\BRIAN\shareing\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#4 D:\Projects\WP\BRIAN\shareing\wp-admin\menu.php(420): require_once('D:\\Projects\\WP\\...')
+#5 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(158): require('D:\\Projects\\WP\\...')
+#6 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\wp-init.php on line 1827
+
+2023-08-24T13:10:12+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\wp-init.php:59
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): my_custom_middleware('')
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Projects\WP\BRIAN\shareing\wp-settings.php(632): do_action('init')
+#4 D:\Projects\WP\BRIAN\shareing\wp-config.php(96): require_once('D:\\Projects\\WP\\...')
+#5 D:\Projects\WP\BRIAN\shareing\wp-load.php(50): require_once('D:\\Projects\\WP\\...')
+#6 D:\Projects\WP\BRIAN\shareing\wp-blog-header.php(13): require_once('D:\\Projects\\WP\\...')
+#7 D:\Projects\WP\BRIAN\shareing\index.php(17): require('D:\\Projects\\WP\\...')
+#8 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\wp-init.php on line 59
+

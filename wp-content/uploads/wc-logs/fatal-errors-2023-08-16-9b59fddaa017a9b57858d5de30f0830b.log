@@ -1,0 +1,66 @@
+2023-08-16T09:45:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method AffiliatesExport_Plugin::admin_print_styles() cannot be called statically in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\Projects\WP\BRIAN\shareing\wp-admin\admin-header.php(125): do_action('admin_print_sty...')
+#3 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(239): require_once('D:\\Projects\\WP\\...')
+#4 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php on line 310
+
+2023-08-16T09:47:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method AffiliatesExport_Plugin::admin_print_styles() cannot be called statically in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\Projects\WP\BRIAN\shareing\wp-admin\admin-header.php(125): do_action('admin_print_sty...')
+#3 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(239): require_once('D:\\Projects\\WP\\...')
+#4 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php on line 310
+
+2023-08-16T09:49:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method AffiliatesExport_Plugin::admin_print_styles() cannot be called statically in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\Projects\WP\BRIAN\shareing\wp-admin\admin-header.php(125): do_action('admin_print_sty...')
+#3 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(239): require_once('D:\\Projects\\WP\\...')
+#4 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php on line 310
+
+2023-08-16T09:53:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method AffiliatesExport_Plugin::admin_print_styles() cannot be called statically in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\Projects\WP\BRIAN\shareing\wp-admin\admin-header.php(125): do_action('admin_print_sty...')
+#3 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(239): require_once('D:\\Projects\\WP\\...')
+#4 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php on line 310
+
+2023-08-16T11:43:37+00:00 CRITICAL Uncaught Error: Attempt to assign property "external" on bool in D:\Projects\WP\BRIAN\shareing\wp-admin\includes\plugin-install.php:222
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-admin\includes\class-wp-plugin-install-list-table.php(242): plugins_api('query_plugins', Object(stdClass))
+#1 D:\Projects\WP\BRIAN\shareing\wp-admin\plugin-install.php(41): WP_Plugin_Install_List_Table->prepare_items()
+#2 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-admin\includes\plugin-install.php on line 222
+
+2023-08-16T11:43:54+00:00 CRITICAL Uncaught Error: Attempt to assign property "external" on bool in D:\Projects\WP\BRIAN\shareing\wp-admin\includes\plugin-install.php:222
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-admin\includes\class-wp-plugin-install-list-table.php(242): plugins_api('query_plugins', Object(stdClass))
+#1 D:\Projects\WP\BRIAN\shareing\wp-admin\plugin-install.php(41): WP_Plugin_Install_List_Table->prepare_items()
+#2 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-admin\includes\plugin-install.php on line 222
+
+2023-08-16T11:45:32+00:00 CRITICAL Uncaught Error: Attempt to assign property "external" on bool in D:\Projects\WP\BRIAN\shareing\wp-admin\includes\plugin-install.php:222
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-admin\includes\class-wp-plugin-install-list-table.php(242): plugins_api('query_plugins', Object(stdClass))
+#1 D:\Projects\WP\BRIAN\shareing\wp-admin\plugin-install.php(41): WP_Plugin_Install_List_Table->prepare_items()
+#2 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-admin\includes\plugin-install.php on line 222
+
+2023-08-16T12:10:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method AffiliatesExport_Plugin::admin_print_styles() cannot be called statically in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\Projects\WP\BRIAN\shareing\wp-admin\admin-header.php(125): do_action('admin_print_sty...')
+#3 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(239): require_once('D:\\Projects\\WP\\...')
+#4 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php on line 310
+

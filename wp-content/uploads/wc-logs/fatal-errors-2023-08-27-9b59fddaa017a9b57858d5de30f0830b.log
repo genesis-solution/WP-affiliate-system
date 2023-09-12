@@ -1,0 +1,81 @@
+2023-08-27T10:47:13+00:00 CRITICAL Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings-general.php:200
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings-general.php(200): _('\xE7\xAE\xA1\xE7\x90\x86\xE9\x99\x84\xE5\xB1\xAC\xE6\xA9\x9F...', 'affiliates')
+#1 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings.php(236): Affiliates_Settings_General::section()
+#2 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Settings::admin_settings('')
+#3 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(259): do_action('affiliates_page...')
+#6 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings-general.php on line 200
+
+2023-08-27T11:06:47+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: array * int in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php:81
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php(38): Affiliates_Admin_Menu_WordPress::affiliates_admin_settings()
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Admin_Menu_WordPress::affiliates_settings_section('commissions')
+#2 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings.php(239): do_action('affiliates_sett...', 'commissions')
+#5 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Settings::admin_settings('')
+#6 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(259): do_action('affiliates_page...')
+#9 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php on line 81
+
+2023-08-27T11:07:56+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: array * int in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php:81
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php(38): Affiliates_Admin_Menu_WordPress::affiliates_admin_settings()
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Admin_Menu_WordPress::affiliates_settings_section('commissions')
+#2 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings.php(239): do_action('affiliates_sett...', 'commissions')
+#5 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Settings::admin_settings('')
+#6 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(259): do_action('affiliates_page...')
+#9 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php on line 81
+
+2023-08-27T11:08:14+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: array * int in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php:81
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php(38): Affiliates_Admin_Menu_WordPress::affiliates_admin_settings()
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Admin_Menu_WordPress::affiliates_settings_section('commissions')
+#2 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings.php(239): do_action('affiliates_sett...', 'commissions')
+#5 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Settings::admin_settings('')
+#6 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(259): do_action('affiliates_page...')
+#9 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php on line 81
+
+2023-08-27T11:08:37+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: array * int in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php:81
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php(38): Affiliates_Admin_Menu_WordPress::affiliates_admin_settings()
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Admin_Menu_WordPress::affiliates_settings_section('commissions')
+#2 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings.php(239): do_action('affiliates_sett...', 'commissions')
+#5 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Settings::admin_settings('')
+#6 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(259): do_action('affiliates_page...')
+#9 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php on line 81
+
+2023-08-27T11:09:12+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: array * int in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php:81
+Stack trace:
+#0 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php(38): Affiliates_Admin_Menu_WordPress::affiliates_admin_settings()
+#1 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Admin_Menu_WordPress::affiliates_settings_section('commissions')
+#2 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\core\class-affiliates-settings.php(239): do_action('affiliates_sett...', 'commissions')
+#5 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(310): Affiliates_Settings::admin_settings('')
+#6 D:\Projects\WP\BRIAN\shareing\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\Projects\WP\BRIAN\shareing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Projects\WP\BRIAN\shareing\wp-admin\admin.php(259): do_action('affiliates_page...')
+#9 {main}
+  thrown in D:\Projects\WP\BRIAN\shareing\wp-content\plugins\affiliates-pro\lib\ext\wordpress\class-affiliates-admin-menu-wordpress.php on line 81
+

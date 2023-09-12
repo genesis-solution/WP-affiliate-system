@@ -1,0 +1,34 @@
+<% extends 'layout.html' %>
+
+<% block after_css %>
+<%= stylesheet('mailpoet-form-editor.css') %>
+<% endblock %>
+
+<% block content %>
+
+<script type="text/javascript">
+  var mailpoet_beacon_articles = [
+    '5fac13f2cff47e00160b8dff',
+    '5e43d3ec2c7d3a7e9ae79da9',
+  ];
+</script>
+
+<div class="block-editor">
+  <div id="mailpoet_form_edit_templates">
+  </div>
+</div>
+
+<script>
+  <% autoescape 'js' %>
+  var mailpoet_templates = <%= json_encode(templates) %>;
+  var mailpoet_form_edit_url =
+    "<%= admin_url('admin.php?page=mailpoet-form-editor&template_id=') %>";
+  <% endautoescape %>
+</script>
+
+<style id="mailpoet-form-editor-form-styles"></style>
+<% endblock %>
+
+<% block after_javascript %>
+<%= javascript('form_editor.js')%>
+<% endblock %>

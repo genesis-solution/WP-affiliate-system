@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1fd2d8"/>
+      <stop offset="1" stop-color="#0d8f94"/>
+    </linearGradient>
+    <filter id="text_bg" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#04777b" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#text_bg)">
+    <rect id="text_bg-2" data-name="text / bg" width="44" height="44" rx="22" transform="translate(9 7)" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="icon" transform="translate(17 14.999)">
+    <path id="Path_1936" data-name="Path 1936" d="M3.93,18.269,18.27,3.929" transform="translate(0.386 0.386)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_1937" data-name="Path 1937" d="M11.1,18.519l1.44-1.44" transform="translate(1.82 3.016)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_1938" data-name="Path 1938" d="M13.793,16.067,16.661,13.2" transform="translate(2.359 2.239)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_1939" data-name="Path 1939" d="M3.922,11.887,11.89,3.919c2.544-2.544,3.816-2.556,6.336-.036l5.892,5.892c2.52,2.52,2.508,3.792-.036,6.336l-7.968,7.968c-2.544,2.544-3.816,2.556-6.336.036L3.886,18.223C1.366,15.7,1.366,14.443,3.922,11.887Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_1940" data-name="Path 1940" d="M2,22H26" transform="translate(0 3.999)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
