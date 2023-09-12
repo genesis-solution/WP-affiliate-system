@@ -130,16 +130,21 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
             .table {
                 display: table;
                 width: 100%;
+                margin: auto;
+                min-width: 100%;
             }
 
             .row {
                 display: table-row;
+                width: 100% !important;
+                margin: auto;
             }
 
             .cell {
                 display: table-cell;
                 padding: 10px;
                 text-align: center;
+                min-width: 150px;
             }
 
             .cell:nth-child(even) {
@@ -155,7 +160,7 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                 background-color: #e6e6e6;
             }
         </style>
-        <h6>請選擇您想要分享的任何產品。</h6>
+        <h6>请购买一种代币来分享该项目。</h6>
 
         <?php
         global $wpdb;
@@ -190,7 +195,7 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                 $post_id = $_POST["product_id"];
 
                 $user_id = get_current_user_id();
-                $status = "pending";
+                $status = "accept";
                 $affiliate_user = affiliates_get_user_affiliate($user_id);
                 if (!empty($affiliate_user) && count($affiliate_user) > 0)
                 {
@@ -217,10 +222,7 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                         $new_share_data["token"] = $new_token;
                         $inserted_id = $wpdb->insert($table_name, $new_share_data);
                         $lastid = $wpdb->insert_id;
-                        if (empty($inserted_id) || !$inserted_id) {
-                            $error_message = "您無法共享此系統。";
-                        }
-                        else $error_message = "您無法共享此系統。";
+                        $error_message = "您刚刚成功共享了该项目。";
                     }
                 }
                 else {
@@ -254,7 +256,7 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
         }
 
         // For admin
-        if (is_super_admin() || is_admin())
+        if (false && is_super_admin() || is_admin())
         {
             $pending_token_users = $wpdb->get_results("SELECT * FROM {$table_name};");
             echo "<div class='row'>";
@@ -316,8 +318,7 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                     '<div class="cell" style="width: 16.66%;">產品名稱</div>'.
                     '<div class="cell">產品內容</div>'.
                     '<div class="cell" style="width: 8.33%;">查看頁面</div>'.
-                    '<div class="cell" style="width: 8.33%;">地位</div>'.
-                    '<div class="cell" style="width: 8.33%;">代幣</div>'.
+                    '<div class="cell" style="width: 16.66%;">地位</div>'.
                 '</div>'.
             '</div>';
 
@@ -330,20 +331,20 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
             $token = "";
             $status = '<form name="product" method="post" action="">'.
                         '<input type="hidden" name="product_id" value="'.$product->ID.'">'.
-                        '<input type="submit" name="share_product" class="save_btn" value="分享">'.
+                        '<input type="submit" name="share_product" class="save_btn" value="购买 TOKEN">'.
                 '</form>';
-            if (!empty($shared_value_by_post_id)) {
-                $token = $shared_value_by_post_id->token;
-                if ($shared_value_by_post_id->status == "pending" || $shared_value_by_post_id->status == "accept" || $shared_value_by_post_id->status == "delete") {
-                    if($shared_value_by_post_id->user_id == $user_id || is_super_admin() || is_admin())
-                        $status = $shared_value_by_post_id->status; // "" share, pending, accept,delete
-                    else
-                    {
-                        $status = "由某人處理";
-                        $token = "***";
-                    }
-                }
-            }
+            if (empty($shared_value_by_post_id)) {
+//                $token = $shared_value_by_post_id->token;
+//                if ($shared_value_by_post_id->status == "pending" || $shared_value_by_post_id->status == "accept" || $shared_value_by_post_id->status == "delete") {
+//                    if($shared_value_by_post_id->user_id == $user_id || is_super_admin() || is_admin())
+//                        $status = $shared_value_by_post_id->status; // "" share, pending, accept,delete
+//                    else
+//                    {
+//                        $status = "由某人處理";
+//                        $token = "***";
+//                    }
+//                }
+
             echo '<div class="col-12">'.
                     '<div class="table">'.
                         '<div class="cell" style="width: 8.33%;">'.$product->ID.'</div>'.
@@ -352,12 +353,12 @@ class Affiliates_Dashboard_ShopList extends Affiliates_Dashboard_Section_Table {
                         '<div class="cell" style="width: 8.33%;">'.
                             '<a href="'.get_permalink($product->ID).'" target="_blank">看法</a>'.
                         '</div>'.
-                        '<div class="cell" style="width: 8.33%;">'.
+                        '<div class="cell" style="width: 16.66%;">'.
                             $status.
                         '</div>'.
-                        '<div class="cell" style="width: 8.33%;">'.$token.'</div>'.
                     '</div>'.
                 '</div>';
+            }
         }
         echo "</div>";
 //        $shortcode_output = do_shortcode('[products]');

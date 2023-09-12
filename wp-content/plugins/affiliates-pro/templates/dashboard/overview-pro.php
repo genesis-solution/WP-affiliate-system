@@ -45,7 +45,7 @@ $selected  = $section->get_selected();
 $visits    = isset( $totals['visits'] ) ? intval( $totals['visits'] ) : 0;
 $referrals = isset( $totals['referrals'] ) ? intval( $totals['referrals'] ) : 0;
 ?>
-<h2><?php esc_html_e( '概述', 'affiliates' ); ?></h2>
+<h2><?php esc_html_e( '查看次数', 'affiliates' ); ?></h2>
 <div class="dashboard-section dashboard-section-overview">
 	<div class="stats-container">
 		<div class="stats-item">

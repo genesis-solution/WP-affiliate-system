@@ -140,6 +140,7 @@ class Affiliates_Dashboard_Purchased extends Affiliates_Dashboard_Section_Table 
                 display: table-cell;
                 padding: 10px;
                 text-align: center;
+                min-width: 150px;
             }
 
             .cell:nth-child(even) {
@@ -155,7 +156,8 @@ class Affiliates_Dashboard_Purchased extends Affiliates_Dashboard_Section_Table 
                 background-color: #e6e6e6;
             }
         </style>
-        <h6>請選擇您想要分享的任何產品。</h6>
+<!--        請選擇您想要分享的任何產品。-->
+        <h6></h6>
 
         <?php
         global $wpdb;
@@ -190,37 +192,24 @@ class Affiliates_Dashboard_Purchased extends Affiliates_Dashboard_Section_Table 
                 $post_id = $_POST["product_id"];
 
                 $user_id = get_current_user_id();
-                $status = "pending";
+
+                $status = "share";
                 $affiliate_user = affiliates_get_user_affiliate($user_id);
+
                 if (!empty($affiliate_user) && count($affiliate_user) > 0)
                 {
                     $affiate_id = $affiliate_user[0];
-                    $new_token = $user_id.'_'.$post_id.'_'.time();
 
                     // Checking if it was already saved.
                     $shares = $wpdb->get_results($wpdb->prepare(
                         "SELECT `id` FROM {$table_name} WHERE `user_id` = %s AND `post_id` = %s;",
                         $user_id, $post_id
                     ));
+
                     if (!empty($shares) && count($shares) > 0)
                     {
-                        $error_message = "您已經分享過該產品。 請聯繫管理員重新分享。";
-                        //  exit;
-                    }
-                    else
-                    {
-                        $new_share_data = array();
-                        $new_share_data["user_id"] = $user_id;
-                        $new_share_data["post_id"] = $post_id;
-                        $new_share_data["status"] = $status;
-                        $new_share_data["affiliate_id"] = $affiate_id;
-                        $new_share_data["token"] = $new_token;
-                        $inserted_id = $wpdb->insert($table_name, $new_share_data);
-                        $lastid = $wpdb->insert_id;
-                        if (empty($inserted_id) || !$inserted_id) {
-                            $error_message = "您無法共享此系統。";
-                        }
-                        else $error_message = "您無法共享此系統。";
+                        $inserted_id = $wpdb->delete($table_name, array( 'id' => $shares[0]->id ));
+                        $error_message = "您已成功取消该产品。";
                     }
                 }
                 else {
@@ -254,7 +243,7 @@ class Affiliates_Dashboard_Purchased extends Affiliates_Dashboard_Section_Table 
         }
 
         // For admin
-        if (is_super_admin() || is_admin())
+        if (false && is_super_admin() || is_admin())
         {
             $pending_token_users = $wpdb->get_results("SELECT * FROM {$table_name};");
             echo "<div class='row'>";
@@ -281,11 +270,8 @@ class Affiliates_Dashboard_Purchased extends Affiliates_Dashboard_Section_Table 
                     $token = $token_user->token;
                     $status = '<form name="token_form" id="token_form_'.$token_user->id.'" method="post" action="">'.
                         '<input type="hidden" name="token_user_id" value="'.$token_user->id.'">'.
-                        '<select name="select_token_value" value="'.$token_user->status.'" onchange="document.getElementById(\''."token_form_".$token_user->id.'\').submit()">'.
-                        '<option value="accept" '.($token_user->status == "accept" ? "selected" : "").'>接受</option>'.
-                        '<option value="pending" '.($token_user->status == "pending" ? "selected" : "").'>待辦的</option>'.
-                        '<option value="delete" '.($token_user->status == "delete" ? "selected" : "").'>刪除</option>'.
-                        '<option value="share" '.($token_user->status == "share" ? "selected" : "").'>分享</option>'.
+                        '<select name="select_token_value" value="share" onchange="document.getElementById(\''."token_form_".$token_user->id.'\').submit()">'.
+                        '<option value="share" selected>取消</option>'.
                         '</select>'.
                         '</form>';
 
@@ -330,34 +316,38 @@ class Affiliates_Dashboard_Purchased extends Affiliates_Dashboard_Section_Table 
             $token = "";
             $status = '<form name="product" method="post" action="">'.
                 '<input type="hidden" name="product_id" value="'.$product->ID.'">'.
-                '<input type="submit" name="share_product" class="save_btn" value="分享">'.
+                '<input type="submit" name="share_product" class="save_btn" value="取消">'.
                 '</form>';
             if (!empty($shared_value_by_post_id)) {
                 $token = $shared_value_by_post_id->token;
-                if ($shared_value_by_post_id->status == "pending" || $shared_value_by_post_id->status == "accept" || $shared_value_by_post_id->status == "delete") {
-                    if($shared_value_by_post_id->user_id == $user_id || is_super_admin() || is_admin())
-                        $status = $shared_value_by_post_id->status; // "" share, pending, accept,delete
-                    else
-                    {
-                        $status = "由某人處理";
-                        $token = "***";
-                    }
-                }
+//                if ($shared_value_by_post_id->status == "pending" || $shared_value_by_post_id->status == "accept" || $shared_value_by_post_id->status == "delete") {
+//                    if($shared_value_by_post_id->user_id == $user_id || is_super_admin() || is_admin())
+//                        $status = $shared_value_by_post_id->status; // "" share, pending, accept,delete
+//                    else
+//                    {
+//                        $status = "由某人處理";
+//                        $token = "***";
+//                    }
+//                }
             }
-            echo '<div class="col-12">'.
-                '<div class="table">'.
-                '<div class="cell" style="width: 8.33%;">'.$product->ID.'</div>'.
-                '<div class="cell" style="width: 16.66%;">'.$product->post_title.'</div>'.
-                '<div class="cell" style="text-align: left">'.$product->post_content.'</div>'.
-                '<div class="cell" style="width: 8.33%;">'.
-                '<a href="'.get_permalink($product->ID).'" target="_blank">看法</a>'.
-                '</div>'.
-                '<div class="cell" style="width: 8.33%;">'.
-                $status.
-                '</div>'.
-                '<div class="cell" style="width: 8.33%;">'.$token.'</div>'.
-                '</div>'.
-                '</div>';
+
+            if (!empty($shared_value_by_post_id) && $shared_value_by_post_id->user_id == $user_id)
+            {
+                echo '<div class="col-12">'.
+                    '<div class="table">'.
+                    '<div class="cell" style="width: 8.33%;">'.$product->ID.'</div>'.
+                    '<div class="cell" style="width: 16.66%;">'.$product->post_title.'</div>'.
+                    '<div class="cell" style="text-align: left">'.$product->post_content.'</div>'.
+                    '<div class="cell" style="width: 8.33%;">'.
+                    '<a href="'.get_permalink($product->ID).'" target="_blank">看法</a>'.
+                    '</div>'.
+                    '<div class="cell" style="width: 8.33%;">'.
+                    $status.
+                    '</div>'.
+                    '<div class="cell" style="width: 8.33%;">'.$token.'</div>'.
+                    '</div>'.
+                    '</div>';
+            }
         }
         echo "</div>";
 //        $shortcode_output = do_shortcode('[products]');

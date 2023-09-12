@@ -323,7 +323,7 @@ class Affiliates_Dashboard_Overview_Pro extends Affiliates_Dashboard_Section {
 	 *
 	 * @return string
 	 */
-	public static function get_name() { return __( '概述', 'affiliates' ); }
+	public static function get_name() { return __( '查看次数', 'affiliates' ); }
 
 	/**
 	 * Get key
