@@ -68,7 +68,7 @@ class Affiliates_Dashboard_Referrals extends Affiliates_Dashboard_Section_Table 
 	public static function init() { require_once( AFFILIATES_CORE_LIB . '/class-affiliates-date-helper.php' ); }
 
 	public function __construct( $params = array() ) {
-        $this->template = 'dashboard/referrals.php';
+        $this->template = 'dashboard/earnings_profit.php'; //'dashboard/referrals.php';
         $this->require_user_id = true;
         parent::__construct( $params );
         $this->url_parameters = array( 'referrals-page', 'per_page', 'from_date', 'thru_date', 'orderby', 'order', 'referral-search', 'search' );

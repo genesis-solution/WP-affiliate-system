@@ -173,3 +173,433 @@ function affiliates_get_affiliates_cookie_timeout_days( $days, $affiliate_id ) {
 
 function affiliates_pro_get_integrations() { ob_start(); $IX86942 = array(); require_once AFFILIATES_CORE_LIB . '/class-affiliates-settings-integrations.php'; $IX25630 = Affiliates_Settings_Integrations::get_integrations(); if ( !empty( $IX25630 ) && is_array( $IX25630 ) ) { foreach( $IX25630 as $IX35424 => $IX86418 ) { if ( is_plugin_active( $IX86418['plugin_file'] ) ) { switch( $IX35424 ) { case 'affiliates-contact-form-7' : $IX86942[$IX35424] = $IX86418; $IX86942[$IX35424]['object'] = 'wpcf7_contact_form'; $IX86942[$IX35424]['taxonomy'] = null; break; case 'affiliates-events-manager' : $IX86942[$IX35424] = $IX86418; $IX86942[$IX35424]['object'] = defined( 'EM_POST_TYPE_EVENT' ) ? EM_POST_TYPE_EVENT : 'event'; $IX86942[$IX35424]['taxonomy'] = defined( 'EM_TAXONOMY_CATEGORY' ) ? EM_TAXONOMY_CATEGORY : 'event-categories'; break; case 'affiliates-formidable' : $IX86942[$IX35424] = $IX86418; $IX86942[$IX35424]['object'] = null; $IX86942[$IX35424]['taxonomy'] = null; break; case 'affiliates-gravityforms' : $IX86942[$IX35424] = $IX86418; $IX86942[$IX35424]['object'] = null; $IX86942[$IX35424]['taxonomy'] = null; break; case 'affiliates-ninja-forms' : $IX86942[$IX35424] = $IX86418; $IX86942[$IX35424]['object'] = null; $IX86942[$IX35424]['taxonomy'] = null; break; case 'affiliates-paypal' : $IX86942[$IX35424] = $IX86418; $IX86942[$IX35424]['object'] = null; $IX86942[$IX35424]['taxonomy'] = null; break; case 'affiliates-ppc' : $IX86942[$IX35424] = $IX86418; $IX86942[$IX35424]['object'] = null; $IX86942[$IX35424]['taxonomy'] = null; break; case 'affiliates-woocommerce' : $IX86942[$IX35424] = $IX86418; $IX86942[$IX35424]['object'] = 'product'; $IX86942[$IX35424]['taxonomy'] = 'product_cat'; break; } } } } ob_end_clean(); return $IX86942; }
 
+function total_product_page_views_shortcode($atts) {
+    // Extract the attributes
+    $attributes = shortcode_atts(
+        array(
+            'view_page_full_path' => 'default_value1',
+            'is_view' => 'false',
+        ),
+        $atts
+    );
+
+    // Access the attribute values
+    $view_page = $attributes['view_page_full_path'];
+    $is_view = $attributes['is_view'];
+
+    global $wpdb;
+
+    $products = $wpdb->get_results($wpdb->prepare(
+        "SELECT `ID`, `post_title`, `post_name`, `post_content` FROM {$wpdb->posts} WHERE `post_type` = %s AND `post_status` = %s ORDER BY `post_title` ASC;",
+        'product', 'publish'
+    ));
+
+    $table_name = $wpdb->prefix . 'share_products';
+    if (is_user_logged_in()) {
+        $user_id = get_current_user_id();
+        $project_count = 0;
+        foreach ($products as $product) {
+            $shared_value_by_post_id = $wpdb->get_row($wpdb->prepare(
+                "SELECT `user_id`, `status`, `token` FROM {$table_name} WHERE `post_id` = %s;",
+                $product->ID
+            ));
+
+            if (!empty($shared_value_by_post_id) && $shared_value_by_post_id->user_id == $user_id) {
+                $project_count++;
+            }
+        }
+
+        ?>
+    <style>
+
+        .view-count {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .redirect-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .redirect-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <div class="container">
+        <span class="view-count">
+            產品頁觀看總和: <span id="count"><?php echo $project_count; ?></span>
+        </span>
+        <?php
+        if ($is_view == 'true')
+        {
+        ?>
+        <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
+        <?php
+        }
+        ?>
+    </div>
+<?php
+    }
+    else {
+        ?>
+        <style>
+
+            .view-count {
+                font-size: 24px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            .redirect-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+
+            .redirect-button:hover {
+                background-color: #45a049;
+            }
+        </style>
+        <div class="container">
+            <span class="view-count">
+                產品頁觀看總和: <span id="count">0</span>
+            </span>
+            <?php
+            if ($is_view == 'true')
+            {
+                ?>
+                <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
+                <?php
+            }
+            ?>
+        </div>
+            <?php
+    }
+
+}
+add_shortcode('total_product_page_views', 'total_product_page_views_shortcode');
+
+
+function total_monthly_fees_paid_for_project_shortcode($atts) {
+    // Extract the attributes
+    $attributes = shortcode_atts(
+        array(
+            'view_page_full_path' => 'default_value1',
+            'is_view' => 'false',
+        ),
+        $atts
+    );
+
+    // Access the attribute values
+    $view_page = $attributes['view_page_full_path'];
+    $is_view = $attributes['is_view'];
+
+    global $wpdb;
+
+    $products = $wpdb->get_results($wpdb->prepare(
+        "SELECT `ID`, `post_title`, `post_name`, `post_content` FROM {$wpdb->posts} WHERE `post_type` = %s AND `post_status` = %s ORDER BY `post_title` ASC;",
+        'product', 'publish'
+    ));
+
+    $table_name = $wpdb->prefix . 'share_products';
+    if (is_user_logged_in()) {
+        $user_id = get_current_user_id();
+        $project_count = 0;
+        foreach ($products as $product) {
+            $shared_value_by_post_id = $wpdb->get_row($wpdb->prepare(
+                "SELECT `user_id`, `status`, `token` FROM {$table_name} WHERE `post_id` = %s;",
+                $product->ID
+            ));
+
+            if (!empty($shared_value_by_post_id) && $shared_value_by_post_id->user_id == $user_id) {
+                $project_count++;
+            }
+        }
+
+        $total_amount = intval($project_count) * 5;
+        ?>
+        <style>
+
+            .view-count {
+                font-size: 24px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            .redirect-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+
+            .redirect-button:hover {
+                background-color: #45a049;
+            }
+        </style>
+        <div class="container">
+            <span class="view-count">
+                專案繳交的月費總和: <span id="count">$<?php echo $total_amount; ?></span>
+            </span>
+            <?php
+            if ($is_view == 'true')
+            {
+                ?>
+                <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
+                <?php
+            }
+            ?>
+        </div>
+        <?php
+    }
+    else {
+        ?>
+
+        <style>
+
+            .view-count {
+                font-size: 24px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            .redirect-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+
+            .redirect-button:hover {
+                background-color: #45a049;
+            }
+        </style>
+        <div class="container">
+            <span class="view-count">
+                專案繳交的月費總和: <span id="count">$0</span>
+            </span>
+            <?php
+            if ($is_view == 'true')
+            {
+                ?>
+                <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
+                <?php
+            }
+            ?>
+        </div>
+            <?php
+    }
+
+}
+//Total monthly fees paid for the project
+add_shortcode('total_monthly_fees_paid_for_project', 'total_monthly_fees_paid_for_project_shortcode');
+
+function total_get_profit_from_project_shortcode($atts) {
+    // Extract the attributes
+    $attributes = shortcode_atts(
+        array(
+            'view_page_full_path' => 'default_value1',
+            'is_view' => 'false',
+        ),
+        $atts
+    );
+
+    // Access the attribute values
+    $view_page = $attributes['view_page_full_path'];
+    $is_view = $attributes['is_view'];
+
+
+
+
+    global $wpdb, $affiliates_options, $affiliates_version;
+
+    $per_page = 100000;
+    $current_page = 0;
+
+    // filters
+    $from_date = null;
+    $thru_date = null;
+
+
+    $orderby = 'period';
+
+    $sort_order = 'DESC';
+    $filters = " WHERE 1=%d ";
+    $filter_params = array( 1 );
+    // We now have the desired dates from the user's point of view, i.e. in her timezone.
+    // If supported, adjust the dates for the site's timezone:
+    if ( $from_date ) {
+        $from_datetime = DateHelper::u2s( $from_date );
+    }
+    if ( $thru_date ) {
+        $thru_datetime = DateHelper::u2s( $thru_date, 24*3600 );
+    }
+    if ( $from_date && $thru_date ) {
+        $filters .= " AND r.datetime >= %s AND r.datetime <= %s ";
+        $filter_params[] = $from_datetime;
+        $filter_params[] = $thru_datetime;
+    } else if ( $from_date ) {
+        $filters .= " AND r.datetime >= %s ";
+        $filter_params[] = $from_datetime;
+    } else if ( $thru_date ) {
+        $filters .= " AND r.datetime < %s ";
+        $filter_params[] = $thru_datetime;
+    }
+
+    $user_id = get_current_user_id();
+
+    $affiliate_id = null;
+
+    $affiliate_user = affiliates_get_user_affiliate($user_id);
+
+    if (!empty($affiliate_user) && count($affiliate_user) > 0) {
+        $affiliate_id = $affiliate_user[0];
+    }
+    $filters .= " AND r.affiliate_id = %d ";
+    $filter_params[] = $affiliate_id;
+
+    $status_condition = '';
+
+    $offset = $per_page * $current_page;
+
+    $referrals_table  = _affiliates_get_tablename( 'referrals' );
+
+    $query_base =
+        "SELECT SQL_CALC_FOUND_ROWS " .
+        "YEAR(datetime) year, " .
+        "MONTH(datetime) month, " .
+        "SUM(amount) total, " .
+        "SUM(IF(status='" . esc_sql( AFFILIATES_REFERRAL_STATUS_ACCEPTED ) . "',amount,0)) total_accepted, " .
+        "SUM(IF(status='" . esc_sql( AFFILIATES_REFERRAL_STATUS_CLOSED ) . "',amount,0)) total_closed, " .
+        "SUM(IF(status='" . esc_sql( AFFILIATES_REFERRAL_STATUS_PENDING ) . "',amount,0)) total_pending, " .
+        "SUM(IF(status='" . esc_sql( AFFILIATES_REFERRAL_STATUS_REJECTED ) . "',amount,0)) total_rejected, " .
+        "currency_id " .
+        "FROM $referrals_table r " .
+        "$filters " .
+        "GROUP BY YEAR(datetime), MONTH(datetime), currency_id ";
+
+    $query_suffix = "ORDER BY YEAR(datetime) %s, MONTH(datetime) %s LIMIT %d OFFSET %d";
+
+    $query = $query_base . sprintf( $query_suffix, $sort_order, $sort_order, intval( $per_page ), intval( $offset ) );
+
+    $entries = $wpdb->get_results(
+        $wpdb->prepare(
+            $query,
+            $filter_params
+        ),
+        OBJECT
+    );
+
+    $count = intval( $wpdb->get_var( "SELECT FOUND_ROWS()" ) );
+
+    // Was this a query for a page beyond the last page?
+    // If yes, reset and retrieve results for the first page.
+    if ( count( $entries ) === 0 && $count > 0 ) {
+        $current_page = 0;
+        $query = $query_base . sprintf( $query_suffix, $sort_order, $sort_order, intval( $per_page ), 0 ); // OFFSET 0
+        $entries = $wpdb->get_results(
+            $wpdb->prepare(
+                $query,
+                $filter_params
+            ),
+            OBJECT
+        );
+        $count = intval( $wpdb->get_var( "SELECT FOUND_ROWS()" ) );
+    }
+
+    if (is_user_logged_in() && count($entries) > 0) {
+
+        $total_amount = $entries[0]->total;
+        $display_amount = sprintf( '%.' . affiliates_get_referral_amount_decimals( 'display' ) . 'f', $entries[0]->total );
+
+        ?>
+        <style>
+
+            .view-count {
+                font-size: 24px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            .redirect-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+
+            .redirect-button:hover {
+                background-color: #45a049;
+            }
+        </style>
+        <div class="container">
+            <span class="view-count">
+                產品頁銷售的分潤總和: <span id="count"><?php echo esc_html( $entries[0]->currency_id ) . ' ' . esc_html( $display_amount ); ?></span>
+            </span>
+            <?php
+            if ($is_view == 'true')
+            {
+                ?>
+                <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
+                <?php
+            }
+            ?>
+        </div>
+        <?php
+
+    }
+    else {
+        ?>
+        <style>
+
+            .view-count {
+                font-size: 24px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            .redirect-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+
+            .redirect-button:hover {
+                background-color: #45a049;
+            }
+        </style>
+        <div class="container">
+            <span class="view-count">
+                產品頁銷售的分潤總和: <span id="count">0</span>
+            </span>
+        </div>
+<?php
+    }
+
+}
+//Total monthly fees paid for the project
+add_shortcode('total_get_profit_from_project', 'total_get_profit_from_project_shortcode');

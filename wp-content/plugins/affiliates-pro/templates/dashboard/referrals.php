@@ -42,8 +42,8 @@ if ( !defined( 'ABSPATH' ) ) {
 	// Render the referrals filter form
 	//
 ?>
-<div class="dashboard-section dashboard-section-referrals">
-	<form id="setfilters" class="filters capsule-container" action="" method="post">
+<div class="dashboard-section dashboard-section-referrals" >
+	<form id="setfilters" class="filters capsule-container" action="" method="post" style="display: none">
 		<div class="capsule half left">
 			<label for="from_date" class="from-date-filter"><?php _e( '從', 'affiliates' ); ?></label>
 			<input class="datefield from-date-filter" name="from_date" type="date" value="<?php echo esc_attr( $section->get_from_date() ); ?>"/>
@@ -143,7 +143,7 @@ if ( !defined( 'ABSPATH' ) ) {
 		}
 		$link = $section->get_url( $order_options );
 		?>
-		<div class="cell heading <?php echo esc_attr( $class ); ?>">
+		<div class="cell heading <?php echo esc_attr( $class ); ?>" style="display: none">
 			<?php if ( $key !== 'items' ) : ?>
 			<a href="<?php echo esc_url( $link ); ?>" title="<?php echo esc_html( $column['description'] ); ?>">
 				<span><?php echo esc_html( $column['title'] ); ?></span><span class="sorting-indicator"><?php echo $arrow; ?></span>

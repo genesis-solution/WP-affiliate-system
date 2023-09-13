@@ -50,6 +50,7 @@ class Affiliates_Dashboard implements I_Affiliates_Dashboard {
 		Affiliates_Dashboard_Factory::set_dashboard_class( __CLASS__ );
 		Affiliates_Dashboard_Section_Factory::set_section_classes( array(
 			Affiliates_Dashboard_Earnings::get_key()     => Affiliates_Dashboard_Earnings::class,
+//            Affiliates_Total_Profit::get_name()          => Affiliates_Total_Profit::class,
 			Affiliates_Dashboard_Login::get_key()        => Affiliates_Dashboard_Login::class,
 			Affiliates_Dashboard_Overview::get_key()     => Affiliates_Dashboard_Overview::class,
 			Affiliates_Dashboard_Profile::get_key()      => Affiliates_Dashboard_Profile::class,

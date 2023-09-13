@@ -219,6 +219,16 @@ define( 'AFFILIATES_PURCHASED_STATUS_ACCEPTED', 'accepted' );
 define( 'AFFILIATES_PURCHASED_STATUS_REJECTED', 'rejected' );
 
 /**
+ * @var string purchased_view status accepted
+ */
+define( 'AFFILIATES_PURCHASED_VIEW_STATUS_ACCEPTED', 'accepted' );
+
+/**
+ * @var string purchased status rejected
+ */
+define( 'AFFILIATES_PURCHASED_VIEW_STATUS_REJECTED', 'rejected' );
+
+/**
  * @var string qualifies as affiliate
  */
 //define( 'AFFILIATES_IS_AFFILIATE', 'aff_is_affiliate' );
