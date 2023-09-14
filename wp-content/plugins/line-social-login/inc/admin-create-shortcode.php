@@ -36,7 +36,7 @@ function line_user_display_name_shortcode($atts) {
 
         $current_user = wp_get_current_user();
 
-        $display_name = $current_user->first_name .' '.$current_user->last_name;
+        $display_name = $current_user->first_name;
 
         $output = '<span class="display-name" style="margin-left: 5px">' . $display_name . '</span>';
 

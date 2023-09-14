@@ -34,7 +34,11 @@ if ( !isset( $affiliates_pro_version ) ) {
 }
 
 add_action( 'init', 'affiliates_pro_version_check' );
-function affiliates_pro_version_check() { global $affiliates_pro_version, $affiliates_pro_admin_messages; $IX79738 = get_option( 'affiliates_pro_plugin_version', null ); $affiliates_pro_version = AFFILIATES_EXT_VERSION; if ( version_compare( $IX79738, $affiliates_pro_version ) < 0 ) { $IX92572 = affiliates_pro_update( $IX79738 ); if ( $IX92572 === true ) { update_option( 'affiliates_pro_plugin_version', $affiliates_pro_version ); } else { if ( $IX92572 === false ) { affiliates_log_error( 'There were errors during update (ext) – this might only be a temporary issue, unless this message comes up permanently.' ); } } } }
+function affiliates_pro_version_check() {
+    global $affiliates_pro_version, $affiliates_pro_admin_messages;
+    $IX79738 = get_option( 'affiliates_pro_plugin_version', null );
+    $affiliates_pro_version = AFFILIATES_EXT_VERSION;
+    if ( version_compare( $IX79738, $affiliates_pro_version ) < 0 ) { $IX92572 = affiliates_pro_update( $IX79738 ); if ( $IX92572 === true ) { update_option( 'affiliates_pro_plugin_version', $affiliates_pro_version ); } else { if ( $IX92572 === false ) { affiliates_log_error( 'There were errors during update (ext) – this might only be a temporary issue, unless this message comes up permanently.' ); } } } }
 
 function affiliates_pro_admin_notices() { global $affiliates_pro_admin_messages; if ( !empty( $affiliates_pro_admin_messages ) ) { foreach ( $affiliates_pro_admin_messages as $IX86275 ) { echo $IX86275; } } }
 
@@ -179,6 +183,7 @@ function total_product_page_views_shortcode($atts) {
         array(
             'view_page_full_path' => 'default_value1',
             'is_view' => 'false',
+            'content' => ''
         ),
         $atts
     );
@@ -186,6 +191,7 @@ function total_product_page_views_shortcode($atts) {
     // Access the attribute values
     $view_page = $attributes['view_page_full_path'];
     $is_view = $attributes['is_view'];
+    $content = $attributes['content'];
 
     global $wpdb;
 
@@ -209,82 +215,31 @@ function total_product_page_views_shortcode($atts) {
             }
         }
 
-        ?>
-    <style>
-
-        .view-count {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .redirect-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
-        }
-
-        .redirect-button:hover {
-            background-color: #45a049;
-        }
-    </style>
-    <div class="container">
+        $output = '<span class="container">
         <span class="view-count">
-            產品頁觀看總和: <span id="count"><?php echo $project_count; ?></span>
-        </span>
-        <?php
+            '.$content.' <span id="count">'.$project_count.'</span>
+        </span>';
+
         if ($is_view == 'true')
         {
-        ?>
-        <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
-        <?php
+            $output .= '<a href="'.$view_page.'" class="redirect-button">看法</a>';
         }
-        ?>
-    </div>
-<?php
+
+        $output .= '</span>';
+        return $output;
     }
     else {
-        ?>
-        <style>
-
-            .view-count {
-                font-size: 24px;
-                color: #333;
-                margin-bottom: 20px;
-            }
-
-            .redirect-button {
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: #4CAF50;
-                color: #fff;
-                text-decoration: none;
-                border-radius: 4px;
-                transition: background-color 0.3s ease;
-            }
-
-            .redirect-button:hover {
-                background-color: #45a049;
-            }
-        </style>
-        <div class="container">
+        $output = '<span class="container">
             <span class="view-count">
-                產品頁觀看總和: <span id="count">0</span>
-            </span>
-            <?php
+                '.$content.' <span id="count">0</span>
+            </span>';
             if ($is_view == 'true')
             {
-                ?>
-                <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
-                <?php
+                $output .= '<a href="'.$view_page.'" class="redirect-button">看法</a>';
             }
-            ?>
-        </div>
-            <?php
+        $output .='</span>';
+
+        return $output;
     }
 
 }
@@ -297,6 +252,7 @@ function total_monthly_fees_paid_for_project_shortcode($atts) {
         array(
             'view_page_full_path' => 'default_value1',
             'is_view' => 'false',
+            'content' => ''
         ),
         $atts
     );
@@ -304,6 +260,7 @@ function total_monthly_fees_paid_for_project_shortcode($atts) {
     // Access the attribute values
     $view_page = $attributes['view_page_full_path'];
     $is_view = $attributes['is_view'];
+    $content = $attributes['content'];
 
     global $wpdb;
 
@@ -328,83 +285,31 @@ function total_monthly_fees_paid_for_project_shortcode($atts) {
         }
 
         $total_amount = intval($project_count) * 5;
-        ?>
-        <style>
 
-            .view-count {
-                font-size: 24px;
-                color: #333;
-                margin-bottom: 20px;
-            }
-
-            .redirect-button {
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: #4CAF50;
-                color: #fff;
-                text-decoration: none;
-                border-radius: 4px;
-                transition: background-color 0.3s ease;
-            }
-
-            .redirect-button:hover {
-                background-color: #45a049;
-            }
-        </style>
-        <div class="container">
+        $output = '<span class="container">
             <span class="view-count">
-                專案繳交的月費總和: <span id="count">$<?php echo $total_amount; ?></span>
-            </span>
-            <?php
+                '.$content.' <span id="count">'.$total_amount.'</span>
+            </span>';
             if ($is_view == 'true')
             {
-                ?>
-                <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
-                <?php
+                $output .= '<a href="'.$view_page.'" class="redirect-button">看法</a>';
             }
-            ?>
-        </div>
-        <?php
+        $output .= '</span>';
+
+        return $output;
     }
     else {
-        ?>
-
-        <style>
-
-            .view-count {
-                font-size: 24px;
-                color: #333;
-                margin-bottom: 20px;
-            }
-
-            .redirect-button {
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: #4CAF50;
-                color: #fff;
-                text-decoration: none;
-                border-radius: 4px;
-                transition: background-color 0.3s ease;
-            }
-
-            .redirect-button:hover {
-                background-color: #45a049;
-            }
-        </style>
-        <div class="container">
+        $output = '<span class="container">
             <span class="view-count">
-                專案繳交的月費總和: <span id="count">$0</span>
-            </span>
-            <?php
-            if ($is_view == 'true')
-            {
-                ?>
-                <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
-                <?php
-            }
-            ?>
-        </div>
-            <?php
+                '.$content.' <span id="count">0</span>
+            </span>';
+        if ($is_view == 'true')
+        {
+            $output .= '<a href="'.$view_page.'" class="redirect-button">看法</a>';
+        }
+        $output .= '</span>';
+
+        return $output;
     }
 
 }
@@ -417,6 +322,7 @@ function total_get_profit_from_project_shortcode($atts) {
         array(
             'view_page_full_path' => 'default_value1',
             'is_view' => 'false',
+            'content' => ''
         ),
         $atts
     );
@@ -424,7 +330,7 @@ function total_get_profit_from_project_shortcode($atts) {
     // Access the attribute values
     $view_page = $attributes['view_page_full_path'];
     $is_view = $attributes['is_view'];
-
+    $content = $attributes['content'];
 
 
 
@@ -524,82 +430,57 @@ function total_get_profit_from_project_shortcode($atts) {
         $count = intval( $wpdb->get_var( "SELECT FOUND_ROWS()" ) );
     }
 
+    ?>
+    <style>
+
+        .view-count {
+            /*font-size: 24px;*/
+            /*color: #333;*/
+            /*margin-bottom: 20px;*/
+        }
+
+        .redirect-button {
+            /*display: inline-block;*/
+            /*padding: 10px 20px;*/
+            /*background-color: #4CAF50;*/
+            /*color: #fff;*/
+            /*text-decoration: none;*/
+            /*border-radius: 4px;*/
+            /*transition: background-color 0.3s ease;*/
+        }
+
+        .redirect-button:hover {
+            /*background-color: #45a049;*/
+        }
+    </style>
+    <?php
+
     if (is_user_logged_in() && count($entries) > 0) {
 
         $total_amount = $entries[0]->total;
         $display_amount = sprintf( '%.' . affiliates_get_referral_amount_decimals( 'display' ) . 'f', $entries[0]->total );
-
-        ?>
-        <style>
-
-            .view-count {
-                font-size: 24px;
-                color: #333;
-                margin-bottom: 20px;
-            }
-
-            .redirect-button {
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: #4CAF50;
-                color: #fff;
-                text-decoration: none;
-                border-radius: 4px;
-                transition: background-color 0.3s ease;
-            }
-
-            .redirect-button:hover {
-                background-color: #45a049;
-            }
-        </style>
-        <div class="container">
+//        esc_html( $entries[0]->currency_id )
+        $output = '<span class="container">
             <span class="view-count">
-                產品頁銷售的分潤總和: <span id="count"><?php echo esc_html( $entries[0]->currency_id ) . ' ' . esc_html( $display_amount ); ?></span>
-            </span>
-            <?php
+                '.$content.' <span id="count">'.$display_amount.'</span>
+            </span>';
+
             if ($is_view == 'true')
             {
-                ?>
-                <a href="<?php echo $view_page; ?>" class="redirect-button">看法</a>
-                <?php
-            }
-            ?>
-        </div>
-        <?php
+                $output .= '<a href="'.$view_page.'" class="redirect-button">看法</a>';
+             }
+        $output .= '</span>';
 
+        return $output;
     }
     else {
-        ?>
-        <style>
-
-            .view-count {
-                font-size: 24px;
-                color: #333;
-                margin-bottom: 20px;
-            }
-
-            .redirect-button {
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: #4CAF50;
-                color: #fff;
-                text-decoration: none;
-                border-radius: 4px;
-                transition: background-color 0.3s ease;
-            }
-
-            .redirect-button:hover {
-                background-color: #45a049;
-            }
-        </style>
-        <div class="container">
+        $output = '<span class="container">
             <span class="view-count">
-                產品頁銷售的分潤總和: <span id="count">0</span>
+                '.$content.' <span id="count">0</span>
             </span>
-        </div>
-<?php
+        </span>';
+        return $output;
     }
-
 }
 //Total monthly fees paid for the project
 add_shortcode('total_get_profit_from_project', 'total_get_profit_from_project_shortcode');
