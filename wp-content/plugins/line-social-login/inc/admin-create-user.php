@@ -759,6 +759,11 @@ function create_line_app_user($code, $socialType) {
      */
     $final_redirect = $setting_data['custom_login_url']['data'];//resolve_redirect_url($_SESSION, $setting_data);
 
+    if (get_option('lineapp_redirect_url'))
+        update_option("lineapp_redirect_url", $final_redirect, true);
+    else
+        add_option('lineapp_redirect_url', $final_redirect);
+
 	$old_user = get_user_by('email', $user->email);
 
 	if ($old_user == false) {

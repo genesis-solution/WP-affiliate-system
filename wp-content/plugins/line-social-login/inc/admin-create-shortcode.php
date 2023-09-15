@@ -48,5 +48,29 @@ function line_user_display_name_shortcode($atts) {
     }
 }
 
+function line_app_redirect_if_logged_in_shortcode($atts) {
+    $attributes = shortcode_atts(
+        array(
+            'redirect_url' => admin_url(),
+        ),
+        $atts
+    );
+
+    // Access the attribute values
+    $redirect_to = $attributes['redirect_url'];
+
+    if (is_user_logged_in()) {
+
+      //  $lineapp_redirect_url = get_option('lineapp_redirect_url');
+        if (!empty($redirect_to))
+        {
+            wp_safe_redirect($redirect_to);
+            exit();
+        }
+        return '';
+    }
+}
+
 add_shortcode('line_user_avatar', 'line_user_avatar_shortcode');
 add_shortcode('line_user_display_name', 'line_user_display_name_shortcode');
+add_shortcode('line_redirect_to', 'line_app_redirect_if_logged_in_shortcode');
